@@ -125,40 +125,26 @@
       iconL4 = new CustomIcon({ iconUrl: "./img/marker_4.png" }), // #f37651
       iconL5 = new CustomIcon({ iconUrl: "./img/marker_5.png" }); // #f6b48f
 
-    const tilesLight = L.tileLayer(
-      "https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.{ext}",
+    const tilesOSM = L.tileLayer(
+      "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
       {
-        minZoom: 0,
         maxZoom: 19,
-        attribution:
-          '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-        ext: "png",
+        attribution: "© OpenStreetMap",
       }
     );
 
-    const tilesDark = L.tileLayer(
-      "https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.{ext}",
-      {
-        minZoom: 0,
-        maxZoom: 19,
-        attribution:
-          '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-        ext: "png",
-      }
-    );
-
-    const baseMaps = {
-      Light: tilesLight,
-      Dark: tilesDark,
-    };
+    // const baseMaps = {
+    //   Light: tilesLight,
+    //   Dark: tilesDark,
+    // };
 
     const map = L.map("map", {
       center: [51.65, 5.046],
       zoom: 7,
-      layers: [tilesLight],
+      layers: [tilesOSM],
     });
 
-    L.control.layers(baseMaps).addTo(map);
+    // L.control.layers(baseMaps).addTo(map);
 
     // Dirty hack to fix map size
     document.getElementById("map").style.height = "100%";
