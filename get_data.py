@@ -6,6 +6,7 @@ import calendar
 import json
 
 from keys import APP_ORIGIN, ORANGE_ALLIANCE_KEY
+from data_override import override
 
 countries = ["Netherlands", "Belgium", "Luxembourg"]
 season = 2023
@@ -37,6 +38,8 @@ def main():
     # remove city, zip_code and organisation keys
     del_keys = ["city", "zip_code", "organisation"]
     teams = [{k: v for k, v in d.items() if k not in del_keys} for d in teams]
+
+    teams = override_data(teams, override)
 
     date = datetime.datetime.utcnow()
     utc_time = calendar.timegm(date.utctimetuple())
@@ -77,6 +80,16 @@ def locate_teams(app_origin, teams, org_col, zip_col, city_col):
             if location:
                 team["location"]["lat"] = location.latitude
                 team["location"]["lon"] = location.longitude
+    
+    return tmp_teams
+
+def override_data(teams, override):
+    tmp_teams = teams.copy()
+
+    for team in tmp_teams:
+        for override_team in override["teams"]:
+            if team["number"] == override_team["number"]:
+                team["location"] = override_team["location"]
     
     return tmp_teams
 
