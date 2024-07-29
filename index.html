@@ -15,7 +15,7 @@
     />
     <link
       rel="stylesheet"
-      href="https://code.getmdl.io/1.3.0/material.deep_orange-deep_purple.min.css"
+      href="https://code.getmdl.io/1.3.0/material.blue_grey-orange.min.css"
     />
     <script
       src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
@@ -42,7 +42,7 @@
       </header>
       <div class="mdl-layout__drawer">
         <span class="mdl-layout-title">Settings</span>
-        <nav class="mdl-navigation">
+        <nav class="mdl-navigation" style="flex-grow: 1">
           <div style="padding: 16px; padding-top: 0">
             <label
               for="display-teams-chkbox"
@@ -53,14 +53,13 @@
                 id="display-teams-chkbox"
                 class="mdl-checkbox__input"
                 checked
-                disabled
               />
               <span class="mdl-checkbox__label" id="display-teams-chkbox-txt"
                 >Teams</span
               >
             </label>
             <div class="mdl-tooltip" for="display-teams-chkbox-txt">
-              More customizability<br />coming soon
+              Toggle team markers
             </div>
           </div>
           <div style="padding: 16px; padding-top: 0">
@@ -72,14 +71,14 @@
                 type="checkbox"
                 id="display-events-chkbox"
                 class="mdl-checkbox__input"
-                disabled
+                checked
               />
               <span class="mdl-checkbox__label" id="display-events-chkbox-txt"
                 >Events</span
               >
             </label>
             <div class="mdl-tooltip" for="display-events-chkbox-txt">
-              More customizability<br />coming soon
+              Toggle event markers
             </div>
           </div>
         </nav>
@@ -123,7 +122,12 @@
       iconL2 = new CustomIcon({ iconUrl: "./img/marker_2.png" }), // #ad1759
       iconL3 = new CustomIcon({ iconUrl: "./img/marker_3.png" }), // #e13342
       iconL4 = new CustomIcon({ iconUrl: "./img/marker_4.png" }), // #f37651
-      iconL5 = new CustomIcon({ iconUrl: "./img/marker_5.png" }); // #f6b48f
+      iconScrimmage = new CustomIcon({ iconUrl: "./img/marker_scrimmage.png" }),
+      iconMeet = new CustomIcon({ iconUrl: "./img/marker_meet.png" }),
+      iconQualifier = new CustomIcon({ iconUrl: "./img/marker_qualifier.png" }),
+      iconChampionship = new CustomIcon({
+        iconUrl: "./img/marker_championship.png",
+      });
 
     const tilesCartoDBPositron = L.tileLayer(
       "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
@@ -150,36 +154,76 @@
       Dark: tilesCartoDBDarkMatter,
     };
 
-    const map = L.map("map", {
-      center: [51.65, 5.046],
-      zoom: 7,
-      layers: [tilesCartoDBPositron],
-    });
-
-    L.control.layers(baseMaps).addTo(map);
-
-    // Dirty hack to fix map size
-    document.getElementById("map").style.height = "100%";
-
     // Load JSON data
+    let teams = [];
+    let events = [];
+
     fetch("./data/2023.json")
       .then((response) => response.json())
       .then((data) => {
         data.teams.forEach((item) => {
-          L.marker([item.location.lat, item.location.lon], {
-            icon: getMarker(item.rookie_year),
-          })
-            .bindPopup(
+          teams.push(
+            L.marker([item.location.lat, item.location.lon], {
+              icon: getTeamMarker(item.rookie_year),
+            }).bindPopup(
               `<b>${item.number} - ${item.name}</b><br>Rookie year: ${item.rookie_year}`
             )
-            .addTo(map);
+          );
         });
+        data.events.forEach((item) => {
+          events.push(
+            L.marker([item.location.lat, item.location.lon], {
+              icon: getEventMarker(item.type),
+            }).bindPopup(`<b>${item.name}</b><br>${item.type}`)
+          );
+        });
+      })
+      .then(() => {
+        const teamsLayer = L.layerGroup(teams);
+        const eventsLayer = L.layerGroup(events);
+
+        const overlayMaps = {
+          Teams: teamsLayer,
+          Events: eventsLayer,
+        };
+
+        const map = L.map("map", {
+          center: [51.2194, 4.4025],
+          zoom: 7,
+          layers: [tilesCartoDBPositron, teamsLayer, eventsLayer],
+        });
+
+        L.control.layers(baseMaps).addTo(map);
+
+        // Dirty hack to fix map size
+        document.getElementById("map").style.height = "100%";
+
+        // External display toggles
+        document
+          .getElementById("display-teams-chkbox")
+          .addEventListener("change", (event) => {
+            if (event.target.checked) {
+              map.addLayer(teamsLayer);
+            } else {
+              map.removeLayer(teamsLayer);
+            }
+          });
+
+        document
+          .getElementById("display-events-chkbox")
+          .addEventListener("change", (event) => {
+            if (event.target.checked) {
+              map.addLayer(eventsLayer);
+            } else {
+              map.removeLayer(eventsLayer);
+            }
+          });
       })
       .catch((error) => {
         console.error("Error loading JSON:", error);
       });
 
-    function getMarker(rookieYear) {
+    function getTeamMarker(rookieYear) {
       if (rookieYear < 2015) {
         return iconL0;
       } else if (rookieYear < 2019) {
@@ -190,6 +234,21 @@
         return iconL3;
       } else {
         return iconL4;
+      }
+    }
+
+    function getEventMarker(type) {
+      switch (type) {
+        case "Scrimmage":
+          return iconScrimmage;
+        case "League Meet":
+          return iconMeet;
+        case "Qualifier":
+          return iconQualifier;
+        case "Region Championship":
+          return iconChampionship;
+        default:
+          return iconScrimmage;
       }
     }
   </script>
