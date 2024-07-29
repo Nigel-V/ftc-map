@@ -11,18 +11,20 @@
     />
     <link
       rel="stylesheet"
+      href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"
+    />
+    <link
+      rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
     <link
       rel="stylesheet"
       href="https://code.getmdl.io/1.3.0/material.blue_grey-orange.min.css"
     />
-    <script
-      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-      crossorigin=""
-    ></script>
-    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <style>
       #map {
         height: 90vh;
@@ -104,177 +106,191 @@
         <div id="map"></div>
       </main>
     </div>
-  </body>
-  <script>
-    const CustomIcon = L.Icon.extend({
-      options: {
-        shadowUrl: "marker-shadow.png",
-        iconSize: [30, 40],
-        iconAnchor: [15, 40],
-        popupAnchor: [0, -34],
-        tooltipAnchor: [16, -28],
-        shadowSize: [0, 0],
-      },
-    });
-
-    const iconL0 = new CustomIcon({ iconUrl: "./img/marker_0.png" }), // #35193e
-      iconL1 = new CustomIcon({ iconUrl: "./img/marker_1.png" }), // #701f57
-      iconL2 = new CustomIcon({ iconUrl: "./img/marker_2.png" }), // #ad1759
-      iconL3 = new CustomIcon({ iconUrl: "./img/marker_3.png" }), // #e13342
-      iconL4 = new CustomIcon({ iconUrl: "./img/marker_4.png" }), // #f37651
-      iconScrimmage = new CustomIcon({ iconUrl: "./img/marker_scrimmage.png" }),
-      iconMeet = new CustomIcon({ iconUrl: "./img/marker_meet.png" }),
-      iconQualifier = new CustomIcon({ iconUrl: "./img/marker_qualifier.png" }),
-      iconChampionship = new CustomIcon({
-        iconUrl: "./img/marker_championship.png",
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+    <script>
+      const CustomIcon = L.Icon.extend({
+        options: {
+          shadowUrl: "marker-shadow.png",
+          iconSize: [30, 40],
+          iconAnchor: [15, 40],
+          popupAnchor: [0, -34],
+          tooltipAnchor: [16, -28],
+          shadowSize: [0, 0],
+        },
       });
 
-    const tilesCartoDBPositron = L.tileLayer(
-      "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
-      {
-        attribution:
-          '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-        subdomains: "abcd",
-        maxZoom: 19,
-      }
-    );
+      const iconL0 = new CustomIcon({ iconUrl: "./img/marker_0.png" }), // #35193e
+        iconL1 = new CustomIcon({ iconUrl: "./img/marker_1.png" }), // #701f57
+        iconL2 = new CustomIcon({ iconUrl: "./img/marker_2.png" }), // #ad1759
+        iconL3 = new CustomIcon({ iconUrl: "./img/marker_3.png" }), // #e13342
+        iconL4 = new CustomIcon({ iconUrl: "./img/marker_4.png" }), // #f37651
+        iconScrimmage = new CustomIcon({
+          iconUrl: "./img/marker_scrimmage.png",
+        }),
+        iconMeet = new CustomIcon({ iconUrl: "./img/marker_meet.png" }),
+        iconQualifier = new CustomIcon({
+          iconUrl: "./img/marker_qualifier.png",
+        }),
+        iconChampionship = new CustomIcon({
+          iconUrl: "./img/marker_championship.png",
+        });
 
-    const tilesCartoDBDarkMatter = L.tileLayer(
-      "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
-      {
-        attribution:
-          '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-        subdomains: "abcd",
-        maxZoom: 19,
-      }
-    );
+      const tilesCartoDBPositron = L.tileLayer(
+        "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+        {
+          attribution:
+            '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+          subdomains: "abcd",
+          maxZoom: 19,
+        }
+      );
 
-    const baseMaps = {
-      Light: tilesCartoDBPositron,
-      Dark: tilesCartoDBDarkMatter,
-    };
+      const tilesCartoDBDarkMatter = L.tileLayer(
+        "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+        {
+          attribution:
+            '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+          subdomains: "abcd",
+          maxZoom: 19,
+        }
+      );
 
-    let map;
+      const baseMaps = {
+        Light: tilesCartoDBPositron,
+        Dark: tilesCartoDBDarkMatter,
+      };
 
-    // Load JSON data
-    let teams = [];
-    let events = [];
+      let map;
 
-    fetch("./data/2023.json")
-      .then((response) => response.json())
-      .then((data) => {
-        data.teams.forEach((item) => {
-          teams.push(
-            L.marker([item.location.lat, item.location.lon], {
-              icon: getTeamMarker(item.rookie_year),
-              alt: item.number + ", " + item.name,
-            })
-              .bindPopup(
-                `<h6 style="font-weight:bold;padding-left:5px;margin-bottom:5px;">${item.number} - ${item.name}</h6>
+      // Load JSON data
+      let teams = [];
+      let events = [];
+
+      fetch("./data/2023.json")
+        .then((response) => response.json())
+        .then((data) => {
+          data.teams.forEach((item) => {
+            teams.push(
+              L.marker([item.location.lat, item.location.lon], {
+                icon: getTeamMarker(item.rookie_year),
+                alt: item.number + ", " + item.name,
+              })
+                .bindPopup(
+                  `<h6 style="font-weight:bold;padding-left:5px;margin-bottom:5px;">${item.number} - ${item.name}</h6>
                 <table style="border-collapse:collapse;border-spacing:0;width:100%" class="tg"><tbody>
                     <tr><td style="font-style:italic;overflow:hidden;padding:5px;text-align:left;vertical-align:top;word-break:normal">Organisation</td><td style="overflow:hidden;padding:5px;text-align:right;vertical-align:top;word-break:normal">${item.organisation}</td></tr>
                     <tr><td style="font-style:italic;overflow:hidden;padding:5px;text-align:left;vertical-align:top;word-break:normal">Rookie Year</td><td style="overflow:hidden;padding:5px;text-align:right;vertical-align:top;word-break:normal">${item.rookie_year}</td></tr>
                 </tbody></table>
                 <span style="display:flex;justify-content:center;margin:24px 0;"><a href="https://ftcscout.org/teams/${item.number}" target="blank"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">View Details</button></a></span>`
-              )
-              .on("click", clickZoom)
-          );
-        });
-        data.events.forEach((item) => {
-          events.push(
-            L.marker([item.location.lat, item.location.lon], {
-              icon: getEventMarker(item.type),
-              alt: item.name,
-            })
-              .bindPopup(
-                `<h6 style="font-weight:bold;padding-left:5px;margin-bottom:5px;">${item.name}</h6>
+                )
+                .on("click", clickZoom)
+            );
+          });
+          data.events.forEach((item) => {
+            events.push(
+              L.marker([item.location.lat, item.location.lon], {
+                icon: getEventMarker(item.type),
+                alt: item.name,
+              })
+                .bindPopup(
+                  `<h6 style="font-weight:bold;padding-left:5px;margin-bottom:5px;">${item.name}</h6>
                 <table style="border-collapse:collapse;border-spacing:0;width:100%" class="tg"><tbody>
                     <tr><td style="font-style:italic;overflow:hidden;padding:5px;text-align:left;vertical-align:top;word-break:normal">Type</td><td style="overflow:hidden;padding:5px;text-align:right;vertical-align:top;word-break:normal">${item.type}</td></tr>
                     <tr><td style="font-style:italic;overflow:hidden;padding:5px;text-align:left;vertical-align:top;word-break:normal">Venue</td><td style="overflow:hidden;padding:5px;text-align:right;vertical-align:top;word-break:normal">${item.venue}</td></tr>
                     <tr><td style="font-style:italic;overflow:hidden;padding:5px;text-align:left;vertical-align:top;word-break:normal">Date</td><td style="overflow:hidden;padding:5px;text-align:right;vertical-align:top;word-break:normal">${item.date}</td></tr>
                 </tbody></table>
                 <span style="display:flex;justify-content:center;margin:24px 0;"><a href="https://ftcscout.org/events/2023/${item.code}" target="blank"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">View Details</button></a></span>`
-              )
-              .on("click", clickZoom)
-          );
-        });
-      })
-      .then(() => {
-        const teamsLayer = L.layerGroup(teams);
-        const eventsLayer = L.layerGroup(events);
-
-        const overlayMaps = {
-          Teams: teamsLayer,
-          Events: eventsLayer,
-        };
-
-        map = L.map("map", {
-          center: [51.2194, 4.4025],
-          zoom: 7,
-          layers: [tilesCartoDBPositron, teamsLayer, eventsLayer],
-        });
-
-        L.control.layers(baseMaps).addTo(map);
-
-        // Dirty hack to fix map size
-        document.getElementById("map").style.height = "100%";
-
-        // External display toggles
-        document
-          .getElementById("display-teams-chkbox")
-          .addEventListener("change", (event) => {
-            if (event.target.checked) {
-              map.addLayer(teamsLayer);
-            } else {
-              map.removeLayer(teamsLayer);
-            }
+                )
+                .on("click", clickZoom)
+            );
+          });
+        })
+        .then(() => {
+          const clusterLayer = L.markerClusterGroup({
+            showCoverageOnHover: false,
+            maxClusterRadius: 50,
           });
 
-        document
-          .getElementById("display-events-chkbox")
-          .addEventListener("change", (event) => {
-            if (event.target.checked) {
-              map.addLayer(eventsLayer);
-            } else {
-              map.removeLayer(eventsLayer);
-            }
+          const teamsLayer = L.layerGroup(teams);
+          const eventsLayer = L.layerGroup(events);
+
+          clusterLayer.addLayer(teamsLayer);
+          clusterLayer.addLayer(eventsLayer);
+
+          map = L.map("map", {
+            center: [51.2194, 4.4025],
+            zoom: 7,
+            layers: [tilesCartoDBPositron, clusterLayer],
           });
-      })
-      .catch((error) => {
-        console.error("Error loading JSON:", error);
-      });
 
-    function getTeamMarker(rookieYear) {
-      if (rookieYear < 2015) {
-        return iconL0;
-      } else if (rookieYear < 2019) {
-        return iconL1;
-      } else if (rookieYear < 2021) {
-        return iconL2;
-      } else if (rookieYear < 2023) {
-        return iconL3;
-      } else {
-        return iconL4;
+          L.control.layers(baseMaps).addTo(map);
+
+          // Dirty hack to fix map size
+          document.getElementById("map").style.height = "100%";
+
+          // External display toggles
+          document
+            .getElementById("display-teams-chkbox")
+            .addEventListener("change", (event) => {
+              if (event.target.checked) {
+                clusterLayer.addLayer(teamsLayer);
+              } else {
+                clusterLayer.removeLayer(teamsLayer);
+              }
+            });
+
+          document
+            .getElementById("display-events-chkbox")
+            .addEventListener("change", (event) => {
+              if (event.target.checked) {
+                clusterLayer.addLayer(eventsLayer);
+              } else {
+                clusterLayer.removeLayer(eventsLayer);
+              }
+            });
+        })
+        .catch((error) => {
+          console.error("Error loading JSON:", error);
+        });
+
+      function getTeamMarker(rookieYear) {
+        if (rookieYear < 2015) {
+          return iconL0;
+        } else if (rookieYear < 2019) {
+          return iconL1;
+        } else if (rookieYear < 2021) {
+          return iconL2;
+        } else if (rookieYear < 2023) {
+          return iconL3;
+        } else {
+          return iconL4;
+        }
       }
-    }
 
-    function getEventMarker(type) {
-      switch (type) {
-        case "Scrimmage":
-          return iconScrimmage;
-        case "League Meet":
-          return iconMeet;
-        case "Qualifier":
-          return iconQualifier;
-        case "Region Championship":
-          return iconChampionship;
-        default:
-          return iconScrimmage;
+      function getEventMarker(type) {
+        switch (type) {
+          case "Scrimmage":
+            return iconScrimmage;
+          case "League Meet":
+            return iconMeet;
+          case "Qualifier":
+            return iconQualifier;
+          case "Region Championship":
+            return iconChampionship;
+          default:
+            return iconScrimmage;
+        }
       }
-    }
 
-    function clickZoom(e) {
-      map.panTo(e.target.getLatLng());
-    }
-  </script>
+      function clickZoom(e) {
+        map.panTo(e.target.getLatLng());
+      }
+    </script>
+  </body>
 </html>
