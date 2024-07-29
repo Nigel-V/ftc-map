@@ -52,8 +52,11 @@ def get_team_data(app_origin, oa_key):
     teams = locate(app_origin, teams, "organisation", "city", "country")
 
     # remove city, zip_code and organisation keys
-    del_keys = ["city", "zip_code", "organisation"]
+    del_keys = ["city", "zip_code", "country"]
     teams = [{k: v for k, v in d.items() if k not in del_keys} for d in teams]
+
+    # delete FTC Netherlands dummy team (19393)
+    teams = [team for team in teams if team["number"] != 19393]
 
     return override_team_data(teams, override)
 
@@ -113,6 +116,9 @@ def get_event_data(app_origin, oa_key):
     }
 
     events = [{k: type_dict.get(v, v) if k == "type" else v for k, v in d.items()} for d in events]
+
+    # minimalize date
+    events = [{k: v.split("T")[0] if k == "date" else v for k, v in d.items()} for d in events]
 
     # remove city and country keys
     del_keys = ["city", "country"]

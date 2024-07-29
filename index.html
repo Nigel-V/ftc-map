@@ -154,6 +154,8 @@
       Dark: tilesCartoDBDarkMatter,
     };
 
+    let map;
+
     // Load JSON data
     let teams = [];
     let events = [];
@@ -165,16 +167,35 @@
           teams.push(
             L.marker([item.location.lat, item.location.lon], {
               icon: getTeamMarker(item.rookie_year),
-            }).bindPopup(
-              `<b>${item.number} - ${item.name}</b><br>Rookie year: ${item.rookie_year}`
-            )
+              alt: item.number + ", " + item.name,
+            })
+              .bindPopup(
+                `<h6 style="font-weight:bold;padding-left:5px;margin-bottom:5px;">${item.number} - ${item.name}</h6>
+                <table style="border-collapse:collapse;border-spacing:0;width:100%" class="tg"><tbody>
+                    <tr><td style="font-style:italic;overflow:hidden;padding:5px;text-align:left;vertical-align:top;word-break:normal">Organisation</td><td style="overflow:hidden;padding:5px;text-align:right;vertical-align:top;word-break:normal">${item.organisation}</td></tr>
+                    <tr><td style="font-style:italic;overflow:hidden;padding:5px;text-align:left;vertical-align:top;word-break:normal">Rookie Year</td><td style="overflow:hidden;padding:5px;text-align:right;vertical-align:top;word-break:normal">${item.rookie_year}</td></tr>
+                </tbody></table>
+                <span style="display:flex;justify-content:center;margin:24px 0;"><a href="https://ftcscout.org/teams/${item.number}" target="blank"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">View Details</button></a></span>`
+              )
+              .on("click", clickZoom)
           );
         });
         data.events.forEach((item) => {
           events.push(
             L.marker([item.location.lat, item.location.lon], {
               icon: getEventMarker(item.type),
-            }).bindPopup(`<b>${item.name}</b><br>${item.type}`)
+              alt: item.name,
+            })
+              .bindPopup(
+                `<h6 style="font-weight:bold;padding-left:5px;margin-bottom:5px;">${item.name}</h6>
+                <table style="border-collapse:collapse;border-spacing:0;width:100%" class="tg"><tbody>
+                    <tr><td style="font-style:italic;overflow:hidden;padding:5px;text-align:left;vertical-align:top;word-break:normal">Type</td><td style="overflow:hidden;padding:5px;text-align:right;vertical-align:top;word-break:normal">${item.type}</td></tr>
+                    <tr><td style="font-style:italic;overflow:hidden;padding:5px;text-align:left;vertical-align:top;word-break:normal">Venue</td><td style="overflow:hidden;padding:5px;text-align:right;vertical-align:top;word-break:normal">${item.venue}</td></tr>
+                    <tr><td style="font-style:italic;overflow:hidden;padding:5px;text-align:left;vertical-align:top;word-break:normal">Date</td><td style="overflow:hidden;padding:5px;text-align:right;vertical-align:top;word-break:normal">${item.date}</td></tr>
+                </tbody></table>
+                <span style="display:flex;justify-content:center;margin:24px 0;"><a href="https://ftcscout.org/events/2023/${item.code}" target="blank"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">View Details</button></a></span>`
+              )
+              .on("click", clickZoom)
           );
         });
       })
@@ -187,7 +208,7 @@
           Events: eventsLayer,
         };
 
-        const map = L.map("map", {
+        map = L.map("map", {
           center: [51.2194, 4.4025],
           zoom: 7,
           layers: [tilesCartoDBPositron, teamsLayer, eventsLayer],
@@ -250,6 +271,10 @@
         default:
           return iconScrimmage;
       }
+    }
+
+    function clickZoom(e) {
+      map.panTo(e.target.getLatLng());
     }
   </script>
 </html>
