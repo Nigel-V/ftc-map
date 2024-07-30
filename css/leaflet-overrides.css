@@ -1,0 +1,8 @@
+.leaflet-popup {
+  width: 330px;
+  text-align: left !important;
+}
+
+.leaflet-popup-tip-container {
+  z-index: 1;
+}

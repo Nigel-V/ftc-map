@@ -1,0 +1,115 @@
+.card-title--l0 {
+  background-color: #205072;
+}
+
+.card-title--l0 > .mdl-card__title-text,
+.card-title--l0 > .mdl-card__subtitle-text,
+.card-title--l0 ~ .mdl-card__menu {
+  color: #fff;
+}
+
+.card-title--l1 {
+  background-color: #329d9c;
+}
+
+.card-title--l2 {
+  background-color: #56c596;
+}
+
+.card-title--l3 {
+  background-color: #7be495;
+}
+
+.card-title--l4 {
+  background-color: #cff4d2;
+}
+
+.card-title--team {
+  position: relative;
+}
+
+.card-title--team::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./../img/robot.svg);
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position: 195px 10px;
+  opacity: 0.1;
+  overflow: hidden;
+}
+
+.card-title--region-championship {
+  background-color: #c95359;
+  position: relative;
+}
+
+.card-title--region-championship::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./../img/trophy.svg);
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position: 200px 10px;
+  opacity: 0.1;
+  overflow: hidden;
+}
+
+.card-title--region-championship > .mdl-card__title-text,
+.card-title--region-championship > .mdl-card__subtitle-text,
+.card-title--region-championship ~ .mdl-card__menu {
+  z-index: 1;
+  color: #fff;
+}
+
+.card-title--qualifier {
+  background-color: #fd8f52;
+  position: relative;
+}
+
+.card-title--qualifier::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./../img/medal.svg);
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position: 200px -10px;
+  opacity: 0.1;
+  overflow: hidden;
+}
+
+.card-title--league-meet {
+  background-color: #ffbd71;
+  position: relative;
+}
+
+.card-title--league-meet::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./../img/medal.svg);
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position: 200px -10px;
+  opacity: 0.1;
+  overflow: hidden;
+}
+
+.card-title--scrimmage {
+  background-color: #ffdca2;
+}
