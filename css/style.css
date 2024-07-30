@@ -113,3 +113,20 @@
 .card-title--scrimmage {
   background-color: #ffdca2;
 }
+
+#map {
+  height: 90vh;
+}
+
+.mdl-card__title {
+  flex-direction: column;
+}
+
+.mdl-card__title-text {
+  align-self: flex-start !important;
+  max-width: 260px;
+}
+
+.mdl-card__subtitle-text {
+  align-self: flex-start !important;
+}

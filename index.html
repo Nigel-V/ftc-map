@@ -19,6 +19,10 @@
     />
     <link
       rel="stylesheet"
+      href="https://unpkg.com/leaflet-search@4.0.0/dist/leaflet-search.min.css"
+    />
+    <link
+      rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
     <link
@@ -28,24 +32,6 @@
     <link rel="stylesheet" href="./css/leaflet-overrides.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>FTC Benelux Map</title>
-    <style>
-      #map {
-        height: 90vh;
-      }
-
-      .mdl-card__title {
-        flex-direction: column;
-      }
-
-      .mdl-card__title-text {
-        align-self: flex-start !important;
-        max-width: 260px;
-      }
-
-      .mdl-card__subtitle-text {
-        align-self: flex-start !important;
-      }
-    </style>
   </head>
   <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -100,20 +86,32 @@
           </div>
         </nav>
         <div id="disclaimer" style="padding: 16px">
-          <p style="font-size: 10px; line-height: 15px">
-            Data from
-            <a href="https://theorangealliance.org/">The Orange Alliance</a>.
-            Geolocation though
-            <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>.
+          <p style="font-size: 0.8em; line-height: 1.1em">
+            <small>
+              Data from
+              <a href="https://theorangealliance.org/">The Orange Alliance</a>.
+              Geolocation though
+              <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a
+              >.
+            </small>
           </p>
-          <p style="font-size: 10px; line-height: 15px">
-            <i>FIRST</i>® and <i>FIRST</i>® Tech Challenge, are registered
-            trademarks of For Inspiration and Recognition of Science and
-            Technology (<i>FIRST</i>).
+          <p style="font-size: 0.8em; line-height: 1.1em">
+            <small>
+              <span style="font-style: italic">FIRST</span>&#174; and
+              <span style="font-style: italic">FIRST</span>&#174; Tech
+              Challenge, are registered trademarks of For Inspiration and
+              Recognition of Science and Technology (<span
+                style="font-style: italic"
+                >FIRST</span
+              >).
+            </small>
           </p>
-          <p style="font-size: 10px; line-height: 15px">
-            This website is not affiliated with <i>FIRST</i>, FTC Benelux or
-            Stichting STEAMup.
+          <p style="font-size: 0.8em; line-height: 1.1em">
+            <small>
+              This website is not affiliated with
+              <span style="font-style: italic">FIRST</span>, FTC Benelux or
+              Stichting STEAMup.
+            </small>
           </p>
         </div>
       </div>
@@ -128,272 +126,7 @@
       crossorigin=""
     ></script>
     <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
-    <script>
-      const CustomIcon = L.Icon.extend({
-        options: {
-          shadowUrl: "./img/marker_shadow.png",
-          iconSize: [30, 40],
-          shadowSize: [28, 15],
-          iconAnchor: [15, 40],
-          popupAnchor: [0, -34],
-          tooltipAnchor: [16, -28],
-          shadowAnchor: [10, 14],
-        },
-      });
-
-      const iconL0 = new CustomIcon({ iconUrl: "./img/marker_0.png" }), // #205072
-        iconL1 = new CustomIcon({ iconUrl: "./img/marker_1.png" }), // #329d9c
-        iconL2 = new CustomIcon({ iconUrl: "./img/marker_2.png" }), // #56c596
-        iconL3 = new CustomIcon({ iconUrl: "./img/marker_3.png" }), // #7be495
-        iconL4 = new CustomIcon({ iconUrl: "./img/marker_4.png" }), // #cff4d2
-        iconScrimmage = new CustomIcon({
-          iconUrl: "./img/marker_scrimmage.png",
-        }),
-        iconMeet = new CustomIcon({ iconUrl: "./img/marker_meet.png" }),
-        iconQualifier = new CustomIcon({
-          iconUrl: "./img/marker_qualifier.png",
-        }),
-        iconChampionship = new CustomIcon({
-          iconUrl: "./img/marker_championship.png",
-        });
-
-      const tilesCartoDBPositron = L.tileLayer(
-        "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
-        {
-          attribution:
-            '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-          subdomains: "abcd",
-          maxZoom: 19,
-        }
-      );
-
-      let map;
-
-      // Load JSON data
-      let teams = [];
-      let events = [];
-
-      fetch("./data/2023.json")
-        .then((response) => response.json())
-        .then((data) => {
-          data.teams.forEach((item) => {
-            teams.push(
-              L.marker([item.location.lat, item.location.lon], {
-                icon: getTeamMarker(item.rookie_year),
-                alt: item.number + ", " + item.name,
-              })
-                .bindPopup(
-                  `
-                    <div class="mdl-card__title card-title--team card-title--${getTeamCard(
-                      item.rookie_year
-                    )}">
-                        <h2 class="mdl-card__title-text">${item.name}</h2>
-                        <span class="mdl-card__subtitle-text">${
-                          item.number
-                        }</span>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        <table style="border-collapse:collapse;border-spacing:0;width:100%"><tbody>
-                          <tr><td style="font-style:italic;vertical-align:top;padding-bottom:5px;">Organisation</td><td style="text-align:right;vertical-align:top;padding-bottom:5px;">${
-                            item.organisation
-                          }</td></tr>
-                          <tr><td style="font-style:italic;vertical-align:top;">Rookie Year</td><td style="text-align:right;vertical-align:top;">${
-                            item.rookie_year
-                          }</td></tr>
-                      </tbody></table>
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a href="https://ftcscout.org/teams/${
-                          item.number
-                        }" target="blank">
-                            <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">View Details</button>
-                        </a>
-                    </div>
-                `
-                )
-                .on("click", clickPan)
-                .on("popupopen", transformCard)
-            );
-          });
-          data.events.forEach((item) => {
-            events.push(
-              L.marker([item.location.lat, item.location.lon], {
-                icon: getEventMarker(item.type),
-                alt: item.name,
-              })
-                .bindPopup(
-                  `
-                    <div class="mdl-card__title card-title--${item.type
-                      .split(" ")
-                      .join("-")
-                      .toLowerCase()}">
-                        <h2 class="mdl-card__title-text">${item.name}</h2>
-                        <span class="mdl-card__subtitle-text">${
-                          item.type
-                        }</span>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        <table style="border-collapse:collapse;border-spacing:0;width:100%"><tbody>
-                          <tr><td style="font-style:italic;vertical-align:top;padding-bottom:5px;">Venue</td><td style="text-align:right;vertical-align:top;padding-bottom:5px;">${
-                            item.venue
-                          }</td></tr>
-                          <tr><td style="font-style:italic;vertical-align:top;">Date</td><td style="text-align:right;vertical-align:top;">${
-                            item.date
-                          }</td></tr>
-                      </tbody></table>
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a href="https://ftcscout.org/events/2023/${
-                          item.code
-                        }" target="blank">
-                            <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">View Details</button>
-                        </a>
-                    </div>
-                `
-                )
-                .on("click", clickPan)
-                .on("popupopen", transformCard)
-            );
-          });
-        })
-        .then(() => {
-          const clusterLayer = L.markerClusterGroup({
-            showCoverageOnHover: false,
-            maxClusterRadius: 50,
-          });
-
-          const teamsLayer = L.layerGroup(teams);
-          const eventsLayer = L.layerGroup(events);
-
-          clusterLayer.addLayer(teamsLayer);
-          clusterLayer.addLayer(eventsLayer);
-
-          map = L.map("map", {
-            center: [51.2194, 4.4025],
-            zoom: 7,
-            layers: [tilesCartoDBPositron, clusterLayer],
-          });
-
-          // Dirty hack to fix map size
-          document.getElementById("map").style.height = "100%";
-
-          // External display toggles
-          document
-            .getElementById("display-teams-chkbox")
-            .addEventListener("change", (event) => {
-              if (event.target.checked) {
-                clusterLayer.addLayer(teamsLayer);
-              } else {
-                clusterLayer.removeLayer(teamsLayer);
-              }
-            });
-
-          document
-            .getElementById("display-events-chkbox")
-            .addEventListener("change", (event) => {
-              if (event.target.checked) {
-                clusterLayer.addLayer(eventsLayer);
-              } else {
-                clusterLayer.removeLayer(eventsLayer);
-              }
-            });
-        })
-        .catch((error) => {
-          console.error("Error loading JSON:", error);
-        });
-
-      function getTeamMarker(rookieYear) {
-        if (rookieYear < 2015) {
-          return iconL0;
-        } else if (rookieYear < 2019) {
-          return iconL1;
-        } else if (rookieYear < 2021) {
-          return iconL2;
-        } else if (rookieYear < 2023) {
-          return iconL3;
-        } else {
-          return iconL4;
-        }
-      }
-
-      function getTeamCard(rookieYear) {
-        if (rookieYear < 2015) {
-          return "l0";
-        } else if (rookieYear < 2019) {
-          return "l1";
-        } else if (rookieYear < 2021) {
-          return "l2";
-        } else if (rookieYear < 2023) {
-          return "l3";
-        } else {
-          return "l4";
-        }
-      }
-
-      function getEventMarker(type) {
-        switch (type) {
-          case "Scrimmage":
-            return iconScrimmage;
-          case "League Meet":
-            return iconMeet;
-          case "Qualifier":
-            return iconQualifier;
-          case "Region Championship":
-            return iconChampionship;
-          default:
-            return iconScrimmage;
-        }
-      }
-
-      function clickPan(e) {
-        map.panTo(e.target.getLatLng());
-      }
-
-      function transformCard(e) {
-        const popup = e.popup.getElement();
-
-        // Check if the card has already been transformed
-        if (popup.querySelector(".mdl-card")) {
-          return;
-        }
-
-        const contentWrapper = popup.querySelector(
-          ".leaflet-popup-content-wrapper"
-        );
-
-        const content = popup.querySelector(".leaflet-popup-content");
-
-        // Create the new div.card
-        const card = document.createElement("div");
-        card.className = "mdl-card mdl-shadow--4dp";
-
-        // Move the content into the new card
-        while (content.firstChild) {
-          card.appendChild(content.firstChild);
-        }
-
-        // Insert the new card into the popup
-        contentWrapper.parentNode.insertBefore(card, contentWrapper);
-
-        // Remove the old content wrapper
-        contentWrapper.parentNode.removeChild(contentWrapper);
-
-        // Add card menu
-        const cardMenu = document.createElement("div");
-        cardMenu.className = "mdl-card__menu";
-        card.appendChild(cardMenu);
-
-        // Add close button
-        const closeBtn = document.createElement("button");
-        closeBtn.className =
-          "mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect";
-        closeBtn.setAttribute("aria-label", "Close popup");
-        closeBtn.onclick = () => {
-          e.target.closePopup();
-        };
-        closeBtn.innerHTML = '<i class="material-icons">close</i>';
-        cardMenu.appendChild(closeBtn);
-      }
-    </script>
+    <script src="https://unpkg.com/leaflet-search@4.0.0/dist/leaflet-search.min.js"></script>
+    <script src="./js/map.js"></script>
   </body>
 </html>
