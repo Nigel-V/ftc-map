@@ -22,7 +22,7 @@ def main():
 
     content = {"generation_timestamp" : utc_time, "season": season, "teams": teams, "events": events}
 
-    with open(f"./data/{season}.json", "w") as outfile: 
+    with open(f"./docs/data/{season}.json", "w") as outfile: 
         json.dump(content, outfile)
 
 
