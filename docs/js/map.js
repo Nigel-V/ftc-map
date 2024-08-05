@@ -182,8 +182,11 @@ fetch("./data/2023.json")
       layer: clusterLayer,
       propertyName: "searchTag",
       initial: false,
+      container: "map-search-container",
       position: "topleft",
       marker: false,
+      textPlaceholder: "",
+      tooltipLimit: 4,
       moveToLocation: (latlng, title, map) => {
         // Move to the location
         map.setView(latlng, 15);
@@ -227,6 +230,21 @@ fetch("./data/2023.json")
     });
 
     map.addControl(controlSearch);
+
+    // Add inner html to search button class
+    const searchButton = document.querySelector(".search-button");
+
+    searchButton.innerHTML = `<label class="mdl-button mdl-js-button mdl-button--icon" for="map-search" data-upgraded=",MaterialButton">
+              <i class="material-icons" id="map-search-icon">search</i>
+            </label>`;
+
+    // Make search button first child of parent
+    const parent = searchButton.parentElement;
+    parent.insertBefore(searchButton, parent.firstChild);
+
+    // Add material ui to search cancel
+    const cancelSearchButton = document.querySelector(".search-cancel");
+    cancelSearchButton.innerHTML = `<i class="material-icons" id="map-search-icon">close</i>`;
   })
   .catch((error) => {
     console.error("Error loading JSON:", error);
