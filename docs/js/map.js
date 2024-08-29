@@ -10,20 +10,20 @@ const CustomIcon = L.Icon.extend({
   },
 });
 
-const iconL0 = new CustomIcon({ iconUrl: "/img/marker_0.png" }), // #205072
-  iconL1 = new CustomIcon({ iconUrl: "/img/marker_1.png" }), // #329d9c
-  iconL2 = new CustomIcon({ iconUrl: "/img/marker_2.png" }), // #56c596
-  iconL3 = new CustomIcon({ iconUrl: "/img/marker_3.png" }), // #7be495
-  iconL4 = new CustomIcon({ iconUrl: "/img/marker_4.png" }), // #cff4d2
+const iconL0 = new CustomIcon({ iconUrl: "../../img/marker_0.png" }), // #205072
+  iconL1 = new CustomIcon({ iconUrl: "../../img/marker_1.png" }), // #329d9c
+  iconL2 = new CustomIcon({ iconUrl: "../../img/marker_2.png" }), // #56c596
+  iconL3 = new CustomIcon({ iconUrl: "../../img/marker_3.png" }), // #7be495
+  iconL4 = new CustomIcon({ iconUrl: "../../img/marker_4.png" }), // #cff4d2
   iconScrimmage = new CustomIcon({
-    iconUrl: "/img/marker_scrimmage.png",
+    iconUrl: "../../img/marker_scrimmage.png",
   }),
-  iconMeet = new CustomIcon({ iconUrl: "./img/marker_meet.png" }),
+  iconMeet = new CustomIcon({ iconUrl: "../../img/marker_meet.png" }),
   iconQualifier = new CustomIcon({
-    iconUrl: "/img/marker_qualifier.png",
+    iconUrl: "../../img/marker_qualifier.png",
   }),
   iconChampionship = new CustomIcon({
-    iconUrl: "/img/marker_championship.png",
+    iconUrl: "../../img/marker_championship.png",
   });
 
 // Set bounds for entire world
@@ -58,7 +58,7 @@ map.addLayer(layerTiles);
 let teams = [];
 let events = [];
 
-fetch("/data/" + currentYear + ".json")
+fetch("../../data/" + currentYear + ".json")
   .then((response) => response.json())
   .then((data) => {
     data.teams.forEach((item) => {
