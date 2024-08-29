@@ -1,6 +1,6 @@
 const CustomIcon = L.Icon.extend({
   options: {
-    shadowUrl: "/img/marker_shadow.png",
+    shadowUrl: "../../img/marker_shadow.png",
     iconSize: [30, 40],
     shadowSize: [28, 15],
     iconAnchor: [15, 40],
