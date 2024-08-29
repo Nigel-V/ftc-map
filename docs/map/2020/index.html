@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet-search@4.0.0/dist/leaflet-search.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://code.getmdl.io/1.3.0/material.blue_grey-orange.min.css"
+    />
+    <link rel="stylesheet" href="../../css/leaflet-overrides.css" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <title id="title">FTC Benelux Map - 2020</title>
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row" id="header-row">
+          <h1 class="mdl-layout-title" id="page-title">
+            FTC Benelux Map - 2020
+          </h1>
+          <div class="mdl-layout-spacer"></div>
+          <div
+            class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right"
+            id="map-search-container"
+          ></div>
+        </div>
+      </header>
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Settings</span>
+        <nav class="mdl-navigation">
+          <div style="padding: 16px; padding-top: 0">
+            <label
+              for="display-teams-chkbox"
+              class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect"
+            >
+              <input
+                type="checkbox"
+                id="display-teams-chkbox"
+                class="mdl-checkbox__input"
+                checked
+              />
+              <span class="mdl-checkbox__label" id="display-teams-chkbox-txt"
+                >Teams</span
+              >
+            </label>
+            <div class="mdl-tooltip" for="display-teams-chkbox-txt">
+              Toggle team markers
+            </div>
+          </div>
+          <div style="padding: 16px; padding-top: 0">
+            <label
+              for="display-events-chkbox"
+              class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect"
+            >
+              <input
+                type="checkbox"
+                id="display-events-chkbox"
+                class="mdl-checkbox__input"
+                checked
+              />
+              <span class="mdl-checkbox__label" id="display-events-chkbox-txt"
+                >Events</span
+              >
+            </label>
+            <div class="mdl-tooltip" for="display-events-chkbox-txt">
+              Toggle event markers
+            </div>
+          </div>
+        </nav>
+        <span class="mdl-layout-title">Other Seasons</span>
+        <nav class="mdl-navigation" style="flex-grow: 1">
+          <a class="mdl-navigation__link" href="../2020/"
+            >20/21 - Ultimate Goal</a
+          >
+          <a class="mdl-navigation__link" href="../2021/" disabled
+            >21/22 - Freight Frenzy</a
+          >
+          <a class="mdl-navigation__link" href="../2022/">22/23 - POWERPLAY</a>
+          <a class="mdl-navigation__link" href="../2023/"
+            >23/24 - CENTERSTAGE</a
+          >
+          <a class="mdl-navigation__link" href="../2024/"
+            >24/25 - INTO THE DEEP</a
+          >
+        </nav>
+        <div id="disclaimer" style="padding: 16px">
+          <small style="display: flex"
+            ><span
+              >Data generated on <span id="footer-date">...</span></span
+            ></small
+          >
+        </div>
+      </div>
+      <main class="mdl-layout__content">
+        <div id="map"></div>
+      </main>
+      <footer class="mdl-mini-footer" style="padding: 16px">
+        <div class="mdl-mini-footer__left-section">
+          <div class="mdl-logo">
+            <span style="font-style: italic">FIRST</span> Tech Challenge Benelux
+            Map
+          </div>
+          <ul class="mdl-mini-footer__link-list">
+            <li><a href="../../about/">About</a></li>
+            <li>
+              <a
+                href="https://github.com/Nigel-V/ftc-map/issues"
+                target="_blank"
+                >Report an issue</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="mdl-mini-footer__right-section">
+          <ul style="margin: 0; padding: 0">
+            <li
+              class="mdl-mini-footer__social-btn mdl-js-button mdl-button--icon"
+              style="background-color: unset"
+            >
+              <a
+                href="https://github.com/Nigel-V/ftc-map"
+                class="social-btn social-btn__github"
+                role="button"
+                title="GitHub"
+                style="
+                  display: block;
+                  width: 36px;
+                  height: 36px;
+                  background-position: center;
+                  background-size: contain;
+                  background-repeat: no-repeat;
+                  cursor: pointer;
+                  background-image: url(https://getmdl.io/assets/github_white_24.svg);
+                "
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+    <script src="https://unpkg.com/leaflet-search@4.0.0/dist/leaflet-search.min.js"></script>
+    <script>
+      currentYear = 2020;
+
+      document.getElementById(
+        "page-title"
+      ).innerText = `FTC Benelux Map - ${currentYear}`;
+      document.getElementById(
+        "title"
+      ).innerText = `FTC Benelux Map - ${currentYear}`;
+    </script>
+    <script src="../../js/map.js"></script>
+  </body>
+</html>

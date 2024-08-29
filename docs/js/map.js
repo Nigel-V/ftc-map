@@ -1,6 +1,6 @@
 const CustomIcon = L.Icon.extend({
   options: {
-    shadowUrl: "./img/marker_shadow.png",
+    shadowUrl: "/img/marker_shadow.png",
     iconSize: [30, 40],
     shadowSize: [28, 15],
     iconAnchor: [15, 40],
@@ -10,20 +10,20 @@ const CustomIcon = L.Icon.extend({
   },
 });
 
-const iconL0 = new CustomIcon({ iconUrl: "./img/marker_0.png" }), // #205072
-  iconL1 = new CustomIcon({ iconUrl: "./img/marker_1.png" }), // #329d9c
-  iconL2 = new CustomIcon({ iconUrl: "./img/marker_2.png" }), // #56c596
-  iconL3 = new CustomIcon({ iconUrl: "./img/marker_3.png" }), // #7be495
-  iconL4 = new CustomIcon({ iconUrl: "./img/marker_4.png" }), // #cff4d2
+const iconL0 = new CustomIcon({ iconUrl: "/img/marker_0.png" }), // #205072
+  iconL1 = new CustomIcon({ iconUrl: "/img/marker_1.png" }), // #329d9c
+  iconL2 = new CustomIcon({ iconUrl: "/img/marker_2.png" }), // #56c596
+  iconL3 = new CustomIcon({ iconUrl: "/img/marker_3.png" }), // #7be495
+  iconL4 = new CustomIcon({ iconUrl: "/img/marker_4.png" }), // #cff4d2
   iconScrimmage = new CustomIcon({
-    iconUrl: "./img/marker_scrimmage.png",
+    iconUrl: "/img/marker_scrimmage.png",
   }),
   iconMeet = new CustomIcon({ iconUrl: "./img/marker_meet.png" }),
   iconQualifier = new CustomIcon({
-    iconUrl: "./img/marker_qualifier.png",
+    iconUrl: "/img/marker_qualifier.png",
   }),
   iconChampionship = new CustomIcon({
-    iconUrl: "./img/marker_championship.png",
+    iconUrl: "/img/marker_championship.png",
   });
 
 // Set bounds for entire world
@@ -58,7 +58,7 @@ map.addLayer(layerTiles);
 let teams = [];
 let events = [];
 
-fetch("./data/2023.json")
+fetch("/data/" + currentYear + ".json")
   .then((response) => response.json())
   .then((data) => {
     data.teams.forEach((item) => {
@@ -103,33 +103,24 @@ fetch("./data/2023.json")
     data.events.forEach((item) => {
       events.push(
         L.marker([item.location.lat, item.location.lon], {
-          icon: getEventMarker(item.type),
+          icon: getEventMarker(item.type_code),
           alt: item.name,
           searchTag: item.name,
         })
           .bindPopup(
             `
-                <div class="mdl-card__title card-title--${item.type
-                  .split(" ")
-                  .join("-")
-                  .toLowerCase()}">
+                <div class="mdl-card__title card-title--${item.type_code}">
                     <h2 class="mdl-card__title-text">${item.name}</h2>
-                    <span class="mdl-card__subtitle-text">${item.type}</span>
+                    <span class="mdl-card__subtitle-text">${item.type_name}</span>
                 </div>
                 <div class="mdl-card__supporting-text">
                     <table style="border-collapse:collapse;border-spacing:0;width:100%"><tbody>
-                      <tr><td style="font-style:italic;vertical-align:top;padding-bottom:5px;">Venue</td><td style="text-align:right;vertical-align:top;padding-bottom:5px;">${
-                        item.venue
-                      }</td></tr>
-                      <tr><td style="font-style:italic;vertical-align:top;">Date</td><td style="text-align:right;vertical-align:top;">${
-                        item.date
-                      }</td></tr>
+                      <tr><td style="font-style:italic;vertical-align:top;padding-bottom:5px;">Venue</td><td style="text-align:right;vertical-align:top;padding-bottom:5px;">${item.venue}</td></tr>
+                      <tr><td style="font-style:italic;vertical-align:top;">Date</td><td style="text-align:right;vertical-align:top;">${item.date}</td></tr>
                   </tbody></table>
                 </div>
                 <div class="mdl-card__actions mdl-card--border">
-                    <a href="https://ftcscout.org/events/2023/${
-                      item.code
-                    }" target="blank">
+                    <a href="https://ftcscout.org/events/2023/${item.code}" target="blank">
                         <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">View Details</button>
                     </a>
                 </div>
@@ -140,6 +131,8 @@ fetch("./data/2023.json")
           .on("popupopen", transformCard)
       );
     });
+    const date = new Date(data.generation_timestamp * 1000);
+    document.getElementById("footer-date").innerText = date.toLocaleString();
   })
   .then(() => {
     const clusterLayer = L.markerClusterGroup({
@@ -278,15 +271,15 @@ function getTeamCard(rookieYear) {
   }
 }
 
-function getEventMarker(type) {
-  switch (type) {
-    case "Scrimmage":
+function getEventMarker(type_code) {
+  switch (type_code) {
+    case 0:
       return iconScrimmage;
-    case "League Meet":
+    case 1:
       return iconMeet;
-    case "Qualifier":
+    case 2:
       return iconQualifier;
-    case "Region Championship":
+    case 4:
       return iconChampionship;
     default:
       return iconScrimmage;

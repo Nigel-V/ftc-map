@@ -35,7 +35,7 @@ def get_team_data(year):
     df = df[df['homeRegion'] == 'NL']
     df.reset_index(inplace=True,drop=True)
 
-    print(f"Found {df.size} teams with Benelux as home region.")
+    print(f"Found {df.index[-1]} teams with Benelux as home region.")
 
     # remove and rename columns
     df = df.drop(columns=['displayTeamNumber', 'schoolName', 'website', 'robotName', 'districtCode', 'homeCMP', 'homeRegion', 'displayLocation'])
@@ -53,7 +53,13 @@ def get_team_data(year):
 
 def __locate(row):
     print(f"Geocoding locations... ({row.name})", end="\r")
-    location = geocode(row['organisation'] + ', ' + row['city'] + ', ' + row['stateProv'] + ', ' + row['country'])
+
+    location = None
+
+    try:
+        location = geocode(row['organisation'] + ', ' + row['city'] + ', ' + row['stateProv'] + ', ' + row['country'])
+    except:
+        pass
 
     if location is None:
         location = geocode(row['city'] + ', ' + row['stateProv'] + ', ' + row['country'])

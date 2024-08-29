@@ -43,12 +43,13 @@
   overflow: hidden;
 }
 
-.card-title--region-championship {
+/* Championship */
+.card-title--4 {
   background-color: #c95359;
   position: relative;
 }
 
-.card-title--region-championship::before {
+.card-title--4::before {
   content: "";
   position: absolute;
   top: 0;
@@ -63,19 +64,20 @@
   overflow: hidden;
 }
 
-.card-title--region-championship > .mdl-card__title-text,
-.card-title--region-championship > .mdl-card__subtitle-text,
-.card-title--region-championship ~ .mdl-card__menu {
+.card-title--4 > .mdl-card__title-text,
+.card-title--4 > .mdl-card__subtitle-text,
+.card-title--4 ~ .mdl-card__menu {
   z-index: 1;
   color: #fff;
 }
 
-.card-title--qualifier {
+/* Qualifier */
+.card-title--3 {
   background-color: #fd8f52;
   position: relative;
 }
 
-.card-title--qualifier::before {
+.card-title--3::before {
   content: "";
   position: absolute;
   top: 0;
@@ -90,12 +92,13 @@
   overflow: hidden;
 }
 
-.card-title--league-meet {
+/* League Meet */
+.card-title--1 {
   background-color: #ffbd71;
   position: relative;
 }
 
-.card-title--league-meet::before {
+.card-title--1::before {
   content: "";
   position: absolute;
   top: 0;
@@ -110,7 +113,8 @@
   overflow: hidden;
 }
 
-.card-title--scrimmage {
+/* Scrimmage */
+.card-title--0 {
   background-color: #ffdca2;
 }
 
