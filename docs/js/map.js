@@ -15,6 +15,9 @@ const iconL0 = new CustomIcon({ iconUrl: "../../img/marker_0.png" }), // #205072
   iconL2 = new CustomIcon({ iconUrl: "../../img/marker_2.png" }), // #56c596
   iconL3 = new CustomIcon({ iconUrl: "../../img/marker_3.png" }), // #7be495
   iconL4 = new CustomIcon({ iconUrl: "../../img/marker_4.png" }), // #cff4d2
+  iconKickoff = new CustomIcon({
+    iconUrl: "../../img/marker_kickoff.png",
+  }),
   iconScrimmage = new CustomIcon({
     iconUrl: "../../img/marker_scrimmage.png",
   }),
@@ -87,9 +90,9 @@ fetch("../../data/" + currentYear + ".json")
                   </tbody></table>
                 </div>
                 <div class="mdl-card__actions mdl-card--border">
-                    <a href="https://ftcscout.org/teams/${
-                      item.number
-                    }" target="blank">
+                    <a href="https://ftc-events.firstinspires.org/${currentYear}/team/${
+              item.number
+            }" target="blank">
                         <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">View Details</button>
                     </a>
                 </div>
@@ -120,7 +123,7 @@ fetch("../../data/" + currentYear + ".json")
                   </tbody></table>
                 </div>
                 <div class="mdl-card__actions mdl-card--border">
-                    <a href="https://ftcscout.org/events/2023/${item.code}" target="blank">
+                    <a href="https://ftc-events.firstinspires.org/${currentYear}/${item.code}" target="blank">
                         <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">View Details</button>
                     </a>
                 </div>
@@ -281,6 +284,8 @@ function getEventMarker(type_code) {
       return iconQualifier;
     case 4:
       return iconChampionship;
+    case 12:
+      return iconKickoff;
     default:
       return iconScrimmage;
   }

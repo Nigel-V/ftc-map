@@ -134,3 +134,31 @@
 .mdl-card__subtitle-text {
   align-self: flex-start !important;
 }
+
+/* Kickoff */
+.card-title--12 {
+  background-color: #c73866;
+  position: relative;
+}
+
+.card-title--12::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/rocket.svg);
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position: 200px -5px;
+  opacity: 0.1;
+  overflow: hidden;
+}
+
+.card-title--12 > .mdl-card__title-text,
+.card-title--12 > .mdl-card__subtitle-text,
+.card-title--12 ~ .mdl-card__menu {
+  z-index: 1;
+  color: #fff;
+}
