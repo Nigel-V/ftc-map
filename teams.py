@@ -10,6 +10,8 @@ load_dotenv()
 geolocator = Nominatim(user_agent=environ["APP_ORIGIN"])
 geocode = RateLimiter(geolocator.geocode, min_delay_seconds=1)
 
+total_teams = 0
+
 def get_team_data(year):
     s = requests.Session()
     s.auth = (environ["FIRST_USERNAME"], environ["FIRST_TOKEN"])
@@ -33,9 +35,14 @@ def get_team_data(year):
 
     # only keep records with home region NL
     df = df[df['homeRegion'] == 'NL']
+
+    # manually drop teams 19393 and 16951 (TR and FTC Benelux Dummy Team)
+    df = df[df['teamNumber'] != 19393]
+    df = df[df['teamNumber'] != 16951]
+
     df.reset_index(inplace=True,drop=True)
 
-    print(f"Found {df.index[-1]} teams with Benelux as home region.")
+    total_teams = df.index[-1] + 1
 
     # remove and rename columns
     df = df.drop(columns=['displayTeamNumber', 'schoolName', 'website', 'robotName', 'districtCode', 'homeCMP', 'homeRegion', 'displayLocation'])
@@ -46,13 +53,13 @@ def get_team_data(year):
     df['location'] = df.apply(__locate, axis=1)
     df = df.drop(columns=['city', 'stateProv', 'country'])
 
-    print("\nGeocoding locations DONE")
+    print("Geocoding Benelux teams... DONE          ")
 
     return df[['number', 'name', 'organisation', 'rookie_year', 'location']].to_dict(orient='records')
 
 
 def __locate(row):
-    print(f"Geocoding locations... ({row.name})", end="\r")
+    print(f"Geocoding Benelux teams... ({int(row.name) + 1} of {total_teams})", end="\r")
 
     location = None
 

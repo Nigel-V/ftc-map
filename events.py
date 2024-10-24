@@ -10,6 +10,8 @@ load_dotenv()
 geolocator = Nominatim(user_agent=environ["APP_ORIGIN"])
 geocode = RateLimiter(geolocator.geocode, min_delay_seconds=1)
 
+total_events = 0
+
 def get_event_data(year):
     s = requests.Session()
     s.auth = (environ["FIRST_USERNAME"], environ["FIRST_TOKEN"])
@@ -32,13 +34,13 @@ def get_event_data(year):
 
     df = df.reset_index(drop=True)
 
-    print(f"Found {df.index[-1]} events in Benelux the region.")
+    total_events = df.index[-1] + 1
 
     # apply geocoding
     df['location'] = df.apply(__locate, axis=1)
     df = df.drop(columns=['address','city', 'stateprov', 'country'])
 
-    print("\nGeocoding event locations DONE")
+    print("Geocoding Benelux events... DONE          ")
 
     # rename columns
     df = df.rename(columns={'code': 'code', 'type': 'type_code', 'typeName': 'type_name', 'name': 'name', 'dateStart': 'date', 'venue': 'venue', 'location': 'location'})
@@ -50,7 +52,7 @@ def get_event_data(year):
 
 
 def __locate(row):
-    print(f"Geocoding event locations... ({row.name})", end="\r")
+    print(f"Geocoding Benelux events... ({int(row.name) + 1} of {total_events})", end="\r")
     location = geocode(row['address'] + ', ' + row['city'] + ', ' + row['stateprov'] + ', ' + row['country'])
 
     if location is None:
