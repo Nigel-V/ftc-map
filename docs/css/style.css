@@ -72,12 +72,12 @@
 }
 
 /* Qualifier */
-.card-title--3 {
+.card-title--2 {
   background-color: #fd8f52;
   position: relative;
 }
 
-.card-title--3::before {
+.card-title--2::before {
   content: "";
   position: absolute;
   top: 0;
