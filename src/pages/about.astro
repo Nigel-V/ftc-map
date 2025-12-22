@@ -1,0 +1,19 @@
+---
+import Layout from '@/layouts/Layout.astro';
+---
+<Layout>
+<section class="container mx-auto my-8 px-4 space-y-6">
+    <h1 class="text-4xl font-bold">About FTC Map</h1>
+    <p>FTC Map is an unofficial tool inspired by <a href="https://github.com/franspaco/frc_season_map">FRC Map</a> that aims to visualize the location spread of all active <span class="italic">FIRST</span>® Tech Challenge teams and events in a particular season. Currently, the map only displays data from teams and events with the Benelux (officially Netherlands/NL) as their home region. More regions may be added in the future if there is sufficient demand. If you would like to see your region added, please <a href="https://github.com/Nigel-V/ftc-map/issues">open an issue</a> on Github.</p>
+    <h2 class="text-3xl font-bold">About <span class="italic">FIRST</span></h2>
+    <p><span class="italic">FIRST</span> is an international nonprofit organization that prepares young people for the future through a suite of life-changing youth robotics programs that build skills, confidence, and resilience. <span class="italic">FIRST</span> is backed by a global network of mentors, educators, volunteers, sponsors, parents, alumni, and program delivery partners.</p>
+    <p><span class="italic">FIRST</span> Tech Challenge students work together with their mentors to design and build robots to compete in a dynamic and exciting challenge released every September. Teams program classroom-sized robots to follow autonomous commands before student drivers take control in two-on-two matches. On and off the field, students develop STEM skills, engage in community outreach, practice engineering innovation, and build confidence to help them succeed.</p>
+    <p>More on <a href="https://www.firstinspires.org/">firstinspires.org</a>.</p>
+    <h2 class="text-3xl font-bold">Location Data</h2>
+    <p>All data is gathered directly from a publicly available API provided by <a href="https://ftc-events.firstinspires.org/services/API"><span class="italic">FIRST</span></a> and geocoded using <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>. No team data is stored on the server that was not provided by the <span class="italic">FIRST</span> API, OpenStreetMap or teams themselves.</p>
+    <p>Geolocation is done through a combination of full team name, city, province and country and as such may not be 100% accurate. This is especially true for community teams. If you notice any inaccuracies about the location of an event, your own community team or any team affilliated with a public organisation, please <a href="https://github.com/Nigel-V/ftc-map/issues">open an issue</a> on Github.</p>
+    <h2 class="text-3xl font-bold">Disclaimer</h2>
+    <p><span class="italic">FIRST</span>® and <span class="italic">FIRST</span>® Tech Challenge, are registered trademarks of For Inspiration and Recognition of Science and Technology (<span class="italic">FIRST</span>).</p>
+    <p>This website is community made, and not affiliated with, nor endorsed by <span class="italic">FIRST</span> or any of its regional program delivery partners.</p>
+</section>
+</Layout>
