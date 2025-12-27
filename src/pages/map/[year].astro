@@ -1,0 +1,30 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import MapIsland from "@/components/react/map/MapIsland.tsx";
+import "leaflet/dist/leaflet.css";
+
+export async function getStaticPaths() {
+  return [
+    { params: { year: "2019" } },
+    { params: { year: "2020" } },
+    { params: { year: "2021" } },
+    { params: { year: "2022" } },
+    { params: { year: "2023" } },
+    { params: { year: "2024" } },
+    { params: { year: "2025" } },
+  ];
+}
+
+const dummySeasonData = {
+  generationTimestamp: new Date(),
+  season: Number(Astro.params.year),
+  teams: [],
+  events: [],
+};
+---
+
+<Layout title={"FTC Map " + Astro.params.year}>
+  <div class="h-screen w-screen">
+    <MapIsland client:only="react" seasonData={dummySeasonData} />
+  </div>
+</Layout>
