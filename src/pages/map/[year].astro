@@ -2,6 +2,7 @@
 import Layout from "@/layouts/Layout.astro";
 import MapIsland from "@/components/react/map/MapIsland.tsx";
 import "leaflet/dist/leaflet.css";
+import { getEntry } from "astro:content";
 
 export async function getStaticPaths() {
   return [
@@ -15,16 +16,18 @@ export async function getStaticPaths() {
   ];
 }
 
-const dummySeasonData = {
-  generationTimestamp: new Date(),
-  season: Number(Astro.params.year),
-  teams: [],
-  events: [],
-};
+const { year } = Astro.params;
+const entry = await getEntry("seasons", year);
+
+if (!entry) {
+  throw new Error(`No season data found for year: ${year}`);
+}
+
+const seasonData = entry.data;
 ---
 
 <Layout title={"FTC Map " + Astro.params.year}>
   <div class="h-screen w-screen">
-    <MapIsland client:only="react" seasonData={dummySeasonData} />
+    <MapIsland client:only="react" seasonData={seasonData} />
   </div>
 </Layout>

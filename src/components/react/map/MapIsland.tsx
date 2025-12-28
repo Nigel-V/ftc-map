@@ -1,5 +1,5 @@
 import Map from "./Map";
-import type { SeasonData } from "./types";
+import type { SeasonData } from "@/content.config";
 
 interface MapIslandProps {
     seasonData: SeasonData;
