@@ -1,0 +1,84 @@
+---
+import Navigation from "@/components/Navigation.astro";
+import FilterArea from "./react/filter/FilterArea";
+---
+
+<aside
+  id="sidebar"
+  class="overflow-y-scroll overflow-x-hidden w-3xs in-[.sidebar-collapsed]:w-14 flex flex-col justify-between transition-[width] duration-300 ease-in-out"
+>
+  <div class="w-3xs">
+    <Navigation />
+    <FilterArea
+      client:load
+      teamRegions={[]}
+      oldestRookieYear={0}
+      newestRookieYear={0}
+      eventRegions={[]}
+      eventTypes={[]}
+    />
+  </div>
+  <footer class="mb-4 w-3xs">
+    <nav>
+      <ul class="flex flex-col gap-4 mb-4">
+        <li>
+          <a href="/about" class="flex items-center gap-4 px-4">
+            <svg
+              class="fill-zinc-600 dark:fill-zinc-400"
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              ><path
+                d="M440-280h80v-240h-80v240Zm40-320q17 0 28.5-11.5T520-640q0-17-11.5-28.5T480-680q-17 0-28.5 11.5T440-640q0 17 11.5 28.5T480-600Zm0 520q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"
+              ></path></svg
+            ><span class="align-middle">About FTC Map</span></a
+          >
+        </li>
+        <li>
+          <a
+            href="https://github.com/Nigel-V/ftc-map"
+            class="flex items-center gap-4 px-4"
+          >
+            <svg
+              class="fill-zinc-600 dark:fill-zinc-400"
+              role="img"
+              height="24px"
+              viewBox="0 0 24 24"
+              width="24px"
+              xmlns="http://www.w3.org/2000/svg"
+              ><title>GitHub</title><path
+                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+              ></path></svg
+            ><span class="align-middle">View on Github</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <span class="ms-14 text-zinc-600 dark:text-zinc-400">A VRHK Project</span>
+  </footer>
+</aside>
+
+<!-- <script>
+  const sidebar = document.getElementById("sidebar");
+  const labels = document.querySelectorAll(".sidebar-label");
+
+  const applySidebarState = (isCollapsed: boolean) => {
+    if (isCollapsed) {
+      sidebar?.classList.replace("w-3xs", "w-14");
+      labels.forEach((l) => l.classList.add("hidden"));
+    } else {
+      sidebar?.classList.replace("w-14", "w-3xs");
+      labels.forEach((l) => l.classList.remove("hidden"));
+    }
+  };
+
+  // 1. Apply state immediately on load/refresh
+  const savedState = localStorage.getItem("sidebar-collapsed") === "true";
+  applySidebarState(savedState);
+
+  // 2. Listen for changes from the Toggle Button
+  window.addEventListener("sidebar-changed", (e: any) => {
+    applySidebarState(e.detail.collapsed);
+  });
+</script> -->

@@ -1,0 +1,22 @@
+---
+import ThemeToggle from "@/components/ThemeToggle.astro";
+import SidebarToggle from "@/components/SidebarToggle.astro";
+
+const { alternativeH1, year } = Astro.props;
+---
+
+<header class="h-16 flex items-center px-4 shrink-0 justify-between">
+  <span class="flex items-center"
+    ><SidebarToggle />
+    {
+      alternativeH1 ? (
+        <span class="p-2">FTC Map{year ? ` ${year}` : ""}</span>
+      ) : (
+        <h1 class="p-2">FTC Map{year ? ` ${year}` : ""}</h1>
+      )
+    }</span
+  >
+
+  <span>INSERT SEARCH BAR</span>
+  <ThemeToggle />
+</header>

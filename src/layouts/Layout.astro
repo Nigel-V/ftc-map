@@ -1,25 +1,85 @@
 ---
-import Navigation from "@/components/Navigation.astro";
+import Sidebar from "@/components/Sidebar.astro";
+import Header from "@/components/Header.astro";
 
-import "../styles/global.css";
+import "@/styles/global.css";
 
-const { title = "FTC Map" } = Astro.props;
+interface Props {
+  title: string;
+  description?: string;
+  canonical?: string;
+  alternativeH1?: boolean;
+  year?: string;
+}
+
+const {
+  title,
+  description = "Interactive map for FIRST Tech Challenge (FTC) teams and events",
+  canonical,
+  alternativeH1 = false,
+  year,
+} = Astro.props;
+
+const resolvedCanonical =
+  canonical || new URL(Astro.url.pathname, Astro.site).href;
 ---
 
-<!doctype html>
+<script is:inline>
+  // Theme handling
+  const getThemePreference = () => {
+    if (typeof localStorage !== "undefined" && localStorage.getItem("theme")) {
+      return localStorage.getItem("theme");
+    }
+    return window.matchMedia("(prefers-color-scheme: dark)").matches
+      ? "dark"
+      : "light";
+  };
+  const isDark = getThemePreference() === "dark";
+  document.documentElement.classList[isDark ? "add" : "remove"]("dark");
+
+  if (typeof localStorage !== "undefined") {
+    const observer = new MutationObserver(() => {
+      const isDark = document.documentElement.classList.contains("dark");
+      localStorage.setItem("theme", isDark ? "dark" : "light");
+    });
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ["class"],
+    });
+  }
+
+  // Sidebar state handling
+  const isCollapsed = localStorage.getItem("sidebar-collapsed") === "true";
+
+  if (isCollapsed) {
+    document.documentElement.classList.add("sidebar-collapsed");
+  }
+</script>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={resolvedCanonical} />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
-    <title>{title}</title>
+
+    <meta property="og:title" content={title} />
+    <meta property="og:url" content={resolvedCanonical} />
+    <meta property="og:type" content="website" />
   </head>
-  <body>
-    <Navigation />
-    <main>
-      <slot />
-    </main>
+  <body
+    class="flex h-screen w-full overflow-hidden bg-white text-zinc-900 dark:bg-zinc-900 dark:text-zinc-100 transition-colors duration-300 ease-in-out"
+  >
+    <Sidebar />
+    <div class="flex flex-col flex-1 h-full overflow-hidden">
+      <Header alternativeH1={alternativeH1} year={year} />
+      <main class="flex-1 overflow-hidden">
+        <slot />
+      </main>
+    </div>
   </body>
 </html>
 

@@ -1,0 +1,92 @@
+---
+
+---
+
+<button
+  id="sidebar-toggle"
+  class="p-2 rounded-full hover:bg-accent cursor-pointer"
+>
+  <svg
+    id="toggle-icon-expand"
+    class="fill-zinc-600 dark:fill-zinc-400 in-[.sidebar-collapsed]:block hidden"
+    xmlns="http://www.w3.org/2000/svg"
+    height="24px"
+    viewBox="0 -960 960 960"
+    width="24px"
+    ><path
+      d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+    ></path></svg
+  >
+  <svg
+    id="toggle-icon-collapse"
+    class="fill-zinc-600 dark:fill-zinc-400 in-[.sidebar-collapsed]:hidden"
+    xmlns="http://www.w3.org/2000/svg"
+    height="24px"
+    viewBox="0 -960 960 960"
+    width="24px"
+    ><path
+      d="M120-240v-80h520v80H120Zm664-40L584-480l200-200 56 56-144 144 144 144-56 56ZM120-440v-80h400v80H120Zm0-200v-80h520v80H120Z"
+    ></path></svg
+  >
+</button>
+
+<script>
+  const btn = document.getElementById("sidebar-toggle");
+
+  btn?.addEventListener("click", () => {
+    // 1. Toggle the class on the HTML element
+    const isCollapsed =
+      document.documentElement.classList.toggle("sidebar-collapsed");
+
+    // 2. Sync to LocalStorage
+    localStorage.setItem("sidebar-collapsed", String(isCollapsed));
+
+    // 3. Notify the React Island
+    window.dispatchEvent(
+      new CustomEvent("sidebar-changed", {
+        detail: { collapsed: isCollapsed },
+      })
+    );
+  });
+
+  // Also listen for events (in case the Accordion opens the sidebar)
+  window.addEventListener("sidebar-changed", (e: any) => {
+    document.documentElement.classList.toggle(
+      "sidebar-collapsed",
+      e.detail.collapsed
+    );
+  });
+</script>
+
+<!-- <script>
+  const btn = document.getElementById("sidebar-toggle");
+  const iconClose = document.getElementById("toggle-icon-collapse");
+  const iconOpen = document.getElementById("toggle-icon-expand");
+
+  const updateButtonUI = (isCollapsed: boolean) => {
+    iconClose?.classList.toggle("hidden", isCollapsed);
+    iconOpen?.classList.toggle("hidden", !isCollapsed);
+  };
+
+  // Set initial icon state on load
+  const initialCollapse = localStorage.getItem("sidebar-collapsed") === "true";
+  updateButtonUI(initialCollapse);
+
+  btn?.addEventListener("click", () => {
+    // 1. Calculate the NEW state
+    const currentlyCollapsed =
+      localStorage.getItem("sidebar-collapsed") === "true";
+    const newState = !currentlyCollapsed;
+
+    // 2. ACTUALLY save it to localStorage
+    localStorage.setItem("sidebar-collapsed", String(newState));
+
+    // 3. Tell everyone else (the Sidebar)
+    window.dispatchEvent(
+      new CustomEvent("sidebar-changed", { detail: { collapsed: newState } })
+    );
+
+    // 4. Update own icons
+    updateButtonUI(newState);
+  });
+</script> -->

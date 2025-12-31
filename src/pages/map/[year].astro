@@ -2,32 +2,22 @@
 import Layout from "@/layouts/Layout.astro";
 import MapIsland from "@/components/react/map/MapIsland.tsx";
 import "leaflet/dist/leaflet.css";
-import { getEntry } from "astro:content";
+import { getCollection } from "astro:content";
 
 export async function getStaticPaths() {
-  return [
-    { params: { year: "2019" } },
-    { params: { year: "2020" } },
-    { params: { year: "2021" } },
-    { params: { year: "2022" } },
-    { params: { year: "2023" } },
-    { params: { year: "2024" } },
-    { params: { year: "2025" } },
-  ];
+  const allSeasons = await getCollection("seasons");
+
+  return allSeasons.map((entry) => ({
+    params: { year: entry.id }, // entry.id comes from the filename (e.g., "2024")
+    props: { seasonData: entry.data }, // Pass data as props to avoid double-fetching
+  }));
 }
 
+// Get data from props (more efficient than getEntry since we already have it)
+const { seasonData } = Astro.props;
 const { year } = Astro.params;
-const entry = await getEntry("seasons", year);
-
-if (!entry) {
-  throw new Error(`No season data found for year: ${year}`);
-}
-
-const seasonData = entry.data;
 ---
 
-<Layout title={"FTC Map " + Astro.params.year}>
-  <div class="h-screen w-screen">
-    <MapIsland client:only="react" seasonData={seasonData} />
-  </div>
+<Layout title={"FTC Map " + year} year={year}>
+  <MapIsland client:only="react" seasonData={seasonData} />
 </Layout>
