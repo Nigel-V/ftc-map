@@ -32,7 +32,7 @@ def transform_events(events : list[SeasonEventModelVersion2]) -> list[EventModel
                 x, y = 0.0, 0.0
 
             events_transformed.append(GeocodedEventModel({
-                "code": e.get("eventCode", ""),
+                "code": e.get("code", ""),
                 "name": e.get("name", ""),
                 "typeName": e.get("typeName", ""),
                 "venue": e.get("venue", ""),
@@ -40,13 +40,13 @@ def transform_events(events : list[SeasonEventModelVersion2]) -> list[EventModel
                 "dateEnd": e.get("dateEnd", ""),
                 "regionCode": e.get("regionCode", ""),
                 "coords": {
-                    "lat": x,
-                    "lng": y
+                    "lat": y,
+                    "lng": x
                 }
             }))
         else:
             events_transformed.append(EventModel({
-                "code": e.get("eventCode", ""),
+                "code": e.get("code", ""),
                 "name": e.get("name", ""),
                 "typeName": e.get("typeName", ""),
                 "dateStart": e.get("dateStart", ""),

@@ -7,10 +7,13 @@ interface MapProps {
 }
 
 export default function Map(props: MapProps) {
+  {
+    props.events.map((event) => console.log(event));
+  }
   return (
     <MapContainer
-      center={[51.505, -0.09]}
-      zoom={13}
+      center={[51.2194, 5.4025]}
+      zoom={7}
       scrollWheelZoom={true}
       style={{ height: "100%", width: "100%" }}
     >
@@ -34,6 +37,18 @@ export default function Map(props: MapProps) {
             {team.org}
             <br />
             Rookie Year: {team.rookieYear}
+          </Popup>
+        </Marker>
+      ))}
+      {props.events.map((event) => (
+        <Marker
+          key={event.code}
+          position={[event.coords.lat, event.coords.lng]}
+        >
+          <Popup>
+            <strong>{event.name}</strong>
+            <br />
+            {event.venue}
           </Popup>
         </Marker>
       ))}

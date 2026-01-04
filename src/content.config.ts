@@ -20,6 +20,7 @@ const FTCEventSchema = z.object({
   name: z.string(),
   typeName: z.string(),
   venue: z.string(),
+  regionCode: z.string(),
   dateStart: z.coerce.date(),
   dateEnd: z.coerce.date(),
   coords: CoordinatesSchema,

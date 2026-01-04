@@ -74,3 +74,4 @@ def fetch_max_season() -> int:
     
     data = response.json()
     return data.get("maxSeason", 0)
+    
