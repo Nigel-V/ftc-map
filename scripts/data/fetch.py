@@ -1,3 +1,4 @@
+import json
 import os
 import requests
 from requests.auth import HTTPBasicAuth
@@ -65,3 +66,11 @@ def fetch_teams(year: int, last_fetch="Sat, 1 Jan 2000 00:00:00 GMT") -> tuple[l
         current_page += 1
         
     return updated_teams, new_fetch_time
+
+def fetch_max_season() -> int:
+    """Fetch the maximum season year available from the FIRST API."""
+    response = s.get(BASE_URL)
+    response.raise_for_status()
+    
+    data = response.json()
+    return data.get("maxSeason", 0)

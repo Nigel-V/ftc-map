@@ -31,7 +31,7 @@ export default function Map(props: MapProps) {
               {team.number} - {team.name}
             </strong>
             <br />
-            {team.organization}
+            {team.org}
             <br />
             Rookie Year: {team.rookieYear}
           </Popup>

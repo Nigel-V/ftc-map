@@ -18,6 +18,16 @@ class TeamModel(TypedDict):
     homeRegion: str
     location: LocationModel
 
+class EventModel(TypedDict):
+    code: str
+    name: str
+    typeName: str
+    dateStart: str  # ISO format date string
+    dateEnd: str    # ISO format date string
+    regionCode: str
+    location: LocationModel
+
+# Must match src/content.config.ts zod schema
 class GeocodedTeamModel(TypedDict):
     number: int
     name: str
@@ -26,17 +36,20 @@ class GeocodedTeamModel(TypedDict):
     homeRegion: str
     coords: CoordinatesModel
 
-class EventModel(TypedDict):
-    code: str
-    name: str
-    startDate: str  # ISO format date string
-    endDate: str    # ISO format date string
-    location: LocationModel
-
+# Must match src/content.config.ts zod schema
 class GeocodedEventModel(TypedDict):
     code: str
     name: str
+    typeName: str
     venue: str
-    startDate: str  # ISO format date string
-    endDate: str    # ISO format date string
+    dateStart: str  # ISO format date string
+    dateEnd: str    # ISO format date string
+    regionCode: str
     coords: CoordinatesModel
+
+# Must match src/content.config.ts zod schema
+class CompleteSeasonModel(TypedDict):
+    generationTimestamp: str # ISO format date string
+    season: int
+    teams: list[GeocodedTeamModel]
+    events: list[GeocodedEventModel]

@@ -15,7 +15,7 @@ load_dotenv()
 # geolocator = Nominatim(user_agent=USER_AGENT)
 
 PHOTON_URL = os.getenv("PHOTON_URL")
-geolocator = Photon(domain="192.168.1.131:2322", scheme='http')
+geolocator = Photon(domain="192.168.1.140:2322", scheme='http')
 
 geocode_with_delay = RateLimiter(geolocator.geocode, min_delay_seconds=0.1)
 

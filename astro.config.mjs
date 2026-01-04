@@ -10,7 +10,13 @@ export default defineConfig({
   site: "https://ftcmap.vrhk.dev",
 
   vite: {
-    plugins: [tailwindcss()]
+    plugins: [tailwindcss()],
+    server: {
+      watch: {
+        // This tells the underlying Vite server to ignore the scripts folder
+        ignored: ['**/scripts/**'],
+      },
+    },
   },
 
   integrations: [react()]

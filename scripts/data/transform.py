@@ -11,7 +11,7 @@ def transform_teams(teams : list[SeasonTeamModelVersion2]) -> list[TeamModel]:
     "rookieYear": t.get("rookieYear", 0),
     "homeRegion": t.get("homeRegion", ""),
     "location": {
-        "orgVenue": re.split(r'(?<! )&(?! )', t.get("nameFull", ""))[-1],
+        "orgVenue": re.split(r'(?<! )&(?! )', t.get("nameFull") or "")[-1],
         "city": t.get("city", ""),
         "stateProv": t.get("stateProv", ""),
         "country": t.get("country", ""),
@@ -25,14 +25,20 @@ def transform_events(events : list[SeasonEventModelVersion2]) -> list[EventModel
     for e in events:
         if "coordinates" in e:
             coords = e.get("coordinates", {})
-            x, y = get_lat_lng(coords)
+
+            if coords:
+                x, y = __get_lat_lng(coords)
+            else:
+                x, y = 0.0, 0.0
 
             events_transformed.append(GeocodedEventModel({
                 "code": e.get("eventCode", ""),
                 "name": e.get("name", ""),
+                "typeName": e.get("typeName", ""),
                 "venue": e.get("venue", ""),
-                "startDate": e.get("startDate", ""),
-                "endDate": e.get("endDate", ""),
+                "dateStart": e.get("dateStart", ""),
+                "dateEnd": e.get("dateEnd", ""),
+                "regionCode": e.get("regionCode", ""),
                 "coords": {
                     "lat": x,
                     "lng": y
@@ -42,8 +48,10 @@ def transform_events(events : list[SeasonEventModelVersion2]) -> list[EventModel
             events_transformed.append(EventModel({
                 "code": e.get("eventCode", ""),
                 "name": e.get("name", ""),
-                "startDate": e.get("startDate", ""),
-                "endDate": e.get("endDate", ""),
+                "typeName": e.get("typeName", ""),
+                "dateStart": e.get("dateStart", ""),
+                "dateEnd": e.get("dateEnd", ""),
+                "regionCode": e.get("regionCode", ""),
                 "location": {
                     "orgVenue": e.get("venue", ""),
                     "address": e.get("address", ""),
@@ -55,7 +63,7 @@ def transform_events(events : list[SeasonEventModelVersion2]) -> list[EventModel
     
     return events_transformed
 
-def get_lat_lng(point: Point) -> tuple[float, float]:
+def __get_lat_lng(point: Point) -> tuple[float, float]:
     """Extract latitude and longitude from a Point object."""
     coords = point.get("coordinates", [])
 

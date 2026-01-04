@@ -10,7 +10,7 @@ const CoordinatesSchema = z.object({
 const TeamSchema = z.object({
   number: z.number(),
   name: z.string(),
-  organization: z.string(),
+  org: z.string(),
   rookieYear: z.number(),
   coords: CoordinatesSchema,
 });
