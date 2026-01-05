@@ -1,5 +1,6 @@
 import * as React from "react";
 import Map, { Marker } from "react-map-gl/maplibre";
+import { useIsDarkMode } from "@/hooks/useIsDarkMode";
 import type { FTCEvent, Team } from "@/content.config";
 
 interface MapIslandProps {
@@ -14,12 +15,18 @@ export default function MapIsland(props: MapIslandProps) {
     zoom: 7,
   });
 
+  const isDarkMode = useIsDarkMode();
+
   return (
     <Map
       {...viewState}
       onMove={(evt) => setViewState(evt.viewState)}
       style={{ height: "100%", width: "100%" }}
-      mapStyle="https://tiles.openfreemap.org/styles/positron"
+      mapStyle={
+        isDarkMode
+          ? "https://tiles.openfreemap.org/styles/dark"
+          : "https://tiles.openfreemap.org/styles/positron"
+      }
     >
       {props.teams.map((team) => (
         <Marker
