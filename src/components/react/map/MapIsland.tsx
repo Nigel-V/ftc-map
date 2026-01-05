@@ -1,12 +1,41 @@
-import Map from "./Map";
-import type { SeasonData } from "@/content.config";
+import * as React from "react";
+import Map, { Marker } from "react-map-gl/maplibre";
+import type { FTCEvent, Team } from "@/content.config";
 
 interface MapIslandProps {
-  seasonData: SeasonData;
+  teams: Team[];
+  events: FTCEvent[];
 }
 
 export default function MapIsland(props: MapIslandProps) {
+  const [viewState, setViewState] = React.useState({
+    longitude: 5.4025,
+    latitude: 51.2194,
+    zoom: 7,
+  });
+
   return (
-    <Map teams={props.seasonData.teams} events={props.seasonData.events} />
+    <Map
+      {...viewState}
+      onMove={(evt) => setViewState(evt.viewState)}
+      style={{ height: "100%", width: "100%" }}
+      mapStyle="https://tiles.openfreemap.org/styles/positron"
+    >
+      {props.teams.map((team) => (
+        <Marker
+          key={`ftc${team.number}`}
+          longitude={team.coords.lng}
+          latitude={team.coords.lat}
+        />
+      ))}
+      {props.events.map((event) => (
+        <Marker
+          key={event.code}
+          longitude={event.coords.lng}
+          latitude={event.coords.lat}
+          color="red"
+        />
+      ))}
+    </Map>
   );
 }
