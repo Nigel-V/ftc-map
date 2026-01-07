@@ -18,5 +18,10 @@ const canonical = getCanonical(`/map/${latest.id}`, Astro.site);
   canonical={canonical}
   year={latest.id}
 >
-  <MapIsland client:only="react" seasonData={latest.data} />
+  <MapIsland
+    client:only="react"
+    teams={latest.data.teams}
+    events={latest.data.events}
+    year={parseInt(latest.id)}
+  />
 </Layout>

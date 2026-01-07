@@ -19,10 +19,11 @@ const { seasonData } = Astro.props;
 const { year } = Astro.params;
 ---
 
-<Layout title={"FTC Map " + year} year={year}>
+<Layout title={"FTC Map - " + year + " Season"} year={year}>
   <MapIsland
     client:only="react"
     teams={seasonData.teams}
     events={seasonData.events}
+    year={parseInt(year)}
   />
 </Layout>
