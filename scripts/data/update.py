@@ -1,4 +1,3 @@
-from asyncio import events
 import json
 from fetch import fetch_max_season, fetch_teams, fetch_events
 from models import CompleteSeasonModel, GeocodedTeamModel, TeamModel, GeocodedEventModel, EventModel
@@ -72,10 +71,11 @@ def __main__():
         updated_events, new_events_fetch_time = fetch_events(year, last_fetch_time)
         print(f"Fetched {len(updated_teams)} updated teams and {len(updated_events)} updated events.")
 
-        # DEBUG - NL teams only
-        updated_teams = [t for t in updated_teams if t.get("country", "") == "Netherlands"]
-        updated_events = [e for e in updated_events if e.get("country", "") == "Netherlands"]
-        print(f"Filtered to {len(updated_teams)} NL teams and {len(updated_events)} NL events.")
+        # DEBUG - Europe only
+        eu_countries = ["Netherlands", "Belgium", "Germany", "France", "Italy", "Spain", "Switzerland", "Austria", "Poland", "Czech Republic", "Sweden", "Norway", "Denmark", "Finland", "Ireland", "United Kingdom", "Portugal", "Greece", "Hungary", "Romania", "Bulgaria", "Slovakia", "Slovenia", "Croatia", "Lithuania", "Latvia", "Estonia", "Luxembourg", "Malta", "Cyprus", "Iceland", "Serbia", "Bosnia and Herzegovina", "North Macedonia", "Albania", "Montenegro", "Ukraine", "Belarus","Russia"]
+        updated_teams = [t for t in updated_teams if t.get("country", "") in eu_countries]
+        updated_events = [e for e in updated_events if e.get("country", "") in eu_countries]
+        print(f"Filtered to {len(updated_teams)} EU teams and {len(updated_events)} EU events.")
         
         # transform
         print(f"Transforming teams...")
