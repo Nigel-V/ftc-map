@@ -15,6 +15,9 @@ const { year } = Astro.props;
 
   const year = document.getElementById("map")!.dataset.year;
 
+  // 1. Single reference to manage the active popup across all layers
+  let activePopup: maplibregl.Popup | null = null;
+
   const map = new maplibregl.Map({
     container: "map",
     style: "https://tiles.openfreemap.org/styles/positron",
@@ -57,16 +60,22 @@ const { year } = Astro.props;
       },
     });
 
-    map.on("click", "teams-layer", (e) => {
+    // 2. A shared click handler for both layers
+    const handleLayerClick = (e: any) => {
       if (!e.features || !e.features.length) return;
 
-      // Get coordinates and properties from the clicked feature
-      const geometry = e.features[0].geometry;
+      // Close the previous popup if it exists
+      if (activePopup) {
+        activePopup.remove();
+      }
 
+      const feature = e.features[0];
+      const geometry = feature.geometry;
       if (geometry.type !== "Point") return;
 
       const coordinates = geometry.coordinates.slice() as [number, number];
-      const properties = e.features[0].properties;
+      const properties = feature.properties;
+      const layerId = feature.layer.id;
 
       // Ensure popup appears correctly even if the map is wrapped
       while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
@@ -78,86 +87,48 @@ const { year } = Astro.props;
       ) as HTMLTemplateElement;
       const clone = template.content.cloneNode(true) as HTMLElement;
 
-      clone.querySelector(".card-team-name")!.textContent =
-        properties?.name || "N/A";
-
-      clone.querySelector(".card-team-number")!.textContent =
-        properties?.number || "N/A";
-
-      clone.querySelector(".card-left-label")!.textContent = "Organization";
-      clone.querySelector(".card-left-value")!.textContent =
-        properties?.org || "N/A";
-
-      clone.querySelector(".card-right-label")!.textContent = "Rookie Year";
-      clone.querySelector(".card-right-value")!.textContent =
-        properties?.rookieYear || "N/A";
-
-      clone
-        .querySelector(".card-view-details")!
-        .setAttribute(
-          "href",
-          `https://ftc-events.firstinspires.org/${year}/team/${properties?.number}`,
-        );
-
-      // Create the popup
-      new maplibregl.Popup({
-        closeButton: false,
-        closeOnClick: true,
-        className: "popup",
-        maxWidth: "none",
-      })
-        .setLngLat(coordinates)
-        .setDOMContent(clone)
-        .addTo(map);
-    });
-
-    map.on("click", "events-layer", (e) => {
-      if (!e.features || !e.features.length) return;
-
-      // Get coordinates and properties from the clicked feature
-      const geometry = e.features[0].geometry;
-
-      if (geometry.type !== "Point") return;
-
-      const coordinates = geometry.coordinates.slice() as [number, number];
-      const properties = e.features[0].properties;
-
-      // Ensure popup appears correctly even if the map is wrapped
-      while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-        coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+      // 3. Logic branching based on which layer was clicked
+      if (layerId === "teams-layer") {
+        clone.querySelector(".card-team-name")!.textContent =
+          properties?.name || "N/A";
+        clone.querySelector(".card-team-number")!.textContent =
+          properties?.number || "N/A";
+        clone.querySelector(".card-left-label")!.textContent = "Organization";
+        clone.querySelector(".card-left-value")!.textContent =
+          properties?.org || "N/A";
+        clone.querySelector(".card-right-label")!.textContent = "Rookie Year";
+        clone.querySelector(".card-right-value")!.textContent =
+          properties?.rookieYear || "N/A";
+        clone
+          .querySelector(".card-view-details")!
+          .setAttribute(
+            "href",
+            `https://ftc-events.firstinspires.org/${year}/team/${properties?.number}`,
+          );
+      } else if (layerId === "events-layer") {
+        clone.querySelector(".card-team-name")!.textContent =
+          properties?.name || "N/A";
+        clone.querySelector(".card-team-number")!.textContent =
+          properties?.typeName || "N/A";
+        clone.querySelector(".card-left-label")!.textContent = "Venue";
+        clone.querySelector(".card-left-value")!.textContent =
+          properties?.venue || "N/A";
+        clone.querySelector(".card-right-label")!.textContent = "Date";
+        clone.querySelector(".card-right-value")!.textContent =
+          getDateString(
+            new Date(properties?.dateStart),
+            new Date(properties?.dateEnd),
+          ) || "N/A";
+        clone
+          .querySelector(".card-view-details")!
+          .setAttribute(
+            "href",
+            `https://ftc-events.firstinspires.org/${year}/${properties?.code}`,
+          );
       }
 
-      const template = document.getElementById(
-        "popup-template",
-      ) as HTMLTemplateElement;
-      const clone = template.content.cloneNode(true) as HTMLElement;
-
-      clone.querySelector(".card-team-name")!.textContent =
-        properties?.name || "N/A";
-
-      clone.querySelector(".card-team-number")!.textContent =
-        properties?.typeName || "N/A";
-
-      clone.querySelector(".card-left-label")!.textContent = "Venue";
-      clone.querySelector(".card-left-value")!.textContent =
-        properties?.venue || "N/A";
-
-      clone.querySelector(".card-right-label")!.textContent = "Date";
-      clone.querySelector(".card-right-value")!.textContent =
-        getDateString(
-          new Date(properties?.dateStart),
-          new Date(properties?.dateEnd),
-        ) || "N/A";
-
-      clone
-        .querySelector(".card-view-details")!
-        .setAttribute(
-          "href",
-          `https://ftc-events.firstinspires.org/${year}/${properties?.code}`,
-        );
-
-      // Create the popup
-      new maplibregl.Popup({
+      // 4. Create the popup and assign it to the shared variable
+      activePopup = new maplibregl.Popup({
         closeButton: false,
         closeOnClick: true,
         className: "popup",
@@ -166,20 +137,26 @@ const { year } = Astro.props;
         .setLngLat(coordinates)
         .setDOMContent(clone)
         .addTo(map);
-    });
 
-    // 6. Change cursor on hover for better UX
-    map.on("mouseenter", "teams-layer", () => {
-      map.getCanvas().style.cursor = "pointer";
-    });
-    map.on("mouseleave", "teams-layer", () => {
-      map.getCanvas().style.cursor = "";
-    });
-    map.on("mouseenter", "events-layer", () => {
-      map.getCanvas().style.cursor = "pointer";
-    });
-    map.on("mouseleave", "events-layer", () => {
-      map.getCanvas().style.cursor = "";
+      // Clear the reference when the popup is closed
+      activePopup.on("close", () => {
+        activePopup = null;
+      });
+    };
+
+    // Attach the single handler to both layers
+    map.on("click", "teams-layer", handleLayerClick);
+    map.on("click", "events-layer", handleLayerClick);
+
+    // Hover effects
+    const layers = ["teams-layer", "events-layer"];
+    layers.forEach((layer) => {
+      map.on("mouseenter", layer, () => {
+        map.getCanvas().style.cursor = "pointer";
+      });
+      map.on("mouseleave", layer, () => {
+        map.getCanvas().style.cursor = "";
+      });
     });
   });
 
