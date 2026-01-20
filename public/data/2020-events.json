@@ -1,0 +1,1107 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "CYACFDLA",
+        "name": "Cyprus Dean's List Interview Only Event",
+        "typeName": "Other",
+        "venue": "N/A",
+        "dateStart": "2021-02-01T00:00:00",
+        "dateEnd": "2021-02-01T00:00:00",
+        "regionCode": "CY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "DEBWDLA",
+        "name": "Kaiserslautern Invitational - Dean's List",
+        "typeName": "Other",
+        "venue": "N/A",
+        "dateStart": "2021-04-01T00:00:00",
+        "dateEnd": "2021-04-01T00:00:00",
+        "regionCode": "DE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ESAADLA",
+        "name": "Spain Dean's List Interview Only Event",
+        "typeName": "Other",
+        "venue": "N/A",
+        "dateStart": "2021-02-01T00:00:00",
+        "dateEnd": "2021-02-01T00:00:00",
+        "regionCode": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBELDLA",
+        "name": "UK Dean's List Interview Only Event",
+        "typeName": "Other",
+        "venue": "N/A",
+        "dateStart": "2021-02-01T00:00:00",
+        "dateEnd": "2021-02-01T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBENGLOQT1",
+        "name": "UK FTC Qualifying Tournament Event #1 REMOTE",
+        "typeName": "Qualifier",
+        "venue": "Remote Event for FIRST UK",
+        "dateStart": "2021-05-31T00:00:00",
+        "dateEnd": "2021-06-06T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBENGLOQT2",
+        "name": "UK FTC Qualifying Tournament Event #2 REMOTE",
+        "typeName": "Qualifier",
+        "venue": "Remote Event for FIRST UK",
+        "dateStart": "2021-06-14T00:00:00",
+        "dateEnd": "2021-06-20T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBENGLOQT3",
+        "name": "UK FTC Qualifying Tournament Event #3 REMOTE",
+        "typeName": "Qualifier",
+        "venue": "Remote Event for FIRST UK",
+        "dateStart": "2021-06-28T00:00:00",
+        "dateEnd": "2021-07-04T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "NLLMDLA",
+        "name": "Netherlands Dean's List Interview Only Event",
+        "typeName": "Other",
+        "venue": "N/A",
+        "dateStart": "2021-02-01T00:00:00",
+        "dateEnd": "2021-02-01T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "NLNBBRM3",
+        "name": "League Meet Breda #3  REMOTE",
+        "typeName": "League Meet",
+        "venue": "Please see website for details ",
+        "dateStart": "2021-04-10T00:00:00",
+        "dateEnd": "2021-04-10T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "NLNBEIM2",
+        "name": "League Meet Eindhoven #2  REMOTE",
+        "typeName": "League Meet",
+        "venue": "Remote Event",
+        "dateStart": "2021-03-20T00:00:00",
+        "dateEnd": "2021-03-20T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "NLNBVECT1",
+        "name": "Netherlands Championship REMOTE",
+        "typeName": "Championship",
+        "venue": "Please see website for details",
+        "dateStart": "2021-06-05T00:00:00",
+        "dateEnd": "2021-06-05T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "NLUTUTM4",
+        "name": "League Meet Utrecht #4  REMOTE",
+        "typeName": "League Meet",
+        "venue": "Please see website for details ",
+        "dateStart": "2021-04-17T00:00:00",
+        "dateEnd": "2021-04-17T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "NLVEOS1",
+        "name": "Netherlands Sondervick College Scrimmage",
+        "typeName": "Off-Season",
+        "venue": "Sondervick College",
+        "dateStart": "2021-09-09T00:00:00",
+        "dateEnd": "2021-09-09T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "NLZHDHM1",
+        "name": "League Meet Den Hague #1 REMOTE",
+        "typeName": "League Meet",
+        "venue": "Remote Event",
+        "dateStart": "2021-03-20T00:00:00",
+        "dateEnd": "2021-03-20T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROABBUQT1",
+        "name": "RO FTC Bucharest Qualifying Tournament #1 REMOTE",
+        "typeName": "Qualifier",
+        "venue": "Remote Event",
+        "dateStart": "2021-04-13T00:00:00",
+        "dateEnd": "2021-04-19T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROABBUQT2",
+        "name": "RO FTC CLUJ Qualifying Tournament #2 REMOTE",
+        "typeName": "Qualifier",
+        "venue": "Remote Event",
+        "dateStart": "2021-05-11T00:00:00",
+        "dateEnd": "2021-05-17T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROABBUQT3",
+        "name": "RO FTC IASI  Qualifying Tournament #3 REMOTE",
+        "typeName": "Qualifier",
+        "venue": "Remote Event",
+        "dateStart": "2021-05-25T00:00:00",
+        "dateEnd": "2021-05-31T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROABBUQT4",
+        "name": "RO FTC TIMISOARA Qualifying Tournament #4 REMOTE",
+        "typeName": "Qualifier",
+        "venue": "Remote Event",
+        "dateStart": "2021-06-08T00:00:00",
+        "dateEnd": "2021-06-14T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROABBUS1",
+        "name": "RO FTC Quantum Robotics Demo Scrimmage REMOTE",
+        "typeName": "Scrimmage",
+        "venue": "Remote Event",
+        "dateStart": "2021-02-02T00:00:00",
+        "dateEnd": "2021-02-05T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROABHUS1",
+        "name": "RO FTC Hunedoara Demo Scrimmage REMOTE",
+        "typeName": "Scrimmage",
+        "venue": "Remote Event",
+        "dateStart": "2021-04-06T00:00:00",
+        "dateEnd": "2021-04-08T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROABRVS1",
+        "name": "RO FTC Bionic Royals DEMO Scrimmage REMOTE",
+        "typeName": "Scrimmage",
+        "venue": "Remote Event",
+        "dateStart": "2021-02-13T00:00:00",
+        "dateEnd": "2021-02-14T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROABTUS1",
+        "name": "RO FTC DEMOPUNK III Scrimmage REMOTE",
+        "typeName": "Scrimmage",
+        "venue": "Remote Event",
+        "dateStart": "2021-02-14T00:00:00",
+        "dateEnd": "2021-02-20T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROALALS1",
+        "name": "RO FTC TXS-The Xeo Scrimmage REMOTE",
+        "typeName": "Scrimmage",
+        "venue": "Remote Event",
+        "dateStart": "2021-05-06T00:00:00",
+        "dateEnd": "2021-05-08T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROALBLS1",
+        "name": "RO FTC RUBIX DEMO 3.0 Scrimmage REMOTE",
+        "typeName": "Scrimmage",
+        "venue": "Remote Event Hosted by NATIONAL COLLEGE \"INOCHENTIE MICU CLAIN\"",
+        "dateStart": "2021-04-17T00:00:00",
+        "dateEnd": "2021-04-18T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROARARS1",
+        "name": "RO FTC Infinity Bolts' Demo Scrimmage REMOTE",
+        "typeName": "Scrimmage",
+        "venue": "Remote Event",
+        "dateStart": "2021-04-15T00:00:00",
+        "dateEnd": "2021-04-17T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROARPIS1",
+        "name": "RO FTC TehnoZ & TehnoZ Jr Demo Scrimmage REMOTE",
+        "typeName": "Scrimmage",
+        "venue": "Remote Event",
+        "dateStart": "2021-04-06T00:00:00",
+        "dateEnd": "2021-04-07T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROAVDLA",
+        "name": "Romania Dean's List Interview Only Event",
+        "typeName": "Other",
+        "venue": "N/A",
+        "dateStart": "2021-04-20T00:00:00",
+        "dateEnd": "2021-04-29T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROBNBES1",
+        "name": "RO FTC DEMO ESENTZA REMOTE",
+        "typeName": "Scrimmage",
+        "venue": "Remote event / National College Petru Rares,Beclean",
+        "dateStart": "2021-04-14T00:00:00",
+        "dateEnd": "2021-04-17T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROBUBUS1",
+        "name": "RO FTC Demo IGNITE. & QUBE Scrimmage REMOTE",
+        "typeName": "Scrimmage",
+        "venue": "Remote Event",
+        "dateStart": "2021-03-18T00:00:00",
+        "dateEnd": "2021-03-21T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROBUFOS1",
+        "name": "RO FTC InfinityEdge DEMO Scrimmage REMOTE ",
+        "typeName": "Scrimmage",
+        "venue": "Remote Event",
+        "dateStart": "2021-05-14T00:00:00",
+        "dateEnd": "2021-05-16T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROBUJPS1",
+        "name": "RO FTC Judging Practice Scrimmage #1  REMOTE",
+        "typeName": "Scrimmage",
+        "venue": "Remote event ",
+        "dateStart": "2021-03-11T00:00:00",
+        "dateEnd": "2021-03-17T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROBUJUS2",
+        "name": "RO FTC Judging Practice Scrimmage #2  REMOTE",
+        "typeName": "Scrimmage",
+        "venue": "Remote event ",
+        "dateStart": "2021-03-18T00:00:00",
+        "dateEnd": "2021-03-24T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROBUJUS3",
+        "name": "RO FTC Judging Practice Scrimmage #3  REMOTE",
+        "typeName": "Scrimmage",
+        "venue": "Remote event ",
+        "dateStart": "2021-03-25T00:00:00",
+        "dateEnd": "2021-03-30T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROBUOS1",
+        "name": "RO FTC NATIONAL CHAMPIONSHIP HYBRID",
+        "typeName": "Off-Season",
+        "venue": "Sala Polivalenta, Bucharest",
+        "dateStart": "2021-08-27T00:00:00",
+        "dateEnd": "2021-08-29T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROBUOS2",
+        "name": "RO FTC Quantum Robotics Traditional DEMO 2021",
+        "typeName": "Off-Season",
+        "venue": "International Informatics School of Bucharest",
+        "dateStart": "2021-08-13T00:00:00",
+        "dateEnd": "2021-08-13T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROBURSS1",
+        "name": "RO FTC DEMO ROBO SAPIENS Scrimmage REMOTE",
+        "typeName": "Scrimmage",
+        "venue": "Remote event hosted on Discord",
+        "dateStart": "2021-03-27T00:00:00",
+        "dateEnd": "2021-03-28T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROCLGHS1",
+        "name": "RO FTC DDOS.SHOWDOWN REMOTE",
+        "typeName": "Scrimmage",
+        "venue": "Remote Event",
+        "dateStart": "2021-04-19T00:00:00",
+        "dateEnd": "2021-04-20T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROFOVRS1",
+        "name": "RO FTC Demo Brickbot REMOTE",
+        "typeName": "Scrimmage",
+        "venue": "Remote Event",
+        "dateStart": "2021-05-07T00:00:00",
+        "dateEnd": "2021-05-09T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROGATES1",
+        "name": "RO FTC DEMO Thobor Scrimmage  REMOTE",
+        "typeName": "Scrimmage",
+        "venue": "Remote Event",
+        "dateStart": "2021-03-29T00:00:00",
+        "dateEnd": "2021-03-30T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROLUOS2",
+        "name": "RO FTC Robotics Valley at Lunafest",
+        "typeName": "Off-Season",
+        "venue": "Parcul Copiilor B\u0103rb\u0103teni",
+        "dateStart": "2021-08-20T00:00:00",
+        "dateEnd": "2021-08-20T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROPLPLS1",
+        "name": "RO FTC InfO Robotics Demo Scrimmage #1 REMOTE",
+        "typeName": "Scrimmage",
+        "venue": "Remote Event",
+        "dateStart": "2021-04-03T00:00:00",
+        "dateEnd": "2021-04-04T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROPRPLS1",
+        "name": "RO FTC RoD2's Demo: Interstellar Battle Scrimmage REMOTE ",
+        "typeName": "Scrimmage",
+        "venue": "Remote Event",
+        "dateStart": "2021-04-10T00:00:00",
+        "dateEnd": "2021-04-11T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROPRPLS2",
+        "name": "RO FTC InfO Robotics Demo Scrimmage #2 REMOTE",
+        "typeName": "Scrimmage",
+        "venue": "Remote Event",
+        "dateStart": "2021-05-08T00:00:00",
+        "dateEnd": "2021-05-09T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROSISIS1",
+        "name": "RO FTC Maniacs Demo Scrimmage REMOTE",
+        "typeName": "Scrimmage",
+        "venue": "Remote Event",
+        "dateStart": "2021-03-13T00:00:00",
+        "dateEnd": "2021-03-14T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROSISIS2",
+        "name": "RO FTC Maniacs Scrimmage v2.0 REMOTE",
+        "typeName": "Scrimmage",
+        "venue": "Remote Event",
+        "dateStart": "2021-05-21T00:00:00",
+        "dateEnd": "2021-05-23T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROVAHUS1",
+        "name": "RO FTC QUASAR ROBOTICS DEMO REMOTE",
+        "typeName": "Scrimmage",
+        "venue": "Remote Event",
+        "dateStart": "2021-04-28T00:00:00",
+        "dateEnd": "2021-04-29T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RUNNNICT1",
+        "name": "RU FTC Russia National Championship",
+        "typeName": "Championship",
+        "venue": "Nizhegorodskaya Yarmarka",
+        "dateStart": "2021-04-23T00:00:00",
+        "dateEnd": "2021-04-25T00:00:00",
+        "regionCode": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RUSIKRLT1",
+        "name": "RU FTC Siberia League Tournament REMOTE ",
+        "typeName": "League Tournament",
+        "venue": "Remote Event ",
+        "dateStart": "2021-02-15T00:00:00",
+        "dateEnd": "2021-02-21T00:00:00",
+        "regionCode": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RUSIKRM1",
+        "name": "RU FTC Siberia League Meet #1 REMOTE  ",
+        "typeName": "League Meet",
+        "venue": "Remote Event ",
+        "dateStart": "2020-12-21T00:00:00",
+        "dateEnd": "2020-12-27T00:00:00",
+        "regionCode": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RUSIKRM2",
+        "name": "RU FTC Siberia League Meet #2 REMOTE",
+        "typeName": "League Meet",
+        "venue": "Remote Event ",
+        "dateStart": "2021-01-25T00:00:00",
+        "dateEnd": "2021-01-31T00:00:00",
+        "regionCode": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RUSIKRQT1",
+        "name": "RU FTC Siberia Qualifier",
+        "typeName": "Qualifier",
+        "venue": "Middle School 143",
+        "dateStart": "2021-03-07T00:00:00",
+        "dateEnd": "2021-03-07T00:00:00",
+        "regionCode": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RUSPDLA",
+        "name": "Russia Dean's List Interview Only Event",
+        "typeName": "Other",
+        "venue": "N/A",
+        "dateStart": "2021-02-01T00:00:00",
+        "dateEnd": "2021-02-01T00:00:00",
+        "regionCode": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RUSTLT1",
+        "name": "RU FTC St. Petersburg League Tournament #1",
+        "typeName": "League Tournament",
+        "venue": "High School #244",
+        "dateStart": "2021-01-23T00:00:00",
+        "dateEnd": "2021-01-24T00:00:00",
+        "regionCode": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RUSTM1",
+        "name": "RU FTC St. Petersburg Meet #1",
+        "typeName": "League Meet",
+        "venue": "Governor Physics and Math Lyceum #30",
+        "dateStart": "2020-10-18T00:00:00",
+        "dateEnd": "2020-10-18T00:00:00",
+        "regionCode": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RUSTM2",
+        "name": "RU FTC St. Petersburg Meet #2",
+        "typeName": "League Meet",
+        "venue": "High School #244",
+        "dateStart": "2020-11-15T00:00:00",
+        "dateEnd": "2020-11-15T00:00:00",
+        "regionCode": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RUSTM3",
+        "name": "RU FTC St. Petersburg Meet #3",
+        "typeName": "League Meet",
+        "venue": "Governor Physics and Math Lyceum #30",
+        "dateStart": "2020-12-13T00:00:00",
+        "dateEnd": "2020-12-13T00:00:00",
+        "regionCode": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RUSTQT1",
+        "name": "RU FTC St. Petersburg Qualifier",
+        "typeName": "Qualifier",
+        "venue": "Peter the Great St. Petersburg Polytechnic University",
+        "dateStart": "2021-02-27T00:00:00",
+        "dateEnd": "2021-02-28T00:00:00",
+        "regionCode": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RUSTQT2",
+        "name": "RU FTC Russia Qualifier REMOTE",
+        "typeName": "Qualifier",
+        "venue": "Remote Event",
+        "dateStart": "2021-03-08T00:00:00",
+        "dateEnd": "2021-03-15T00:00:00",
+        "regionCode": "RU"
+      }
+    }
+  ]
+}

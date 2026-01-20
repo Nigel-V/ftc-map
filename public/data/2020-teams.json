@@ -1,0 +1,4612 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3215,
+          52.092
+        ]
+      },
+      "properties": {
+        "number": 3954,
+        "name": "Pink to the Future",
+        "org": "Maerlant-Lyceum",
+        "rookieYear": 2009,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0798,
+          44.4579
+        ]
+      },
+      "properties": {
+        "number": 5843,
+        "name": "AutoVortex",
+        "org": "Colegiul National de Informatica \"Tudor Vianu\"",
+        "rookieYear": 2011,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.3162,
+          59.9387
+        ]
+      },
+      "properties": {
+        "number": 9746,
+        "name": "PML30 North Wind",
+        "org": "Starline & St. Petersburg Governor Physics and Mathematics Lyceum #30",
+        "rookieYear": 2014,
+        "homeRegion": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1838,
+          48.7815
+        ]
+      },
+      "properties": {
+        "number": 10183,
+        "name": "F.R.O.G  Frog Robots Of Germany",
+        "org": "Koenigin-Katharina-Stift",
+        "rookieYear": 2015,
+        "homeRegion": "DE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1967,
+          48.8406
+        ]
+      },
+      "properties": {
+        "number": 10854,
+        "name": "ASP Rebels",
+        "org": "American School of Paris",
+        "rookieYear": 2015,
+        "homeRegion": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1773,
+          44.4903
+        ]
+      },
+      "properties": {
+        "number": 10879,
+        "name": "AutoVortex Lady Division",
+        "org": "Romanian Association of Economic Studies",
+        "rookieYear": 2015,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1773,
+          44.4903
+        ]
+      },
+      "properties": {
+        "number": 10884,
+        "name": "AutoVortex Gentlemen Division",
+        "org": "Romanian Association of Economic Studies",
+        "rookieYear": 2015,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0988,
+          44.4578
+        ]
+      },
+      "properties": {
+        "number": 10886,
+        "name": "AutoVortex Tudor Vianu Apocalypse",
+        "org": "Tudor Vianu Informatics College",
+        "rookieYear": 2015,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.776,
+          51.5888
+        ]
+      },
+      "properties": {
+        "number": 10918,
+        "name": "SPACE",
+        "org": "Newmancollege",
+        "rookieYear": 2015,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0822,
+          44.4466
+        ]
+      },
+      "properties": {
+        "number": 11022,
+        "name": "AutoVortex National",
+        "org": "Liceul Teoretic National",
+        "rookieYear": 2015,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4157,
+          50.0864
+        ]
+      },
+      "properties": {
+        "number": 11041,
+        "name": "FalconTech",
+        "org": "International School of Prague",
+        "rookieYear": 2015,
+        "homeRegion": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.3328,
+          59.9625
+        ]
+      },
+      "properties": {
+        "number": 11044,
+        "name": "PML30 White Nights",
+        "org": "St. Petersburg Governor Physics and Mathematics Lyceum #30",
+        "rookieYear": 2015,
+        "homeRegion": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0798,
+          44.4579
+        ]
+      },
+      "properties": {
+        "number": 11058,
+        "name": "AutoVortex Transilvania",
+        "org": "Colegiul National de Informatica \"Tudor Vianu\"",
+        "rookieYear": 2015,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1838,
+          48.7815
+        ]
+      },
+      "properties": {
+        "number": 12463,
+        "name": "RoboCats",
+        "org": "K\u00f6nigin-Katharina-Stift",
+        "rookieYear": 2016,
+        "homeRegion": "DE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5404,
+          51.6268
+        ]
+      },
+      "properties": {
+        "number": 12475,
+        "name": "Beyond Reach",
+        "org": "Zwijsen College",
+        "rookieYear": 2016,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.3968,
+          59.7175
+        ]
+      },
+      "properties": {
+        "number": 12524,
+        "name": "Sputnik Original",
+        "org": "GBOU Lyceum #244",
+        "rookieYear": 2016,
+        "homeRegion": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.3037,
+          59.9415
+        ]
+      },
+      "properties": {
+        "number": 12529,
+        "name": "KTM",
+        "org": " The Peter the Great St.Petersburg Polytechnic University, \"Engineers of the future Russia\"",
+        "rookieYear": 2016,
+        "homeRegion": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7991,
+          44.3174
+        ]
+      },
+      "properties": {
+        "number": 12560,
+        "name": "Soft Hoarders",
+        "org": "\"Fra\u0163ii Buze\u015fti\" National Collage ",
+        "rookieYear": 2016,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5404,
+          51.6268
+        ]
+      },
+      "properties": {
+        "number": 12819,
+        "name": "The Third Half",
+        "org": "Zwijsen College",
+        "rookieYear": 2017,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.3426,
+          59.9011
+        ]
+      },
+      "properties": {
+        "number": 14103,
+        "name": "Sputnik S.O.S. (Sound of Science)",
+        "org": "GBOU Liceum 244",
+        "rookieYear": 2017,
+        "homeRegion": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4377,
+          52.4838
+        ]
+      },
+      "properties": {
+        "number": 14144,
+        "name": "thE progrAmming alliGators",
+        "org": "Ernst-Abbe-Gymnasium",
+        "rookieYear": 2017,
+        "homeRegion": "DE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4446,
+          51.4739
+        ]
+      },
+      "properties": {
+        "number": 14183,
+        "name": "Dukes of Brabant",
+        "org": "Summa College",
+        "rookieYear": 2017,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0798,
+          44.4579
+        ]
+      },
+      "properties": {
+        "number": 14249,
+        "name": "AutoVortex FAN COURIER",
+        "org": "Colegiul National de Informatica \"Tudor Vianu\"",
+        "rookieYear": 2017,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.2108,
+          44.4087
+        ]
+      },
+      "properties": {
+        "number": 14270,
+        "name": "Quantum Robotics",
+        "org": "International Computer High School of Bucharest",
+        "rookieYear": 2017,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1243,
+          44.439
+        ]
+      },
+      "properties": {
+        "number": 14277,
+        "name": "QUBE.",
+        "org": "'Mihai Viteazul' National College Bucharest",
+        "rookieYear": 2017,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.5635,
+          46.0665
+        ]
+      },
+      "properties": {
+        "number": 14278,
+        "name": "Xeo",
+        "org": "National Highschool \"Horea, Closca si Crisan\" Alba Iulia",
+        "rookieYear": 2017,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6669,
+          51.4918
+        ]
+      },
+      "properties": {
+        "number": 14381,
+        "name": "Dutch Warriors",
+        "org": "Dr.-Knippenbergcollege",
+        "rookieYear": 2018,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.5587,
+          50.4909
+        ]
+      },
+      "properties": {
+        "number": 14438,
+        "name": "Noosphere Robotics",
+        "org": "Family/Community",
+        "rookieYear": 2018,
+        "homeRegion": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1766,
+          47.1768
+        ]
+      },
+      "properties": {
+        "number": 15965,
+        "name": "Esentza Robotics",
+        "org": "Colegiul Na\u0163ional Petru Rares ",
+        "rookieYear": 2018,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1766,
+          47.1768
+        ]
+      },
+      "properties": {
+        "number": 15966,
+        "name": "Esentza Revolution",
+        "org": "Colegiul Na\u0163ional Petru Rares",
+        "rookieYear": 2018,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8737,
+          44.8533
+        ]
+      },
+      "properties": {
+        "number": 15972,
+        "name": "TehnoZ",
+        "org": "Zinca Golescu",
+        "rookieYear": 2018,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9013,
+          45.8647
+        ]
+      },
+      "properties": {
+        "number": 15975,
+        "name": "ROBOTX HUNEDOARA",
+        "org": "Liceul Teoretic \"Traian Lalescu\"",
+        "rookieYear": 2018,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7929,
+          44.3201
+        ]
+      },
+      "properties": {
+        "number": 15986,
+        "name": "RaSky",
+        "org": "Colegiul National \"Elena Cuza\"",
+        "rookieYear": 2018,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0909,
+          44.4413
+        ]
+      },
+      "properties": {
+        "number": 15989,
+        "name": "RoboTitans",
+        "org": "Colegiul National \"Sf. Sava\"",
+        "rookieYear": 2018,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0909,
+          44.4413
+        ]
+      },
+      "properties": {
+        "number": 15991,
+        "name": "Gamma",
+        "org": "Colegiul National \"Sf. Sava\"",
+        "rookieYear": 2018,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0265,
+          44.945
+        ]
+      },
+      "properties": {
+        "number": 15993,
+        "name": "infO(1)Robotics",
+        "org": "National College \"Ion Luca Caragiale\" Ploie\u0219ti",
+        "rookieYear": 2018,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1914,
+          45.6979
+        ]
+      },
+      "properties": {
+        "number": 15996,
+        "name": "BrickBot",
+        "org": "Colegiul National Unirea",
+        "rookieYear": 2018,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1497,
+          45.7973
+        ]
+      },
+      "properties": {
+        "number": 16000,
+        "name": "Gear Maniacs",
+        "org": "Colegiul National Samuel von Brukenthal",
+        "rookieYear": 2018,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0408,
+          45.2643
+        ]
+      },
+      "properties": {
+        "number": 16166,
+        "name": "Watt'S Up",
+        "org": "Colegiul National \"Dinicu Golescu\"",
+        "rookieYear": 2018,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.752,
+          47.3874
+        ]
+      },
+      "properties": {
+        "number": 16360,
+        "name": "Highland-Lynxes",
+        "org": "Family/Community",
+        "rookieYear": 2019,
+        "homeRegion": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.461,
+          51.5646
+        ]
+      },
+      "properties": {
+        "number": 16371,
+        "name": "Neobots FTCunits",
+        "org": "Stichting Neobots",
+        "rookieYear": 2019,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5085,
+          51.4479
+        ]
+      },
+      "properties": {
+        "number": 16382,
+        "name": "Casimir Tech",
+        "org": "Lorentz Casimir Lyceum",
+        "rookieYear": 2019,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4473,
+          51.4773
+        ]
+      },
+      "properties": {
+        "number": 16383,
+        "name": "Frits Philips Robotics team",
+        "org": "Frits Philips lyceum-mavo",
+        "rookieYear": 2019,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1526,
+          44.4204
+        ]
+      },
+      "properties": {
+        "number": 16392,
+        "name": "Kronos Robotics",
+        "org": "Alexandru Ioan Cuza Highschool",
+        "rookieYear": 2019,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.776,
+          51.5888
+        ]
+      },
+      "properties": {
+        "number": 16409,
+        "name": "Team Orange",
+        "org": "Newmancollege",
+        "rookieYear": 2019,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.776,
+          51.5888
+        ]
+      },
+      "properties": {
+        "number": 16410,
+        "name": "GentleBotz",
+        "org": "Newmancollege",
+        "rookieYear": 2019,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.405,
+          53.2481
+        ]
+      },
+      "properties": {
+        "number": 16441,
+        "name": "Pretty Smart Robotics",
+        "org": "Family/Community",
+        "rookieYear": 2019,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1838,
+          48.7815
+        ]
+      },
+      "properties": {
+        "number": 16476,
+        "name": "RoyalCats",
+        "org": "K\u00f6nigin-Katharina-Stift",
+        "rookieYear": 2019,
+        "homeRegion": "DE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6107,
+          51.6579
+        ]
+      },
+      "properties": {
+        "number": 16530,
+        "name": "Cadmes Creators",
+        "org": "Family/Community",
+        "rookieYear": 2019,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.3162,
+          59.9387
+        ]
+      },
+      "properties": {
+        "number": 16772,
+        "name": "Sputnik Elementary",
+        "org": "School #244",
+        "rookieYear": 2019,
+        "homeRegion": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2318,
+          51.372
+        ]
+      },
+      "properties": {
+        "number": 16785,
+        "name": "Team ProBotiX",
+        "org": "Pius X College",
+        "rookieYear": 2019,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.383,
+          51.4041
+        ]
+      },
+      "properties": {
+        "number": 16788,
+        "name": "The Encrypted Gentlemen",
+        "org": "Sondervick College",
+        "rookieYear": 2019,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2024,
+          52.0878
+        ]
+      },
+      "properties": {
+        "number": 16850,
+        "name": "Breul-1",
+        "org": "KSG de Breul",
+        "rookieYear": 2019,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3215,
+          52.092
+        ]
+      },
+      "properties": {
+        "number": 16851,
+        "name": "Pink Potential",
+        "org": "Maerlant-Lyceum",
+        "rookieYear": 2019,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.5169,
+          50.4476
+        ]
+      },
+      "properties": {
+        "number": 16877,
+        "name": "KyivDynamics",
+        "org": "Specialized school #3",
+        "rookieYear": 2019,
+        "homeRegion": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2362,
+          52.3751
+        ]
+      },
+      "properties": {
+        "number": 16949,
+        "name": "Skyline",
+        "org": "Helen Parkhurst",
+        "rookieYear": 2019,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.334,
+          59.9551
+        ]
+      },
+      "properties": {
+        "number": 16950,
+        "name": "Phantom",
+        "org": "GBOU School 223",
+        "rookieYear": 2019,
+        "homeRegion": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5021,
+          51.4388
+        ]
+      },
+      "properties": {
+        "number": 16951,
+        "name": "Team Rembrandts",
+        "org": "Team Rembrandts",
+        "rookieYear": 2019,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1363,
+          52.0825
+        ]
+      },
+      "properties": {
+        "number": 16977,
+        "name": "Roboni Clan",
+        "org": "St. Bonifatiuscollege",
+        "rookieYear": 2019,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1363,
+          52.0825
+        ]
+      },
+      "properties": {
+        "number": 16978,
+        "name": "Roboni Amadeus",
+        "org": "St. Bonifatiuscollege",
+        "rookieYear": 2019,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1367,
+          52.1113
+        ]
+      },
+      "properties": {
+        "number": 17021,
+        "name": "Bot the Builder",
+        "org": "Gerrit Rietveld College",
+        "rookieYear": 2019,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8607,
+          52.2895
+        ]
+      },
+      "properties": {
+        "number": 17046,
+        "name": "Cybears 1",
+        "org": "International School of Amsterdam",
+        "rookieYear": 2019,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1773,
+          44.4903
+        ]
+      },
+      "properties": {
+        "number": 17049,
+        "name": "AutoVortex Voluntari",
+        "org": "Family/Community",
+        "rookieYear": 2019,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1773,
+          44.4903
+        ]
+      },
+      "properties": {
+        "number": 17053,
+        "name": "AutoVortex America",
+        "org": "Family/Community",
+        "rookieYear": 2019,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1773,
+          44.4903
+        ]
+      },
+      "properties": {
+        "number": 17054,
+        "name": "AutoVortex Afrika",
+        "org": "Family/Community",
+        "rookieYear": 2019,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7157,
+          50.0079
+        ]
+      },
+      "properties": {
+        "number": 17089,
+        "name": "Powered by Redstone",
+        "org": "Inogami s.r.o./Open Gate \u2013 gymn\u00e1zium a z\u00e1kladn\u00ed \u0161kola, s.r.o. &Open Gate School",
+        "rookieYear": 2019,
+        "homeRegion": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4786,
+          51.4393
+        ]
+      },
+      "properties": {
+        "number": 17134,
+        "name": "Zappp",
+        "org": "Tech Playgrounds - Dynamo Youthworks",
+        "rookieYear": 2019,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1363,
+          52.0825
+        ]
+      },
+      "properties": {
+        "number": 17227,
+        "name": "Roboni Ultimate",
+        "org": "St. Bonifatiuscollege",
+        "rookieYear": 2019,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1169,
+          44.3655
+        ]
+      },
+      "properties": {
+        "number": 17243,
+        "name": "Vianu Legends",
+        "org": "Family/Community",
+        "rookieYear": 2019,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4533,
+          52.2463
+        ]
+      },
+      "properties": {
+        "number": 17258,
+        "name": "Northgo Team",
+        "org": "Northgo Colege",
+        "rookieYear": 2019,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8648,
+          52.206
+        ]
+      },
+      "properties": {
+        "number": 17259,
+        "name": "RoboVLC",
+        "org": "Veenlandencollege",
+        "rookieYear": 2019,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.9073,
+          55.9957
+        ]
+      },
+      "properties": {
+        "number": 17420,
+        "name": "Pobeda",
+        "org": "Middle School # 143",
+        "rookieYear": 2019,
+        "homeRegion": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.334,
+          59.9551
+        ]
+      },
+      "properties": {
+        "number": 17438,
+        "name": "U.S.S.R. (Union of Super Smart Robots)",
+        "org": "PUBLIC SCHOOL \u2116263",
+        "rookieYear": 2019,
+        "homeRegion": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.5893,
+          56.1136
+        ]
+      },
+      "properties": {
+        "number": 17502,
+        "name": "Stardust Crusader",
+        "org": "Municipal budgetary institution of continuing education  \"Education Center\" Perspective \"",
+        "rookieYear": 2019,
+        "homeRegion": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.9972,
+          68.9383
+        ]
+      },
+      "properties": {
+        "number": 17504,
+        "name": "DESTINY",
+        "org": "Secondary school #149",
+        "rookieYear": 2019,
+        "homeRegion": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.3162,
+          59.9387
+        ]
+      },
+      "properties": {
+        "number": 17517,
+        "name": "WoEN: Workshop of Eternal Nonsense",
+        "org": "\u0413\u0411\u041e\u0423 \u041f\u0440\u0435\u0437\u0438\u0434\u0435\u043d\u0442\u0441\u043a\u0438\u0439 \u0424\u041c\u041b\u2116239 ",
+        "rookieYear": 2019,
+        "homeRegion": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5694,
+          47.1733
+        ]
+      },
+      "properties": {
+        "number": 17532,
+        "name": "FUSE",
+        "org": "Colegiul National \"Costache Negruzzi\" Iasi",
+        "rookieYear": 2019,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.38,
+          52.1592
+        ]
+      },
+      "properties": {
+        "number": 17579,
+        "name": "HU-Talent Bots",
+        "org": "Hogeschool Utrecht",
+        "rookieYear": 2019,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6335,
+          56.1517
+        ]
+      },
+      "properties": {
+        "number": 17589,
+        "name": "INFESLA Jr.",
+        "org": "Lyceum 1, Bratsk",
+        "rookieYear": 2019,
+        "homeRegion": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.8819,
+          56.2797
+        ]
+      },
+      "properties": {
+        "number": 17590,
+        "name": "INFESLA",
+        "org": "Lyceum 1",
+        "rookieYear": 2019,
+        "homeRegion": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.131,
+          51.6425
+        ]
+      },
+      "properties": {
+        "number": 17611,
+        "name": "Birdmachine",
+        "org": "d'Oultremontcollege.nl",
+        "rookieYear": 2019,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1243,
+          44.439
+        ]
+      },
+      "properties": {
+        "number": 17624,
+        "name": "IGNITE.",
+        "org": "Colegiul National \"Mihai Viteazul\"",
+        "rookieYear": 2019,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5807,
+          52.1493
+        ]
+      },
+      "properties": {
+        "number": 17629,
+        "name": "Q-Bots",
+        "org": "Johannes Fontanus College",
+        "rookieYear": 2019,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.5294,
+          51.8519
+        ]
+      },
+      "properties": {
+        "number": 17651,
+        "name": "The Probots",
+        "org": "Dalton Lyceum Barendrecht",
+        "rookieYear": 2019,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0518,
+          51.6832
+        ]
+      },
+      "properties": {
+        "number": 17652,
+        "name": "Delta",
+        "org": "Willem van Oranje College",
+        "rookieYear": 2019,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3293,
+          46.1824
+        ]
+      },
+      "properties": {
+        "number": 17713,
+        "name": "Delta Force",
+        "org": "Liceul Na\u021bional de Informatic\u0103 Arad",
+        "rookieYear": 2019,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.0974,
+          53.1976
+        ]
+      },
+      "properties": {
+        "number": 17791,
+        "name": "Noname510",
+        "org": "LAP \u2116135 g.o. Samara",
+        "rookieYear": 2019,
+        "homeRegion": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3568,
+          51.4256
+        ]
+      },
+      "properties": {
+        "number": 17821,
+        "name": "UK Team 1",
+        "org": "FIRST UK",
+        "rookieYear": 2019,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3568,
+          51.4256
+        ]
+      },
+      "properties": {
+        "number": 17823,
+        "name": "UK Team 2",
+        "org": "FIRST UK",
+        "rookieYear": 2019,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3568,
+          51.4256
+        ]
+      },
+      "properties": {
+        "number": 17825,
+        "name": "UK Team 5",
+        "org": "FIRST UK",
+        "rookieYear": 2019,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3568,
+          51.4256
+        ]
+      },
+      "properties": {
+        "number": 17826,
+        "name": "UK Team 3",
+        "org": "FIRST UK",
+        "rookieYear": 2019,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3568,
+          51.4256
+        ]
+      },
+      "properties": {
+        "number": 17832,
+        "name": "UK Team 4",
+        "org": "FIRST UK",
+        "rookieYear": 2019,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.9277,
+          46.1778
+        ]
+      },
+      "properties": {
+        "number": 17844,
+        "name": "RUBIX",
+        "org": "COLEGIUL NATIONAL \"INOCHENTIE MICU CLAIN\"",
+        "rookieYear": 2019,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1169,
+          44.3655
+        ]
+      },
+      "properties": {
+        "number": 17855,
+        "name": "Vortex Breakers",
+        "org": "Family/Community",
+        "rookieYear": 2019,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1169,
+          44.3655
+        ]
+      },
+      "properties": {
+        "number": 17857,
+        "name": "Gentlemen",
+        "org": "Family/Community",
+        "rookieYear": 2019,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2356,
+          45.7541
+        ]
+      },
+      "properties": {
+        "number": 17861,
+        "name": "CSH",
+        "org": "Colegiul National Pedagogic \"Carmen Sylva\" Timisoara",
+        "rookieYear": 2019,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4275,
+          45.8465
+        ]
+      },
+      "properties": {
+        "number": 17871,
+        "name": "Thobor RO 068",
+        "org": "Colegiul National Calistrat Hogas",
+        "rookieYear": 2019,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.8785,
+          47.1415
+        ]
+      },
+      "properties": {
+        "number": 17873,
+        "name": "VECTRON",
+        "org": "National College \"Andrei Muresanu\" DEJ",
+        "rookieYear": 2019,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.351,
+          46.1658
+        ]
+      },
+      "properties": {
+        "number": 17875,
+        "name": "Code Warriors",
+        "org": "Liceul Teoretic \"Stephan Ludwig Roth\"",
+        "rookieYear": 2019,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.7945,
+          45.1604
+        ]
+      },
+      "properties": {
+        "number": 17881,
+        "name": "RiverWolves",
+        "org": "Grigore Moisil Highschool",
+        "rookieYear": 2019,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.2342,
+          44.9867
+        ]
+      },
+      "properties": {
+        "number": 17959,
+        "name": "CyberLions",
+        "org": "Liceul teoretic \u201cBrancoveanu Voda\u201d",
+        "rookieYear": 2019,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0255,
+          44.9366
+        ]
+      },
+      "properties": {
+        "number": 17962,
+        "name": "Ro2D2",
+        "org": "National College \u201dMIHAI VITEAZUL\u201d",
+        "rookieYear": 2019,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0902,
+          44.435
+        ]
+      },
+      "properties": {
+        "number": 17964,
+        "name": "TITANS",
+        "org": "Colegiul National \"GHEORGHE LAZAR\"",
+        "rookieYear": 2019,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4946,
+          47.1364
+        ]
+      },
+      "properties": {
+        "number": 17965,
+        "name": "BOLTS AND GEARS",
+        "org": "COLEGIUL NATIONAL LIVIU REBREANU",
+        "rookieYear": 2019,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.0588,
+          49.4447
+        ]
+      },
+      "properties": {
+        "number": 17976,
+        "name": "CORE ",
+        "org": "PHYMLY",
+        "rookieYear": 2019,
+        "homeRegion": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6742,
+          47.3682
+        ]
+      },
+      "properties": {
+        "number": 18026,
+        "name": "SGBOTS",
+        "org": "LICEUL TEORETIC SOLOMON HALITA",
+        "rookieYear": 2019,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8747,
+          44.8534
+        ]
+      },
+      "properties": {
+        "number": 18160,
+        "name": "4D-Robotics",
+        "org": "Colegiul Zinca Golescu & Family/Community",
+        "rookieYear": 2019,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1448,
+          44.5285
+        ]
+      },
+      "properties": {
+        "number": 18220,
+        "name": "Vampires - 0001",
+        "org": "American International School of Bucharest LLC \u2013 Filiala din Romania",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6124,
+          55.7597
+        ]
+      },
+      "properties": {
+        "number": 18226,
+        "name": "School763",
+        "org": "GBOU School \u2116763",
+        "rookieYear": 2020,
+        "homeRegion": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2677,
+          52.3582
+        ]
+      },
+      "properties": {
+        "number": 18243,
+        "name": "Dragons",
+        "org": "Family/Community",
+        "rookieYear": 2020,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.6345,
+          44.1849
+        ]
+      },
+      "properties": {
+        "number": 18276,
+        "name": "TechNoLogic RO 081",
+        "org": "Liceul Tehnologic de Electrotehnica si Telecomunicatii",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.7068,
+          56.206
+        ]
+      },
+      "properties": {
+        "number": 18330,
+        "name": "alfa",
+        "org": "kolledg",
+        "rookieYear": 2020,
+        "homeRegion": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.8751,
+          47.797
+        ]
+      },
+      "properties": {
+        "number": 18338,
+        "name": "StarTech-RO151",
+        "org": "Colegiul Na\u021bional \"Ioan Slavici\" Satu Mare",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5661,
+          53.2128
+        ]
+      },
+      "properties": {
+        "number": 18425,
+        "name": "Ubbo Tech Team",
+        "org": "Ubbo Emmius Scholengemeenschap",
+        "rookieYear": 2020,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1889,
+          52.7009
+        ]
+      },
+      "properties": {
+        "number": 18475,
+        "name": "Blinking Tech",
+        "org": "Greijdanus",
+        "rookieYear": 2020,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0526,
+          46.2992
+        ]
+      },
+      "properties": {
+        "number": 18521,
+        "name": "Beau_Soleil1",
+        "org": "College Alpine Beau Soleil",
+        "rookieYear": 2020,
+        "homeRegion": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3214,
+          52.09
+        ]
+      },
+      "properties": {
+        "number": 18601,
+        "name": "Codebusters",
+        "org": "Haags  Montessori lyceum",
+        "rookieYear": 2020,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.9657,
+          46.9218
+        ]
+      },
+      "properties": {
+        "number": 18632,
+        "name": "Ludylab",
+        "org": "Family/Community",
+        "rookieYear": 2020,
+        "homeRegion": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3865,
+          51.93
+        ]
+      },
+      "properties": {
+        "number": 18690,
+        "name": "Iactate Altius",
+        "org": "Stedelijk Gymnasium Schiedam",
+        "rookieYear": 2020,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3865,
+          51.93
+        ]
+      },
+      "properties": {
+        "number": 18700,
+        "name": "Iactate Altius",
+        "org": "Stedelijk Gymnasium Schiedam",
+        "rookieYear": 2020,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.3157,
+          59.958
+        ]
+      },
+      "properties": {
+        "number": 18709,
+        "name": "Fixies",
+        "org": "School 619",
+        "rookieYear": 2020,
+        "homeRegion": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3453,
+          52.0085
+        ]
+      },
+      "properties": {
+        "number": 18710,
+        "name": "STA1",
+        "org": "Stanislascollege Westplantsoen",
+        "rookieYear": 2020,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.6168,
+          28.0992
+        ]
+      },
+      "properties": {
+        "number": 18722,
+        "name": "AldeaTec",
+        "org": "Aldeatr\u00f3n Canarias",
+        "rookieYear": 2020,
+        "homeRegion": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1367,
+          52.1113
+        ]
+      },
+      "properties": {
+        "number": 18741,
+        "name": "Cooler Bot the Builder",
+        "org": "Gerrit Rietveldcollege",
+        "rookieYear": 2020,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.3162,
+          59.9387
+        ]
+      },
+      "properties": {
+        "number": 18742,
+        "name": "WoEN: Aperture In Reasons",
+        "org": "Physics and Mathematics Lyceum \u2116 239",
+        "rookieYear": 2020,
+        "homeRegion": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1216,
+          52.0907
+        ]
+      },
+      "properties": {
+        "number": 18778,
+        "name": "Amadeus 1",
+        "org": "Amadeuslyceum",
+        "rookieYear": 2020,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6212,
+          52.2892
+        ]
+      },
+      "properties": {
+        "number": 18779,
+        "name": "GROEVENBEEK1!",
+        "org": "Christelijk College Groevenbeek",
+        "rookieYear": 2020,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.3159,
+          28.4858
+        ]
+      },
+      "properties": {
+        "number": 18782,
+        "name": "Tech Cintegra  ",
+        "org": "Family/Community",
+        "rookieYear": 2020,
+        "homeRegion": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3453,
+          52.0085
+        ]
+      },
+      "properties": {
+        "number": 18859,
+        "name": "Stanislas Tech Team",
+        "org": "Stanislascollege Westplantsoen",
+        "rookieYear": 2020,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6335,
+          56.1517
+        ]
+      },
+      "properties": {
+        "number": 18864,
+        "name": "The Midnight Development Team",
+        "org": "Gymnasium No. 1 named after Inozemtsev",
+        "rookieYear": 2020,
+        "homeRegion": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1505,
+          52.5852
+        ]
+      },
+      "properties": {
+        "number": 18889,
+        "name": "UK 063 Team Snapwire",
+        "org": "Perton Middle School",
+        "rookieYear": 2020,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.1447,
+          55.908
+        ]
+      },
+      "properties": {
+        "number": 18899,
+        "name": "HighSkill",
+        "org": "\u0427\u0430\u0441\u0442\u043d\u043e\u0435 \u043e\u0431\u0449\u0435\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u0443\u0447\u0440\u0435\u0436\u0434\u0435\u043d\u0438\u0435 \u0448\u043a\u043e\u043b\u0430 \u00ab\u041b\u0435\u043a\u0441\u0438\u0441\u00bb",
+        "rookieYear": 2020,
+        "homeRegion": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.5893,
+          56.1136
+        ]
+      },
+      "properties": {
+        "number": 18903,
+        "name": "Adeptus Terra",
+        "org": " Municipal budgetary institution of additional education  \"Education Center\" Perspective \"",
+        "rookieYear": 2020,
+        "homeRegion": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.7447,
+          53.5206
+        ]
+      },
+      "properties": {
+        "number": 18910,
+        "name": "Evacuation plan",
+        "org": "MAEI \"KUG \u21161 - Univers\"",
+        "rookieYear": 2020,
+        "homeRegion": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.224,
+          50.0185
+        ]
+      },
+      "properties": {
+        "number": 18915,
+        "name": "Boiko School Tech",
+        "org": "Private Boiko School",
+        "rookieYear": 2020,
+        "homeRegion": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3252,
+          52.0372
+        ]
+      },
+      "properties": {
+        "number": 18916,
+        "name": "Cyber Team Doorn",
+        "org": "Revius Lyceum Doorn",
+        "rookieYear": 2020,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.114,
+          48.7885
+        ]
+      },
+      "properties": {
+        "number": 18917,
+        "name": "EAG",
+        "org": "Ernst-Abbe-Gymnasium",
+        "rookieYear": 2020,
+        "homeRegion": "DE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.1178,
+          55.8018
+        ]
+      },
+      "properties": {
+        "number": 18918,
+        "name": "Phantoms",
+        "org": "International School of Kazan",
+        "rookieYear": 2020,
+        "homeRegion": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3293,
+          52.0852
+        ]
+      },
+      "properties": {
+        "number": 18957,
+        "name": "Zandvliet FTC",
+        "org": "Christelijk Lyceum Zandvliet",
+        "rookieYear": 2020,
+        "homeRegion": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7399,
+          56.307
+        ]
+      },
+      "properties": {
+        "number": 18982,
+        "name": "EXP",
+        "org": "Lyceum \u21162",
+        "rookieYear": 2020,
+        "homeRegion": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5666,
+          47.1854
+        ]
+      },
+      "properties": {
+        "number": 19043,
+        "name": "CyLiis",
+        "org": "Liceul Teoretic de Informatica Grigore Moisil Iasi",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5666,
+          47.1854
+        ]
+      },
+      "properties": {
+        "number": 19044,
+        "name": "CyLiis Peppers",
+        "org": "Liceul Teoretic de Informatica Grigore Moisil Iasi",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9013,
+          45.8647
+        ]
+      },
+      "properties": {
+        "number": 19047,
+        "name": "RobotY_HD",
+        "org": "Liceul Teoretic Traian Lalescu",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5744,
+          46.5405
+        ]
+      },
+      "properties": {
+        "number": 19048,
+        "name": "ROBOPAPIU",
+        "org": "Colegiul National \"Alexandru Papiu Ilarian\" Targu-Mures",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.868,
+          44.8575
+        ]
+      },
+      "properties": {
+        "number": 19049,
+        "name": "HighFive Robotics",
+        "org": "\"Ion C. Bratianu\" National College",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.4067,
+          47.9403
+        ]
+      },
+      "properties": {
+        "number": 19051,
+        "name": "North East Dynamics",
+        "org": "Liceul Regina Maria Dorohoi",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.9042,
+          47.0268
+        ]
+      },
+      "properties": {
+        "number": 19052,
+        "name": "Trojan.EXE",
+        "org": "Liceul Teoretic \"Ana Ipatescu\"",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8257,
+          45.1485
+        ]
+      },
+      "properties": {
+        "number": 19053,
+        "name": "Homosapiens",
+        "org": "Colegiul Na\u021bional \u201eBogdan Petriceicu Hasdeu\u201d",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1243,
+          44.439
+        ]
+      },
+      "properties": {
+        "number": 19054,
+        "name": "NeuroBotix",
+        "org": "Colegiul National \"Mihai Viteazul\"",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0902,
+          44.435
+        ]
+      },
+      "properties": {
+        "number": 19055,
+        "name": "TITANS",
+        "org": "Colegiul National \"Gheorghe Lazar\"",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.5948,
+          46.7539
+        ]
+      },
+      "properties": {
+        "number": 19056,
+        "name": "PrimeTech",
+        "org": "Liceul de Informatic\u0103 \"Tiberiu Popoviciu\"",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.0776,
+          55.974
+        ]
+      },
+      "properties": {
+        "number": 19057,
+        "name": "Adrenaline",
+        "org": "\u041c\u0411\u041e\u0423 \u0421\u041e\u0428 \u211650",
+        "rookieYear": 2020,
+        "homeRegion": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9305,
+          47.0606
+        ]
+      },
+      "properties": {
+        "number": 19058,
+        "name": "RO061 MODUS VIVENDI",
+        "org": "Colegiul National \"Mihai Eminescu\" Oradea",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3765,
+          44.5641
+        ]
+      },
+      "properties": {
+        "number": 19059,
+        "name": "ArtRobotix",
+        "org": "Liceul de Arte \"Ionel Perlea\" Slobozia",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1914,
+          45.6979
+        ]
+      },
+      "properties": {
+        "number": 19060,
+        "name": "InfinityEdge",
+        "org": "Colegiul National Unirea",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0476,
+          45.3777
+        ]
+      },
+      "properties": {
+        "number": 19061,
+        "name": "Boogeybots",
+        "org": "COLEGIUL NATIONAL \"ALEXANDRU VLAHUTA\"",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4521,
+          44.9295
+        ]
+      },
+      "properties": {
+        "number": 19062,
+        "name": "Phantom Robotics",
+        "org": "Constantin Carabella National College",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4521,
+          44.9295
+        ]
+      },
+      "properties": {
+        "number": 19063,
+        "name": "UnderConstruction Targoviste",
+        "org": "Constantin Carabella National College",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.3712,
+          44.3869
+        ]
+      },
+      "properties": {
+        "number": 19064,
+        "name": "Dragonic Force",
+        "org": "Liceul Teoretic Nicolae Balcescu",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6649,
+          46.2264
+        ]
+      },
+      "properties": {
+        "number": 19065,
+        "name": "Inorog Team RO 152",
+        "org": "Colegiul National \"Gheorghe Rosca Codreanu\" Barlad",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.19,
+          45.7029
+        ]
+      },
+      "properties": {
+        "number": 19066,
+        "name": "AICitizensRO160",
+        "org": "Colegiul National \"Alexandru Ioan Cuza\"",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3621,
+          45.1087
+        ]
+      },
+      "properties": {
+        "number": 19067,
+        "name": "BIONIC ROYALS",
+        "org": "Colegiul National Mircea cel Batran",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.847,
+          46.389
+        ]
+      },
+      "properties": {
+        "number": 19068,
+        "name": "ABSO-TECH",
+        "org": "LICEUL TEORETIC PETRU MAIOR",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5838,
+          47.1616
+        ]
+      },
+      "properties": {
+        "number": 19070,
+        "name": "QUARTZ Robotics Romania",
+        "org": "Spiru Haret School of Arts and Crafts",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.9059,
+          46.5694
+        ]
+      },
+      "properties": {
+        "number": 19071,
+        "name": "Echo Pulse",
+        "org": "Colegiul National \"Ferdinand I\" ",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8747,
+          44.8534
+        ]
+      },
+      "properties": {
+        "number": 19072,
+        "name": "TehnoZ Junior",
+        "org": "Colegiul National \u201dZinca Golescu\u201d Pitesti",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.6601,
+          44.6237
+        ]
+      },
+      "properties": {
+        "number": 19073,
+        "name": "The Emperor RO124",
+        "org": "Colegiul National \"Traian\"",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.8746,
+          46.5439
+        ]
+      },
+      "properties": {
+        "number": 19074,
+        "name": "Extropy",
+        "org": "Liceul Teoretic \"Pavel Dan\"",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1052,
+          44.4144
+        ]
+      },
+      "properties": {
+        "number": 19075,
+        "name": "Clockworks",
+        "org": "Colegiul National Gheorghe Sincai",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.8303,
+          44.2963
+        ]
+      },
+      "properties": {
+        "number": 19076,
+        "name": "RoboticsTrav",
+        "org": "Liceul Traian Vuia Craiova",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.8145,
+          44.3208
+        ]
+      },
+      "properties": {
+        "number": 19077,
+        "name": "Robocadet",
+        "org": "COLEGIUL NATIONAL MILITAR \"TUDOR VLADIMIRESCU\" CRAIOVA",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1454,
+          45.7937
+        ]
+      },
+      "properties": {
+        "number": 19078,
+        "name": "Biytes",
+        "org": "Colegiul National Octavian Goga ",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.5885,
+          46.7662
+        ]
+      },
+      "properties": {
+        "number": 19079,
+        "name": "PHOENIX RO026",
+        "org": "Avram Iancu High School ",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.685,
+          46.7862
+        ]
+      },
+      "properties": {
+        "number": 19080,
+        "name": "Phoenix RO026",
+        "org": "Avram Iancu Highschool",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9347,
+          43.9968
+        ]
+      },
+      "properties": {
+        "number": 19081,
+        "name": "Bots' Brain",
+        "org": "Liceul Teoretic \"Independen\u021ba\"",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.584,
+          45.6383
+        ]
+      },
+      "properties": {
+        "number": 19082,
+        "name": "RoboAS",
+        "org": "Colegiul National \u201eAndrei Saguna\u201d Brasov",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.397,
+          47.9538
+        ]
+      },
+      "properties": {
+        "number": 19083,
+        "name": "North East Dynamics",
+        "org": "Home School",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0909,
+          44.4413
+        ]
+      },
+      "properties": {
+        "number": 19084,
+        "name": "S0vaTech",
+        "org": "''Grigore Moisil' National College",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.3643,
+          45.8406
+        ]
+      },
+      "properties": {
+        "number": 19085,
+        "name": "IDeaL Electronics",
+        "org": "Colegiul Tehnic Ion D Lazarescu",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.5691,
+          47.6579
+        ]
+      },
+      "properties": {
+        "number": 19086,
+        "name": "Robocorns RO004",
+        "org": "Colegiul Na\u021bional \"Vasile Lucaciu\" Baia Mare ",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.7216,
+          47.2559
+        ]
+      },
+      "properties": {
+        "number": 19087,
+        "name": "RO154",
+        "org": "Miron Costin High School",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3643,
+          45.1084
+        ]
+      },
+      "properties": {
+        "number": 19088,
+        "name": "BROBOTS",
+        "org": "COLEGIUL NATIONAL \"ALEXANDRU LAHOVARI\"",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3596,
+          44.5701
+        ]
+      },
+      "properties": {
+        "number": 19090,
+        "name": "TEHROCUZ RO 067",
+        "org": "LICEUL TEHNOLOGIC \"ALEXANDRU IOAN CUZA\"",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.351,
+          46.1658
+        ]
+      },
+      "properties": {
+        "number": 19091,
+        "name": "The Resistance",
+        "org": "Liceul Teoretic \"Stephan Ludwig Roth\"",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4267,
+          45.8469
+        ]
+      },
+      "properties": {
+        "number": 19092,
+        "name": "ICLASS ",
+        "org": "Liceul Tehnologic ,,Costache Conachi\" ",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3293,
+          46.1824
+        ]
+      },
+      "properties": {
+        "number": 19093,
+        "name": "Infinity Bolts ",
+        "org": "Liceul National de Informatica Arad ",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.227,
+          45.7416
+        ]
+      },
+      "properties": {
+        "number": 19094,
+        "name": "WizzTech RO048",
+        "org": "Liceul Teoretic Grigore Moisil Timisoara",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.309,
+          46.1846
+        ]
+      },
+      "properties": {
+        "number": 19095,
+        "name": "WireImpulse",
+        "org": "Colegiul National Vasile Goldis Arad",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1898,
+          44.2324
+        ]
+      },
+      "properties": {
+        "number": 19096,
+        "name": "DanubeRobotics",
+        "org": "Colegiul National \"Barbu Stirbei\"",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0573,
+          46.6749
+        ]
+      },
+      "properties": {
+        "number": 19097,
+        "name": "Quasar.Robotics",
+        "org": "COLEGIUL NATIONAL 'CUZA VODA\" HUSI",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0265,
+          44.945
+        ]
+      },
+      "properties": {
+        "number": 19098,
+        "name": "infO1 Technologies",
+        "org": "Colegiu National \" Ion Luca Caragiale\"",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1064,
+          44.4236
+        ]
+      },
+      "properties": {
+        "number": 19099,
+        "name": "H-Tech",
+        "org": "Colegiul National Ion Creanga Bucuresti ",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3567,
+          47.3478
+        ]
+      },
+      "properties": {
+        "number": 19100,
+        "name": "Future Tech",
+        "org": "Liceul Teoretic \u201eIon Luca\u201d & Clubul Copiilor Vatra Dornei",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.887,
+          47.9308
+        ]
+      },
+      "properties": {
+        "number": 19101,
+        "name": "Tech-X",
+        "org": "Colegiul National \u201dDragos Voda\u201d",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.594,
+          46.7682
+        ]
+      },
+      "properties": {
+        "number": 19102,
+        "name": "TheArchitechs",
+        "org": "Colegiul Na\u021bional \"Emil Racovi\u021b\u0103\" Cluj-Napoca",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.6244,
+          45.6441
+        ]
+      },
+      "properties": {
+        "number": 19103,
+        "name": "Kronbot",
+        "org": "Colegiul Na\u021bional de Informatic\u0103 \u201eGrigore Moisil\u201d Bra\u0219ov",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7777,
+          46.575
+        ]
+      },
+      "properties": {
+        "number": 19104,
+        "name": "CyberPunk Robotics",
+        "org": "Colegiul National \"Mihai Viteazul\" Turda",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.902,
+          45.8836
+        ]
+      },
+      "properties": {
+        "number": 19105,
+        "name": "DecebalTech",
+        "org": "Colegiul Na\u021bional \u201eDecebal\u201d",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.902,
+          45.8836
+        ]
+      },
+      "properties": {
+        "number": 19106,
+        "name": "Dark Energy",
+        "org": "Colegiul Na\u021bional \u201eDecebal\u201d",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5694,
+          47.1733
+        ]
+      },
+      "properties": {
+        "number": 19107,
+        "name": "Fuse Robotics",
+        "org": "Colegiul National Costache Negruzzi Iasi",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.6248,
+          46.7641
+        ]
+      },
+      "properties": {
+        "number": 19108,
+        "name": "Alphatronic",
+        "org": "Transylvania College",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7992,
+          44.3191
+        ]
+      },
+      "properties": {
+        "number": 19109,
+        "name": "RaSky",
+        "org": "National College Elena Cuza",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3628,
+          44.4248
+        ]
+      },
+      "properties": {
+        "number": 19110,
+        "name": "R0B0SMART",
+        "org": "Colegiul National Ion Minulescu Slatina",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3713,
+          44.4289
+        ]
+      },
+      "properties": {
+        "number": 19111,
+        "name": "TITUR0B0",
+        "org": "Liceul Teoretic Nicolae Titulescu Slatina",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7344,
+          45.1262
+        ]
+      },
+      "properties": {
+        "number": 19112,
+        "name": "RO112 UNDEFINED",
+        "org": "Colegiul National Nicolae Grigorescu ",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1438,
+          45.7833
+        ]
+      },
+      "properties": {
+        "number": 19113,
+        "name": "Herotech",
+        "org": "\"Octavian Goga\" National College Sibiu",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.8786,
+          47.7926
+        ]
+      },
+      "properties": {
+        "number": 19115,
+        "name": "B-RoboTeam RO 064",
+        "org": "Liceul Tehnologic Ion I.C. Bratianu",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6768,
+          45.1335
+        ]
+      },
+      "properties": {
+        "number": 19116,
+        "name": "VV Robots",
+        "org": "Colegiul Na\u021bional Vlaicu Vod\u0103",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1071,
+          44.4381
+        ]
+      },
+      "properties": {
+        "number": 19117,
+        "name": "Robo-Sapiens",
+        "org": "Colegiul National \"Spiru Haret\" Bucuresti",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5101,
+          47.1434
+        ]
+      },
+      "properties": {
+        "number": 19119,
+        "name": "InfotronX",
+        "org": "Colegiul Tehnic \"INFOEL\"",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.3729,
+          45.4201
+        ]
+      },
+      "properties": {
+        "number": 19120,
+        "name": "AlphaBit",
+        "org": "Colegiul National Mihai Eminescu Petrosani",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.2738,
+          45.0374
+        ]
+      },
+      "properties": {
+        "number": 19121,
+        "name": "Tea Borgs",
+        "org": "Colegiul Na\u021bional Tudor Vladimirescu",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.6484,
+          44.9739
+        ]
+      },
+      "properties": {
+        "number": 19126,
+        "name": "SkyLine",
+        "org": "Liceul Tehnologic Petrol",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8721,
+          44.8573
+        ]
+      },
+      "properties": {
+        "number": 19128,
+        "name": "RoboDac Dacia",
+        "org": "Dacia Pitesti Technological High School",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8681,
+          44.8596
+        ]
+      },
+      "properties": {
+        "number": 19130,
+        "name": "RoboDac Dacia",
+        "org": "Home School",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3541,
+          44.564
+        ]
+      },
+      "properties": {
+        "number": 19131,
+        "name": "Evolution",
+        "org": "Colegiul National Mihai Viteazul",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9555,
+          45.2705
+        ]
+      },
+      "properties": {
+        "number": 19134,
+        "name": "Rodac",
+        "org": "Liceul Teoretic Panait Cerna",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.371,
+          46.933
+        ]
+      },
+      "properties": {
+        "number": 19139,
+        "name": "Snake-Tech40",
+        "org": "Colegiul National \"Petru Rares\"",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0255,
+          44.9366
+        ]
+      },
+      "properties": {
+        "number": 19141,
+        "name": "BraveBots",
+        "org": "Colegiul National \"Mihai Viteazul\"",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.634,
+          45.283
+        ]
+      },
+      "properties": {
+        "number": 19143,
+        "name": "HELIX_RO",
+        "org": "Panait Istrati",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.5178,
+          46.9847
+        ]
+      },
+      "properties": {
+        "number": 19147,
+        "name": "Blizzard Eye",
+        "org": "Colegiul National \"Stefan cel Mare\"",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.6109,
+          47.5081
+        ]
+      },
+      "properties": {
+        "number": 19148,
+        "name": "StefTech",
+        "org": "Colegiul National Militar \u201e\u0218tefan cel Mare\u201d",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9481,
+          44.9616
+        ]
+      },
+      "properties": {
+        "number": 19151,
+        "name": "TECHNO-MAISTER",
+        "org": "Liceul Teoretic \"Iulia Zamfirescu\"",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.0571,
+          47.1881
+        ]
+      },
+      "properties": {
+        "number": 19152,
+        "name": "Brainstorms",
+        "org": "Colegiul Tehnic \"Alesandru Papiu Ilarian\"",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6124,
+          55.7597
+        ]
+      },
+      "properties": {
+        "number": 19155,
+        "name": "Pingu",
+        "org": "The Anglo-American School of Moscow",
+        "rookieYear": 2020,
+        "homeRegion": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.868,
+          44.8575
+        ]
+      },
+      "properties": {
+        "number": 19176,
+        "name": "Broboti",
+        "org": "Colegiul National Ion C. Bratianu",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6481,
+          46.2101
+        ]
+      },
+      "properties": {
+        "number": 19211,
+        "name": "VirtualWolvesRO165",
+        "org": "Liceul Teoretic \" Mihai Eminescu \" Barlad",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1037,
+          44.4787
+        ]
+      },
+      "properties": {
+        "number": 19212,
+        "name": "NATIE PRIN EDUCATIE Assoc",
+        "org": "Home School",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.6029,
+          50.4668
+        ]
+      },
+      "properties": {
+        "number": 19224,
+        "name": "HiKOL",
+        "org": "Family/Community",
+        "rookieYear": 2020,
+        "homeRegion": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.6109,
+          47.5081
+        ]
+      },
+      "properties": {
+        "number": 19230,
+        "name": "StefTech",
+        "org": "Colegiul National Militar Stefan cel Mare",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1169,
+          44.3655
+        ]
+      },
+      "properties": {
+        "number": 19233,
+        "name": "TEAMART 1",
+        "org": "Family/Community",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0521,
+          45.4406
+        ]
+      },
+      "properties": {
+        "number": 19234,
+        "name": "BYTE FORCE RO037",
+        "org": "Colegiul National \"Vasile Alecsandri\"",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0657,
+          44.473
+        ]
+      },
+      "properties": {
+        "number": 19235,
+        "name": "vvvv",
+        "org": ".,.,.,.",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3463,
+          46.6706
+        ]
+      },
+      "properties": {
+        "number": 19242,
+        "name": "RO169 RoboPeda",
+        "org": "Liceul Voca\u021bional Pedagogic Nicolae Bolca\u0219",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4039,
+          47.2844
+        ]
+      },
+      "properties": {
+        "number": 19246,
+        "name": "Cybersouls",
+        "org": "Colegiul Na\u021bional \u201dGeorge Co\u0219buc\u201d N\u0103s\u0103ud",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3408,
+          51.6242
+        ]
+      },
+      "properties": {
+        "number": 19249,
+        "name": "1UK",
+        "org": "Family/Community",
+        "rookieYear": 2020,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.5903,
+          60.7115
+        ]
+      },
+      "properties": {
+        "number": 19252,
+        "name": "Vladimir",
+        "org": "\u041c\u0443\u043d\u0438\u0446\u0438\u043f\u0430\u043b\u044c\u043d\u043e\u0435 \u0431\u044e\u0434\u0436\u0435\u0442\u043d\u043e\u0435 \u043e\u0431\u0449\u0435\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u0443\u0447\u0440\u0435\u0436\u0434\u0435\u043d\u0438\u0435 \u041b\u0438\u0446\u0435\u0439 \u211610",
+        "rookieYear": 2020,
+        "homeRegion": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2343,
+          45.753
+        ]
+      },
+      "properties": {
+        "number": 19256,
+        "name": "CYBERMOON093",
+        "org": "Colegiul National Constantin Diaconovici Loga Timisoara",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2271,
+          45.7579
+        ]
+      },
+      "properties": {
+        "number": 19257,
+        "name": "UNplugged188",
+        "org": "Liceul Teoretic Nikolaus Lenau",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.887,
+          47.9308
+        ]
+      },
+      "properties": {
+        "number": 19258,
+        "name": "RO175",
+        "org": "Colegiul National Dragos-Vod\u0103",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1211,
+          50.8218
+        ]
+      },
+      "properties": {
+        "number": 19259,
+        "name": "Brighton College",
+        "org": "FIRST UK & Brighton College",
+        "rookieYear": 2020,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2248,
+          51.3543
+        ]
+      },
+      "properties": {
+        "number": 19260,
+        "name": "Nonsuch High School for Girls",
+        "org": "Nonsuch High School for Girls",
+        "rookieYear": 2020,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9033,
+          50.8062
+        ]
+      },
+      "properties": {
+        "number": 19261,
+        "name": "Ferndown 1",
+        "org": "Ferndown Upper School",
+        "rookieYear": 2020,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9033,
+          50.8062
+        ]
+      },
+      "properties": {
+        "number": 19262,
+        "name": "Ferndown 2",
+        "org": "Ferndown Upper School",
+        "rookieYear": 2020,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9033,
+          50.8062
+        ]
+      },
+      "properties": {
+        "number": 19263,
+        "name": "Ferndown 3",
+        "org": "Ferndown Upper School",
+        "rookieYear": 2020,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9033,
+          50.8062
+        ]
+      },
+      "properties": {
+        "number": 19264,
+        "name": "Ferndown 4",
+        "org": "Ferndown Upper School",
+        "rookieYear": 2020,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1716,
+          51.4748
+        ]
+      },
+      "properties": {
+        "number": 19265,
+        "name": "Saint John Bosco",
+        "org": "Saint John Bosco College",
+        "rookieYear": 2020,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2,
+          51.4794
+        ]
+      },
+      "properties": {
+        "number": 19266,
+        "name": "Fulham Boys School",
+        "org": "The Fulham Boys School",
+        "rookieYear": 2020,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1237,
+          52.1761
+        ]
+      },
+      "properties": {
+        "number": 19267,
+        "name": "Trumpington Community College",
+        "org": "Trumpington Community College",
+        "rookieYear": 2020,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1626,
+          53.3681
+        ]
+      },
+      "properties": {
+        "number": 19268,
+        "name": "Calday Grange Grammar",
+        "org": "Calday Grange Grammar School",
+        "rookieYear": 2020,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2165,
+          52.2063
+        ]
+      },
+      "properties": {
+        "number": 19269,
+        "name": "Bishop Perowne",
+        "org": "Bishop Perowne C of E College",
+        "rookieYear": 2020,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9016,
+          53.3827
+        ]
+      },
+      "properties": {
+        "number": 19270,
+        "name": "Calderstones",
+        "org": "Calderstones School",
+        "rookieYear": 2020,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.583,
+          53.3793
+        ]
+      },
+      "properties": {
+        "number": 19271,
+        "name": "Priestley College",
+        "org": "Priestley College",
+        "rookieYear": 2020,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6404,
+          52.8298
+        ]
+      },
+      "properties": {
+        "number": 19272,
+        "name": "De Ferrers Academy",
+        "org": "De Ferrers Academy",
+        "rookieYear": 2020,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4387,
+          53.2525
+        ]
+      },
+      "properties": {
+        "number": 19273,
+        "name": "Outwood Academy Newbold",
+        "org": "Outwood Academy Newbold",
+        "rookieYear": 2020,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.7544,
+          54.5097
+        ]
+      },
+      "properties": {
+        "number": 19274,
+        "name": "St Patrick's College",
+        "org": "St Patrick's College",
+        "rookieYear": 2020,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2737,
+          51.5662
+        ]
+      },
+      "properties": {
+        "number": 19275,
+        "name": "Lycee International de Valbonne 1",
+        "org": "Lycee International de Valbonne",
+        "rookieYear": 2020,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1187,
+          52.2055
+        ]
+      },
+      "properties": {
+        "number": 19277,
+        "name": "Lycee International de Valbonne",
+        "org": "Lycee International de Valbonne & Family/Community",
+        "rookieYear": 2020,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3408,
+          51.6242
+        ]
+      },
+      "properties": {
+        "number": 19278,
+        "name": "Binary Bots",
+        "org": "Family/Community",
+        "rookieYear": 2020,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1766,
+          51.5348
+        ]
+      },
+      "properties": {
+        "number": 19279,
+        "name": "American School in London 1",
+        "org": "American School in London",
+        "rookieYear": 2020,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1766,
+          51.5348
+        ]
+      },
+      "properties": {
+        "number": 19280,
+        "name": "American School in London",
+        "org": "American School in London",
+        "rookieYear": 2020,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1766,
+          51.5348
+        ]
+      },
+      "properties": {
+        "number": 19281,
+        "name": "American School in London",
+        "org": "American School in London",
+        "rookieYear": 2020,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1766,
+          51.5348
+        ]
+      },
+      "properties": {
+        "number": 19282,
+        "name": "American School in London",
+        "org": "American School in London",
+        "rookieYear": 2020,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1766,
+          51.5348
+        ]
+      },
+      "properties": {
+        "number": 19283,
+        "name": "American School in London",
+        "org": "American School in London",
+        "rookieYear": 2020,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1766,
+          51.5348
+        ]
+      },
+      "properties": {
+        "number": 19284,
+        "name": "American School in London",
+        "org": "American School in London",
+        "rookieYear": 2020,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6764,
+          45.1339
+        ]
+      },
+      "properties": {
+        "number": 19289,
+        "name": "VV Robots Lego",
+        "org": "COLEGIUL NATIONAL VLAICU VOD\u0102 / SCOALA GIMNAZIALA ARMAND C\u0102LINESCU",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.28,
+          45.052
+        ]
+      },
+      "properties": {
+        "number": 19292,
+        "name": "TeamPhoenix",
+        "org": "Colegiul Tehnic ION MINCU",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8961,
+          51.9467
+        ]
+      },
+      "properties": {
+        "number": 19293,
+        "name": "Fourth Dimension",
+        "org": "August-Hermann-Francke Gymnasium/BK",
+        "rookieYear": 2020,
+        "homeRegion": "DE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5779,
+          47.1665
+        ]
+      },
+      "properties": {
+        "number": 19325,
+        "name": "FUSE JR",
+        "org": "Colegiul Na\u021bional Ia\u015fi",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0833,
+          52.3333
+        ]
+      },
+      "properties": {
+        "number": 19335,
+        "name": "Lycee Team 2",
+        "org": "Family/Community",
+        "rookieYear": 2020,
+        "homeRegion": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.5772,
+          47.6573
+        ]
+      },
+      "properties": {
+        "number": 19342,
+        "name": "Clever Core",
+        "org": "Colegiul National \"Gheorghe Sincai\"",
+        "rookieYear": 2020,
+        "homeRegion": "RO"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2532 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "CYCMP",
+        "name": "Cyprus Championship",
+        "typeName": "Championship",
+        "venue": "Ayios Dometios Sports Center",
+        "dateStart": "2025-03-08T00:00:00",
+        "dateEnd": "2025-03-09T00:00:00",
+        "regionCode": "CY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1136,
+          48.78853
+        ]
+      },
+      "properties": {
+        "code": "DECMP",
+        "name": "FTC Deutschland-Wettbewerb Oberkochen",
+        "typeName": "Championship",
+        "venue": "Ernst-Abbe-Platz ",
+        "dateStart": "2025-01-18T00:00:00",
+        "dateEnd": "2025-01-18T00:00:00",
+        "regionCode": "DE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.48132,
+          51.41286
+        ]
+      },
+      "properties": {
+        "code": "FPEEU",
+        "name": "European Premier Event",
+        "typeName": "Premier",
+        "venue": "Indoor Sportcentrum Eindhoven",
+        "dateStart": "2025-07-02T00:00:00",
+        "dateEnd": "2025-07-05T00:00:00",
+        "regionCode": "FPE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "FPEEUESCH",
+        "name": "European Premier Event - Escher Division",
+        "typeName": "Premier",
+        "venue": "Indoor Sportcentrum Eindhoven",
+        "dateStart": "2025-07-02T00:00:00",
+        "dateEnd": "2025-07-05T00:00:00",
+        "regionCode": "FPE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "FPEEULOVE",
+        "name": "European Premier Event - Lovelace Division",
+        "typeName": "Premier",
+        "venue": "Indoor Sportcentrum Eindhoven",
+        "dateStart": "2025-07-02T00:00:00",
+        "dateEnd": "2025-07-05T00:00:00",
+        "regionCode": "FPE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.58415,
+          47.15402
+        ]
+      },
+      "properties": {
+        "code": "FRBOQ",
+        "name": "D\u00e9fi Robotique - Nantes",
+        "typeName": "Qualifier",
+        "venue": "Jules Verne Manufacturing Academy",
+        "dateStart": "2025-02-28T00:00:00",
+        "dateEnd": "2025-03-01T00:00:00",
+        "regionCode": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.10504,
+          45.78989
+        ]
+      },
+      "properties": {
+        "code": "FRCFQ",
+        "name": "D\u00e9fi Robotique - Clermont-Ferrand",
+        "typeName": "Qualifier",
+        "venue": "Hall 32",
+        "dateStart": "2025-02-13T00:00:00",
+        "dateEnd": "2025-02-14T00:00:00",
+        "regionCode": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.87188,
+          45.78146
+        ]
+      },
+      "properties": {
+        "code": "FRCMP",
+        "name": "France Championship",
+        "typeName": "Championship",
+        "venue": "Le Double Mixte",
+        "dateStart": "2025-03-21T00:00:00",
+        "dateEnd": "2025-03-22T00:00:00",
+        "regionCode": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.27852,
+          48.89748
+        ]
+      },
+      "properties": {
+        "code": "FRLPQ",
+        "name": "D\u00e9fi Robotique - Levallois-Perret",
+        "typeName": "Qualifier",
+        "venue": "Lyc\u00e9e L\u00e9onard de Vinci",
+        "dateStart": "2025-01-31T00:00:00",
+        "dateEnd": "2025-02-01T00:00:00",
+        "regionCode": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.52206,
+          46.06339
+        ]
+      },
+      "properties": {
+        "code": "FRMAQ",
+        "name": "D\u00e9fi Robotique - Marnaz",
+        "typeName": "Qualifier",
+        "venue": "Gymnase Les Sages - Rosset",
+        "dateStart": "2025-01-24T00:00:00",
+        "dateEnd": "2025-01-25T00:00:00",
+        "regionCode": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.84188,
+          45.8705
+        ]
+      },
+      "properties": {
+        "code": "FRNSQ",
+        "name": "D\u00e9fi Robotique - Neuville-sur-Sa\u00f4ne",
+        "typeName": "Qualifier",
+        "venue": "Lyc\u00e9e Notre Dame de Bellegarde",
+        "dateStart": "2025-01-16T00:00:00",
+        "dateEnd": "2025-01-17T00:00:00",
+        "regionCode": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "FRSAOS",
+        "name": "Sauges",
+        "typeName": "Off-Season",
+        "venue": "",
+        "dateStart": "2025-06-24T00:00:00",
+        "dateEnd": "2025-06-24T00:00:00",
+        "regionCode": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.90842,
+          44.93017
+        ]
+      },
+      "properties": {
+        "code": "FRVAQ",
+        "name": "D\u00e9fi Robotique - Valence",
+        "typeName": "Qualifier",
+        "venue": "Institution Notre Dame",
+        "dateStart": "2025-02-07T00:00:00",
+        "dateEnd": "2025-02-08T00:00:00",
+        "regionCode": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.12149,
+          57.12388
+        ]
+      },
+      "properties": {
+        "code": "GBABS",
+        "name": "Scotland Scrimmage - ABD - 2024 - 2025",
+        "typeName": "Scrimmage",
+        "venue": "Robert Gordon University",
+        "dateStart": "2025-01-09T00:00:00",
+        "dateEnd": "2025-01-09T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.91849,
+          54.60132
+        ]
+      },
+      "properties": {
+        "code": "GBBEQ1",
+        "name": "Northern Ireland Qualifier - W5 - 2024 - 2025",
+        "typeName": "Qualifier",
+        "venue": "W5 Science and Discovery Centre",
+        "dateStart": "2025-04-01T00:00:00",
+        "dateEnd": "2025-04-01T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.91849,
+          54.60132
+        ]
+      },
+      "properties": {
+        "code": "GBBES1",
+        "name": "Northern Ireland Scrimmage 1 - W5 - 2024 - 2025",
+        "typeName": "Scrimmage",
+        "venue": "W5 Science and Discovery Centre",
+        "dateStart": "2024-12-10T00:00:00",
+        "dateEnd": "2024-12-10T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.91849,
+          54.60132
+        ]
+      },
+      "properties": {
+        "code": "GBBES2",
+        "name": "Northern Ireland Scrimmage 2 - W5 - 2024 - 2025",
+        "typeName": "Scrimmage",
+        "venue": "W5 Science and Discovery Centre",
+        "dateStart": "2025-02-25T00:00:00",
+        "dateEnd": "2025-02-25T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.88614,
+          52.48896
+        ]
+      },
+      "properties": {
+        "code": "GBBIQ",
+        "name": "West Midlands Qualifier 1 - AUEA - 2024 - 2025",
+        "typeName": "Qualifier",
+        "venue": "Aston University Engineering Academy",
+        "dateStart": "2025-03-12T00:00:00",
+        "dateEnd": "2025-03-12T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.88614,
+          52.48896
+        ]
+      },
+      "properties": {
+        "code": "GBBIS",
+        "name": "West Midlands Scrimmage - AUEA - 2024 - 2025",
+        "typeName": "Scrimmage",
+        "venue": "Aston University Engineering Academy",
+        "dateStart": "2024-12-11T00:00:00",
+        "dateEnd": "2024-12-11T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.89937,
+          50.71266
+        ]
+      },
+      "properties": {
+        "code": "GBBOQ",
+        "name": "South West Qualifier 2 - BSG - 2024 - 2025",
+        "typeName": "Qualifier",
+        "venue": "Bournemouth University",
+        "dateStart": "2025-04-25T00:00:00",
+        "dateEnd": "2025-04-25T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.89937,
+          50.71266
+        ]
+      },
+      "properties": {
+        "code": "GBBOS",
+        "name": "South West Scrimmage - BSG - 2024 - 2025",
+        "typeName": "Scrimmage",
+        "venue": "Bournemouth University",
+        "dateStart": "2024-12-11T00:00:00",
+        "dateEnd": "2024-12-11T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.01891,
+          51.38813
+        ]
+      },
+      "properties": {
+        "code": "GBBRQ",
+        "name": "South East Qualifier 3 - LPSB - 2024 - 2025",
+        "typeName": "Qualifier",
+        "venue": "Langley Park School for Boys",
+        "dateStart": "2025-04-01T00:00:00",
+        "dateEnd": "2025-04-01T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBBRS",
+        "name": "South East Scrimmage - LPSB - 2024 - 2025",
+        "typeName": "Scrimmage",
+        "venue": "Langley Park School for Boys",
+        "dateStart": "2024-12-05T00:00:00",
+        "dateEnd": "2024-12-05T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.14508,
+          52.23145
+        ]
+      },
+      "properties": {
+        "code": "GBCAQ1",
+        "name": "East Qualifier 1 - CSC - 2024 - 2025",
+        "typeName": "Qualifier",
+        "venue": "Cambridge Science Centre",
+        "dateStart": "2025-02-25T00:00:00",
+        "dateEnd": "2025-02-25T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.14508,
+          52.23145
+        ]
+      },
+      "properties": {
+        "code": "GBCAQ2",
+        "name": "East Qualifier 2 - CSC - 2024 - 2025",
+        "typeName": "Qualifier",
+        "venue": "Cambridge Science Centre",
+        "dateStart": "2025-02-26T00:00:00",
+        "dateEnd": "2025-02-26T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.43977,
+          53.25113
+        ]
+      },
+      "properties": {
+        "code": "GBCHS",
+        "name": "Yorkshire Scrimmage - OAN - 2024 - 2025",
+        "typeName": "Scrimmage",
+        "venue": "Outwood Academy Newbold",
+        "dateStart": "2024-12-02T00:00:00",
+        "dateEnd": "2024-12-02T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.01526,
+          51.5441
+        ]
+      },
+      "properties": {
+        "code": "GBCMP",
+        "name": "United Kingdom Championship",
+        "typeName": "Championship",
+        "venue": "Copper Box Arena",
+        "dateStart": "2025-06-26T00:00:00",
+        "dateEnd": "2025-06-27T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBCMPDIV1",
+        "name": "United Kingdom Championship - Atlantic Division",
+        "typeName": "Championship",
+        "venue": "Copper Box Arena",
+        "dateStart": "2025-06-26T00:00:00",
+        "dateEnd": "2025-06-27T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBCMPDIV2",
+        "name": "United Kingdom Championship - Pacific Division",
+        "typeName": "Championship",
+        "venue": "Copper Box Arena",
+        "dateStart": "2025-06-26T00:00:00",
+        "dateEnd": "2025-06-27T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.32511,
+          55.91204
+        ]
+      },
+      "properties": {
+        "code": "GBEDQ",
+        "name": "Scotland Qualifier 2 - EDI - 2024 - 2025",
+        "typeName": "Qualifier",
+        "venue": "The National Robotarium",
+        "dateStart": "2025-04-23T00:00:00",
+        "dateEnd": "2025-04-23T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBEDS",
+        "name": "Scotland Scrimmage - EDI - 2024 - 2025",
+        "typeName": "Scrimmage",
+        "venue": "The National Robotarium",
+        "dateStart": "2024-12-10T00:00:00",
+        "dateEnd": "2024-12-10T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBEDS1",
+        "name": "GCC Scrimmage",
+        "typeName": "Scrimmage",
+        "venue": "The National Robotarium",
+        "dateStart": "2024-11-15T00:00:00",
+        "dateEnd": "2024-11-15T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.29274,
+          55.85716
+        ]
+      },
+      "properties": {
+        "code": "GBGLQ",
+        "name": "Scotland Qualifier 1 - GLA - 2024 - 2025",
+        "typeName": "Qualifier",
+        "venue": "Glasgow Science Centre",
+        "dateStart": "2025-04-03T00:00:00",
+        "dateEnd": "2025-04-03T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBGLQ2",
+        "name": "South West Qualifier 1 - UTCBG - 2024 - 2025",
+        "typeName": "Qualifier",
+        "venue": "UTC Berkeley Green",
+        "dateStart": "2025-03-18T00:00:00",
+        "dateEnd": "2025-03-18T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBGLS",
+        "name": "South West Scrimmage - UTCBG - 2024 - 2025",
+        "typeName": "Scrimmage",
+        "venue": "UTC Berkeley Green",
+        "dateStart": "2024-12-13T00:00:00",
+        "dateEnd": "2024-12-13T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.29274,
+          55.85716
+        ]
+      },
+      "properties": {
+        "code": "GBGLS2",
+        "name": "Scotland Scrimmage - GLA - 2024 - 2025",
+        "typeName": "Scrimmage",
+        "venue": "Glasgow Science Centre",
+        "dateStart": "2025-01-13T00:00:00",
+        "dateEnd": "2025-01-13T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBHES",
+        "name": "Wales Scrimmage - LGS - 2024 - 2025",
+        "typeName": "Scrimmage",
+        "venue": "Lewis Girls' Comprehensive School",
+        "dateStart": "2024-12-17T00:00:00",
+        "dateEnd": "2024-12-17T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.18936,
+          52.33523
+        ]
+      },
+      "properties": {
+        "code": "GBHUS",
+        "name": "East Scrimmage - AMHS - 2024 - 2025",
+        "typeName": "Scrimmage",
+        "venue": "Alconbury Middle High School",
+        "dateStart": "2024-12-09T00:00:00",
+        "dateEnd": "2024-12-09T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.90043,
+          53.38262
+        ]
+      },
+      "properties": {
+        "code": "GBLIQ",
+        "name": "North West Qualifier - CS - 2024 - 2025",
+        "typeName": "Qualifier",
+        "venue": "Calderstones School",
+        "dateStart": "2025-03-01T00:00:00",
+        "dateEnd": "2025-03-01T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.90043,
+          53.38262
+        ]
+      },
+      "properties": {
+        "code": "GBLIS",
+        "name": "North West Scrimmage - CS - 2024 - 2025",
+        "typeName": "Scrimmage",
+        "venue": "Calderstones School",
+        "dateStart": "2024-12-06T00:00:00",
+        "dateEnd": "2024-12-06T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.12719,
+          51.50643
+        ]
+      },
+      "properties": {
+        "code": "GBLOKO",
+        "name": "FIRST Tech Challenge: Kick-Off Webinar",
+        "typeName": "Kickoff",
+        "venue": "Online",
+        "dateStart": "2024-09-17T00:00:00",
+        "dateEnd": "2024-09-17T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.17594,
+          51.53456
+        ]
+      },
+      "properties": {
+        "code": "GBLOQ",
+        "name": "South East Qualifier 2 - ASL - 2024 - 2025",
+        "typeName": "Qualifier",
+        "venue": "American School in London",
+        "dateStart": "2025-03-15T00:00:00",
+        "dateEnd": "2025-03-15T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBLOS",
+        "name": "South East Scrimmage - ASL - 2024 - 2025",
+        "typeName": "Scrimmage",
+        "venue": "American School in London",
+        "dateStart": "2024-11-28T00:00:00",
+        "dateEnd": "2024-11-28T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBOMS",
+        "name": "South West Scrimmage - TKS - 2024 - 2025",
+        "typeName": "Scrimmage",
+        "venue": "The King's School",
+        "dateStart": "2024-12-07T00:00:00",
+        "dateEnd": "2024-12-07T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.26093,
+          51.77213
+        ]
+      },
+      "properties": {
+        "code": "GBOXQ",
+        "name": "South East Qualifier 1 - OHS - 2024 - 2025",
+        "typeName": "Qualifier",
+        "venue": "Oxford High School",
+        "dateStart": "2025-04-29T00:00:00",
+        "dateEnd": "2025-04-29T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.26093,
+          51.77213
+        ]
+      },
+      "properties": {
+        "code": "GBOXS",
+        "name": "South East Scrimmage - OHS - 2024 - 2025",
+        "typeName": "Scrimmage",
+        "venue": "Oxford High School",
+        "dateStart": "2024-12-04T00:00:00",
+        "dateEnd": "2024-12-04T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.46663,
+          53.37858
+        ]
+      },
+      "properties": {
+        "code": "GBSHQ",
+        "name": "Yorkshire Qualifier - OAN - 2024 - 2025",
+        "typeName": "Qualifier",
+        "venue": "Sheffield Hallam University",
+        "dateStart": "2025-03-25T00:00:00",
+        "dateEnd": "2025-03-25T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.19719,
+          53.06579
+        ]
+      },
+      "properties": {
+        "code": "GBSTQ",
+        "name": "West Midlands Qualifier 2 - SMW - 2024 - 2025",
+        "typeName": "Qualifier",
+        "venue": "St. Margaret Ward Catholic Academy",
+        "dateStart": "2025-03-20T00:00:00",
+        "dateEnd": "2025-03-20T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.19719,
+          53.06579
+        ]
+      },
+      "properties": {
+        "code": "GBSTS",
+        "name": "West Midlands Scrimmage - SMW - 2024 - 2025",
+        "typeName": "Scrimmage",
+        "venue": "St. Margaret Ward Catholic Academy",
+        "dateStart": "2024-12-12T00:00:00",
+        "dateEnd": "2024-12-12T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBSTS2",
+        "name": "North East  Scrimmage - RGS - 2024 - 2025",
+        "typeName": "Scrimmage",
+        "venue": "Egglescliffe School",
+        "dateStart": "2024-12-09T00:00:00",
+        "dateEnd": "2024-12-09T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.19428,
+          51.34793
+        ]
+      },
+      "properties": {
+        "code": "GBSUQ",
+        "name": "South East Qualifier 4 - HAS - 2024 - 2025",
+        "typeName": "Qualifier",
+        "venue": "Harris Academy Sutton",
+        "dateStart": "2025-03-29T00:00:00",
+        "dateEnd": "2025-03-29T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.19428,
+          51.34793
+        ]
+      },
+      "properties": {
+        "code": "GBSUS",
+        "name": "South East Scrimmage - HAS - 2024 - 2025",
+        "typeName": "Scrimmage",
+        "venue": "Harris Academy Sutton",
+        "dateStart": "2024-12-11T00:00:00",
+        "dateEnd": "2024-12-11T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9607,
+          40.62519
+        ]
+      },
+      "properties": {
+        "code": "GRCMP",
+        "name": "Greece Championship",
+        "typeName": "Championship",
+        "venue": "University of Macedonia ",
+        "dateStart": "2025-03-15T00:00:00",
+        "dateEnd": "2025-03-16T00:00:00",
+        "regionCode": "GR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.79058,
+          48.10557
+        ]
+      },
+      "properties": {
+        "code": "HUMIS",
+        "name": "Miskolc Scrimmage",
+        "typeName": "Scrimmage",
+        "venue": "Miskolc",
+        "dateStart": "2025-02-08T00:00:00",
+        "dateEnd": "2025-02-08T00:00:00",
+        "regionCode": "HU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.44871,
+          45.01989
+        ]
+      },
+      "properties": {
+        "code": "ITBOKO",
+        "name": "FIRST Tech Challenge Italy Kick Off",
+        "typeName": "Kickoff",
+        "venue": "Endofap Don Orione ",
+        "dateStart": "2024-09-07T00:00:00",
+        "dateEnd": "2024-09-07T00:00:00",
+        "regionCode": "IT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.12901,
+          45.68245
+        ]
+      },
+      "properties": {
+        "code": "ITCMP",
+        "name": "Italy Championship",
+        "typeName": "Championship",
+        "venue": "Bella Italia Village",
+        "dateStart": "2025-02-20T00:00:00",
+        "dateEnd": "2025-02-22T00:00:00",
+        "regionCode": "IT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.28454,
+          54.72326
+        ]
+      },
+      "properties": {
+        "code": "LTCMP",
+        "name": "Lithuania Championship",
+        "typeName": "Championship",
+        "venue": "TECHIN",
+        "dateStart": "2025-02-08T00:00:00",
+        "dateEnd": "2025-02-09T00:00:00",
+        "regionCode": "LT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.28683,
+          51.69092
+        ]
+      },
+      "properties": {
+        "code": "NL'HKO",
+        "name": "Kickoff INTO THE DEEP",
+        "typeName": "Kickoff",
+        "venue": "Koning Willem I College",
+        "dateStart": "2024-09-07T00:00:00",
+        "dateEnd": "2024-09-07T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.23035,
+          51.37206
+        ]
+      },
+      "properties": {
+        "code": "NLBLQ",
+        "name": "NL Qualifier Bladel",
+        "typeName": "Qualifier",
+        "venue": "Pius X-College",
+        "dateStart": "2025-01-25T00:00:00",
+        "dateEnd": "2025-01-25T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.79711,
+          51.5837
+        ]
+      },
+      "properties": {
+        "code": "NLBRS",
+        "name": "NL Scrimmage Avans Breda",
+        "typeName": "Scrimmage",
+        "venue": "Avans University of Applied Sciences",
+        "dateStart": "2025-02-15T00:00:00",
+        "dateEnd": "2025-02-15T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.79711,
+          51.5837
+        ]
+      },
+      "properties": {
+        "code": "NLCMP",
+        "name": "Benelux Championship",
+        "typeName": "Championship",
+        "venue": "Avans University of Applied Sciences",
+        "dateStart": "2025-02-15T00:00:00",
+        "dateEnd": "2025-02-15T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.34519,
+          52.00841
+        ]
+      },
+      "properties": {
+        "code": "NLDES",
+        "name": "NL Scrimmage Delft",
+        "typeName": "Scrimmage",
+        "venue": "Stanislascollege Westplantsoen",
+        "dateStart": "2024-11-23T00:00:00",
+        "dateEnd": "2024-11-23T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.50307,
+          51.44713
+        ]
+      },
+      "properties": {
+        "code": "NLEIS",
+        "name": "NL Scrimmage Eindhoven",
+        "typeName": "Scrimmage",
+        "venue": "Lorentz Casimir Lyceum",
+        "dateStart": "2024-11-09T00:00:00",
+        "dateEnd": "2024-11-09T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.34515,
+          50.93502
+        ]
+      },
+      "properties": {
+        "code": "NLHAQ",
+        "name": "NL Qualifier Hasselt",
+        "typeName": "Qualifier",
+        "venue": "PXL University of Applied Sciences",
+        "dateStart": "2024-12-15T00:00:00",
+        "dateEnd": "2024-12-15T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.448,
+          52.24295
+        ]
+      },
+      "properties": {
+        "code": "NLNOS",
+        "name": "NL Scrimmage Noordwijk",
+        "typeName": "Scrimmage",
+        "venue": "Northgo College",
+        "dateStart": "2025-01-11T00:00:00",
+        "dateEnd": "2025-01-11T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.00718,
+          51.19222
+        ]
+      },
+      "properties": {
+        "code": "NLROS",
+        "name": "NL Scrimmage Roermond",
+        "typeName": "Scrimmage",
+        "venue": "Wings Agora Roermond",
+        "dateStart": "2024-11-03T00:00:00",
+        "dateEnd": "2024-11-03T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.32187,
+          52.09216
+        ]
+      },
+      "properties": {
+        "code": "NLTHQ",
+        "name": "NL Qualifier The Hague",
+        "typeName": "Qualifier",
+        "venue": "Maerlant-lyceum",
+        "dateStart": "2024-12-08T00:00:00",
+        "dateEnd": "2024-12-08T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.16927,
+          52.08472
+        ]
+      },
+      "properties": {
+        "code": "NLUTS",
+        "name": "NL Scrimmage Utrecht",
+        "typeName": "Scrimmage",
+        "venue": "Utrecht University of Applied Sciences (HU)",
+        "dateStart": "2024-11-15T00:00:00",
+        "dateEnd": "2024-11-15T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "NLWAQ",
+        "name": "NL Qualifier Wassenaar",
+        "typeName": "Qualifier",
+        "venue": "American School of The Hague",
+        "dateStart": "2025-01-19T00:00:00",
+        "dateEnd": "2025-01-19T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.25774,
+          52.07203
+        ]
+      },
+      "properties": {
+        "code": "NLZEQ",
+        "name": "NL Qualifier Zeist",
+        "typeName": "Qualifier",
+        "venue": "KSG de Breul",
+        "dateStart": "2024-11-30T00:00:00",
+        "dateEnd": "2024-11-30T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.55202,
+          51.23862
+        ]
+      },
+      "properties": {
+        "code": "PLCMP",
+        "name": "Poland Championship",
+        "typeName": "Championship",
+        "venue": "Lublin University of Technology",
+        "dateStart": "2025-02-22T00:00:00",
+        "dateEnd": "2025-02-22T00:00:00",
+        "regionCode": "PL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.15141,
+          44.44177
+        ]
+      },
+      "properties": {
+        "code": "ROBUKO",
+        "name": "Romania Bucharest INTO THE DEEP Kickoff",
+        "typeName": "Kickoff",
+        "venue": "Cinema City Mega Mall Bucuresti",
+        "dateStart": "2024-09-07T00:00:00",
+        "dateEnd": "2024-09-07T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0585,
+          44.47297
+        ]
+      },
+      "properties": {
+        "code": "ROBUOS1",
+        "name": "Bucharest Twin Cup",
+        "typeName": "Off-Season",
+        "venue": "Universitatea Romano-Americana",
+        "dateStart": "2025-08-22T00:00:00",
+        "dateEnd": "2025-08-24T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.10662,
+          44.43837
+        ]
+      },
+      "properties": {
+        "code": "ROBUOS2",
+        "name": "Robotics Rhapsody",
+        "typeName": "Off-Season",
+        "venue": "Colegiul Na\u021bional \"Spiru Haret\" Bucuresti",
+        "dateStart": "2025-05-24T00:00:00",
+        "dateEnd": "2025-05-24T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROBUOS3",
+        "name": "South Performance League",
+        "typeName": "Off-Season",
+        "venue": "South Performance League",
+        "dateStart": "2025-08-12T00:00:00",
+        "dateEnd": "2025-08-13T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.14082,
+          44.46752
+        ]
+      },
+      "properties": {
+        "code": "ROBUS1",
+        "name": "Info(1)Robotics & Quantum Robotics Scrimmage",
+        "typeName": "Scrimmage",
+        "venue": "ICHB Colentina",
+        "dateStart": "2025-03-01T00:00:00",
+        "dateEnd": "2025-03-01T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.10298,
+          44.43429
+        ]
+      },
+      "properties": {
+        "code": "ROCMP",
+        "name": "Romania Championship",
+        "typeName": "Championship",
+        "venue": "",
+        "dateStart": "2025-03-14T00:00:00",
+        "dateEnd": "2025-03-16T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROCNOS",
+        "name": "Transylvania Tech Challenge",
+        "typeName": "Off-Season",
+        "venue": "Centrul Regional de Excelen\u021b\u0103 Pentru Industrii Creative",
+        "dateStart": "2025-07-21T00:00:00",
+        "dateEnd": "2025-07-22T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.60976,
+          46.76927
+        ]
+      },
+      "properties": {
+        "code": "ROCNOS2",
+        "name": "Some\u0219 Tech Challenge",
+        "typeName": "Off-Season",
+        "venue": "Sala Sporturilor Dej",
+        "dateStart": "2025-07-25T00:00:00",
+        "dateEnd": "2025-07-27T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.35972,
+          46.93336
+        ]
+      },
+      "properties": {
+        "code": "ROELT",
+        "name": "East Romania League Tournament",
+        "typeName": "League Tournament",
+        "venue": "",
+        "dateStart": "2025-01-17T00:00:00",
+        "dateEnd": "2025-01-19T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROEM1",
+        "name": "Boogeybots before Christmas",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2024-12-14T00:00:00",
+        "dateEnd": "2024-12-14T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROEM10",
+        "name": "Frozen Depths",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-01-04T00:00:00",
+        "dateEnd": "2025-01-04T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.19436,
+          45.70956
+        ]
+      },
+      "properties": {
+        "code": "ROEM11",
+        "name": "Dive into Innovation - Vrancea IntoTech Challenge",
+        "typeName": "League Meet",
+        "venue": "Laguna Resort",
+        "dateStart": "2025-01-11T00:00:00",
+        "dateEnd": "2025-01-11T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.96881,
+          45.26411
+        ]
+      },
+      "properties": {
+        "code": "ROEM2",
+        "name": "Br\u0103ila Tech Challenge ",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2024-12-15T00:00:00",
+        "dateEnd": "2024-12-15T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.35972,
+          46.93336
+        ]
+      },
+      "properties": {
+        "code": "ROEM3",
+        "name": "Xmas Robo Stone, when robots meet santa",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2024-12-21T00:00:00",
+        "dateEnd": "2024-12-21T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.58732,
+          47.1594
+        ]
+      },
+      "properties": {
+        "code": "ROEM4",
+        "name": "Winter Dive Meet",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2024-12-07T00:00:00",
+        "dateEnd": "2024-12-07T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.05475,
+          45.43368
+        ]
+      },
+      "properties": {
+        "code": "ROEM5",
+        "name": "Chill Meet",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-01-11T00:00:00",
+        "dateEnd": "2025-01-11T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.58732,
+          47.1594
+        ]
+      },
+      "properties": {
+        "code": "ROEM6",
+        "name": "League Meet of Iasi",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-01-11T00:00:00",
+        "dateEnd": "2025-01-11T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.96881,
+          45.26411
+        ]
+      },
+      "properties": {
+        "code": "ROEM8",
+        "name": "Santa's Meet",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2024-12-21T00:00:00",
+        "dateEnd": "2024-12-21T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONLT",
+        "name": "North Romania League Tournament",
+        "typeName": "League Tournament",
+        "venue": "CREIC",
+        "dateStart": "2025-02-28T00:00:00",
+        "dateEnd": "2025-03-02T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.623,
+          46.76403
+        ]
+      },
+      "properties": {
+        "code": "RONM1",
+        "name": "Heart Of Transylvania Division",
+        "typeName": "League Meet",
+        "venue": "Transylvania College",
+        "dateStart": "2025-01-11T00:00:00",
+        "dateEnd": "2025-01-11T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.87662,
+          47.79329
+        ]
+      },
+      "properties": {
+        "code": "RONM10",
+        "name": "Blue Lagoon Division",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-01-25T00:00:00",
+        "dateEnd": "2025-01-25T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.48994,
+          47.13097
+        ]
+      },
+      "properties": {
+        "code": "RONM11",
+        "name": "Meet the Final Depths",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-02-22T00:00:00",
+        "dateEnd": "2025-02-22T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.58502,
+          46.7687
+        ]
+      },
+      "properties": {
+        "code": "RONM13",
+        "name": "Meet CyberPunk Robotics",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-01-06T00:00:00",
+        "dateEnd": "2025-01-06T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.58502,
+          46.7687
+        ]
+      },
+      "properties": {
+        "code": "RONM15",
+        "name": "Phoenix League 1st edition ",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-02-01T00:00:00",
+        "dateEnd": "2025-02-01T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.5805,
+          46.07092
+        ]
+      },
+      "properties": {
+        "code": "RONM16",
+        "name": "TXS",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-02-15T00:00:00",
+        "dateEnd": "2025-02-15T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONM17",
+        "name": "ValenTech",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-02-15T00:00:00",
+        "dateEnd": "2025-02-15T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.558,
+          46.54257
+        ]
+      },
+      "properties": {
+        "code": "RONM18",
+        "name": "Into the Deep of the Meet by RoboPapiu",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-02-08T00:00:00",
+        "dateEnd": "2025-02-08T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONM2",
+        "name": "Christmas diving with a RUBIX twist",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2024-12-14T00:00:00",
+        "dateEnd": "2024-12-14T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.56597,
+          47.65719
+        ]
+      },
+      "properties": {
+        "code": "RONM20",
+        "name": "Beyond Clever Meet 3rd Edition",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-02-08T00:00:00",
+        "dateEnd": "2025-02-08T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.56597,
+          47.65719
+        ]
+      },
+      "properties": {
+        "code": "RONM3",
+        "name": "Maramu' Division",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-01-18T00:00:00",
+        "dateEnd": "2025-01-18T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.87662,
+          47.79329
+        ]
+      },
+      "properties": {
+        "code": "RONM5",
+        "name": "Dual Dynamics Division",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2024-12-21T00:00:00",
+        "dateEnd": "2024-12-21T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.48994,
+          47.13097
+        ]
+      },
+      "properties": {
+        "code": "RONM6",
+        "name": "InfoTronX Winter Demo",
+        "typeName": "Scrimmage",
+        "venue": "",
+        "dateStart": "2024-12-07T00:00:00",
+        "dateEnd": "2024-12-07T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.87662,
+          47.79329
+        ]
+      },
+      "properties": {
+        "code": "RONM7",
+        "name": "From Deep to Stars",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-02-08T00:00:00",
+        "dateEnd": "2025-02-08T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONM9",
+        "name": "Meet in the Deep",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-01-25T00:00:00",
+        "dateEnd": "2025-01-25T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.87991,
+          44.85154
+        ]
+      },
+      "properties": {
+        "code": "ROSLT",
+        "name": "South Romania League Tournament",
+        "typeName": "League Tournament",
+        "venue": "",
+        "dateStart": "2025-02-07T00:00:00",
+        "dateEnd": "2025-02-09T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.10298,
+          44.43429
+        ]
+      },
+      "properties": {
+        "code": "ROSM1",
+        "name": "Meet Quantum Robotics",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2024-12-15T00:00:00",
+        "dateEnd": "2024-12-15T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.37219,
+          45.1051
+        ]
+      },
+      "properties": {
+        "code": "ROSM10",
+        "name": "BroBots Arena League Meet",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-01-05T00:00:00",
+        "dateEnd": "2025-01-05T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.02328,
+          44.94071
+        ]
+      },
+      "properties": {
+        "code": "ROSM11",
+        "name": "Meet Eastern Foxes",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-02-01T00:00:00",
+        "dateEnd": "2025-02-01T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.10298,
+          44.43429
+        ]
+      },
+      "properties": {
+        "code": "ROSM12",
+        "name": "StarBloom",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-01-25T00:00:00",
+        "dateEnd": "2025-01-25T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.37219,
+          45.1051
+        ]
+      },
+      "properties": {
+        "code": "ROSM2",
+        "name": "Meet Bionic Royals",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-01-25T00:00:00",
+        "dateEnd": "2025-01-25T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.87991,
+          44.85154
+        ]
+      },
+      "properties": {
+        "code": "ROSM3",
+        "name": "Tehno-WaveZ",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2024-12-07T00:00:00",
+        "dateEnd": "2024-12-07T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.10298,
+          44.43429
+        ]
+      },
+      "properties": {
+        "code": "ROSM4",
+        "name": "Beneath The Waves League Meet",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-01-11T00:00:00",
+        "dateEnd": "2025-01-11T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROSM5",
+        "name": "Hide & Meet 2025",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-01-12T00:00:00",
+        "dateEnd": "2025-01-12T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.02328,
+          44.94071
+        ]
+      },
+      "properties": {
+        "code": "ROSM6",
+        "name": "Zilele Roboticii#3",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2024-11-23T00:00:00",
+        "dateEnd": "2024-11-23T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.10298,
+          44.43429
+        ]
+      },
+      "properties": {
+        "code": "ROSM7",
+        "name": "Black Sea Showdown",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-01-18T00:00:00",
+        "dateEnd": "2025-01-18T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.10298,
+          44.43429
+        ]
+      },
+      "properties": {
+        "code": "ROSM8",
+        "name": "Eastern WaveZ",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-01-19T00:00:00",
+        "dateEnd": "2025-01-19T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.10298,
+          44.43429
+        ]
+      },
+      "properties": {
+        "code": "ROSM9",
+        "name": "Hansei WaveZ",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-01-05T00:00:00",
+        "dateEnd": "2025-01-05T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.22333,
+          45.75345
+        ]
+      },
+      "properties": {
+        "code": "ROVLT",
+        "name": "West Romania League Tournament",
+        "typeName": "League Tournament",
+        "venue": "",
+        "dateStart": "2025-02-21T00:00:00",
+        "dateEnd": "2025-02-23T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.22333,
+          45.75345
+        ]
+      },
+      "properties": {
+        "code": "ROVM1",
+        "name": "RoboDojo X Cybermoon X AtlasCNB",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2024-12-07T00:00:00",
+        "dateEnd": "2024-12-07T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.32209,
+          46.18066
+        ]
+      },
+      "properties": {
+        "code": "ROVM10",
+        "name": "League Meet (Soft-Delta-Decebal)",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-01-25T00:00:00",
+        "dateEnd": "2025-01-25T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.799,
+          44.32018
+        ]
+      },
+      "properties": {
+        "code": "ROVM11",
+        "name": "TechTide Oltenia",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-01-05T00:00:00",
+        "dateEnd": "2025-01-05T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.799,
+          44.32018
+        ]
+      },
+      "properties": {
+        "code": "ROVM12",
+        "name": "Deep Waters, Deeper Minds: Craiova Robotics Challenge",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2024-12-15T00:00:00",
+        "dateEnd": "2024-12-15T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.32209,
+          46.18066
+        ]
+      },
+      "properties": {
+        "code": "ROVM13",
+        "name": "Aloha Remastered",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-02-02T00:00:00",
+        "dateEnd": "2025-02-02T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.22333,
+          45.75345
+        ]
+      },
+      "properties": {
+        "code": "ROVM14",
+        "name": "Robotics Reef League Meet",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-02-08T00:00:00",
+        "dateEnd": "2025-02-08T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.799,
+          44.32018
+        ]
+      },
+      "properties": {
+        "code": "ROVM2",
+        "name": "League Meet ( Soft-Delta-Decebal )",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-01-18T00:00:00",
+        "dateEnd": "2025-01-18T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.22333,
+          45.75345
+        ]
+      },
+      "properties": {
+        "code": "ROVM3",
+        "name": "Meet SolarSparks x Unplugged x Meeral",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-01-11T00:00:00",
+        "dateEnd": "2025-01-11T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROVM4",
+        "name": "Meet Robotics Valley ",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-01-05T00:00:00",
+        "dateEnd": "2025-01-05T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROVM5",
+        "name": "League Meet (Soft-Delta-Decebal)",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2024-12-21T00:00:00",
+        "dateEnd": "2024-12-21T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.32209,
+          46.18066
+        ]
+      },
+      "properties": {
+        "code": "ROVM6",
+        "name": "Aloha League Meet",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-02-01T00:00:00",
+        "dateEnd": "2025-02-01T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.90134,
+          45.75752
+        ]
+      },
+      "properties": {
+        "code": "ROVM7",
+        "name": "Hunedoara Dual Meet by RavenTech",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-01-11T00:00:00",
+        "dateEnd": "2025-01-11T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.90134,
+          45.75752
+        ]
+      },
+      "properties": {
+        "code": "ROVM8",
+        "name": "Hunedoara Dual Meet by RobotX Hunedoara",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-01-12T00:00:00",
+        "dateEnd": "2025-01-12T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.22333,
+          45.75345
+        ]
+      },
+      "properties": {
+        "code": "ROVM9",
+        "name": "SkyTech Fest",
+        "typeName": "League Meet",
+        "venue": "",
+        "dateStart": "2025-01-18T00:00:00",
+        "dateEnd": "2025-01-18T00:00:00",
+        "regionCode": "RO"
+      }
+    }
+  ]
+}

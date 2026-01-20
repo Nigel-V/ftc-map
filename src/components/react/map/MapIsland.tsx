@@ -1,5 +1,8 @@
 import * as React from "react";
-import Map, { Marker } from "react-map-gl/maplibre";
+import Map, { Source, Layer, Popup } from "react-map-gl/maplibre";
+import type { MapLayerMouseEvent } from "maplibre-gl";
+import type { FeatureCollection, Feature, Point } from "geojson";
+import { useMemo, useState } from "react";
 import { useIsDarkMode } from "@/hooks/useIsDarkMode";
 import type { FTCEvent, Team } from "@/content.config";
 import PopupCard from "./PopupCard";
@@ -11,66 +14,133 @@ interface MapIslandProps {
 }
 
 export default function MapIsland(props: MapIslandProps) {
-  // TODO apply filters based on url params
-  const teams = props.teams;
-  const events = props.events;
-
-  const [viewState, setViewState] = React.useState({
-    longitude: 5.4025,
-    latitude: 51.2194,
-    zoom: 7,
-  });
-
-  const [popupInfo, setPopupInfo] = React.useState<Team | FTCEvent | null>(
-    null
-  );
-
+  const [popupInfo, setPopupInfo] = useState<Team | FTCEvent | null>(null);
   const isDarkMode = useIsDarkMode();
+
+  // 1. Transform your custom data into GeoJSON
+  const geojsonData: FeatureCollection<Point> = useMemo(() => {
+    const teamFeatures: Feature<Point>[] = props.teams.map((t) => ({
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [t.coords.lng, t.coords.lat],
+      },
+      properties: { originalData: JSON.stringify(t), isEvent: false },
+    }));
+
+    const eventFeatures: Feature<Point>[] = props.events.map((e) => ({
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [e.coords.lng, e.coords.lat],
+      },
+      properties: { originalData: JSON.stringify(e), isEvent: true },
+    }));
+
+    return {
+      type: "FeatureCollection",
+      features: [...teamFeatures, ...eventFeatures],
+    };
+  }, [props.teams, props.events]);
+
+  // 2. Click handler for layers
+  const onClick = (event: MapLayerMouseEvent) => {
+    const feature = event.features?.[0];
+    if (!feature) return;
+
+    if (feature.layer.id === "clusters") {
+      // Zoom into cluster logic (standard MapLibre)
+      return;
+    }
+
+    // Set popup info from the feature properties
+    setPopupInfo(feature.properties as any);
+  };
 
   return (
     <Map
-      {...viewState}
-      onMove={(evt) => setViewState(evt.viewState)}
-      style={{ height: "100%", width: "100%" }}
+      initialViewState={{ longitude: 5.4025, latitude: 51.2194, zoom: 7 }}
       mapStyle={
         isDarkMode
           ? "https://tiles.openfreemap.org/styles/dark"
           : "https://tiles.openfreemap.org/styles/positron"
       }
-      onClick={() => setPopupInfo(null)}
+      onClick={onClick}
+      interactiveLayerIds={["clusters", "unclustered-point"]}
     >
-      {teams.map((team) => (
-        <Marker
-          key={`marker-${team.number}`}
-          longitude={team.coords.lng}
-          latitude={team.coords.lat}
-          anchor="bottom"
-          onClick={(e) => {
-            e.originalEvent.stopPropagation();
-            setPopupInfo(team);
+      <Source
+        id="ftc-data"
+        type="geojson"
+        data={geojsonData}
+        cluster={true}
+        clusterMaxZoom={14}
+        clusterRadius={50}
+      >
+        {/* Cluster Circle Layer */}
+        <Layer
+          id="clusters"
+          type="circle"
+          filter={["has", "point_count"]}
+          paint={{
+            "circle-color": [
+              "step",
+              ["get", "point_count"],
+              "#51bbd6",
+              10,
+              "#f1f075",
+              50,
+              "#f28cb1",
+            ],
+            "circle-radius": [
+              "step",
+              ["get", "point_count"],
+              20,
+              10,
+              30,
+              50,
+              40,
+            ],
           }}
         />
-      ))}
-      {events.map((event) => (
-        <Marker
-          key={`marker-${event.code}`}
-          longitude={event.coords.lng}
-          latitude={event.coords.lat}
-          color="red"
-          anchor="bottom"
-          onClick={(e) => {
-            e.originalEvent.stopPropagation();
-            setPopupInfo(event);
+
+        {/* Cluster Text Layer (Count) */}
+        <Layer
+          id="cluster-count"
+          type="symbol"
+          filter={["has", "point_count"]}
+          layout={{
+            "text-field": "{point_count_abbreviated}",
+            "text-font": ["Open Sans Bold"],
+            "text-size": 12,
           }}
         />
-      ))}
+
+        {/* Individual Points Layer */}
+        <Layer
+          id="unclustered-point"
+          type="circle"
+          filter={["!", ["has", "point_count"]]}
+          paint={{
+            "circle-color": ["case", ["get", "isEvent"], "red", "#3b82f6"],
+            "circle-radius": 8,
+            "circle-stroke-width": 1,
+            "circle-stroke-color": "#fff",
+          }}
+        />
+      </Source>
 
       {popupInfo && (
-        <PopupCard
-          content={popupInfo}
-          onCloseCallback={() => setPopupInfo(null)}
-          year={props.year}
-        />
+        <Popup
+          longitude={(popupInfo as any).coords.lng}
+          latitude={(popupInfo as any).coords.lat}
+          onClose={() => setPopupInfo(null)}
+        >
+          <PopupCard
+            content={popupInfo}
+            year={props.year}
+            onCloseCallback={() => setPopupInfo(null)}
+          />
+        </Popup>
       )}
     </Map>
   );

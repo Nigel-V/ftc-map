@@ -1,0 +1,575 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "CEESSK20",
+        "name": "CEESA FTC HS Robotics Championship",
+        "typeName": "Championship",
+        "venue": "American International School of Bucharest",
+        "dateStart": "2020-02-07T00:00:00",
+        "dateEnd": "2020-02-08T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ESPCMP19",
+        "name": "FIRST Tech Challenge Championship SPAIN",
+        "typeName": "Championship",
+        "venue": "University of Vic",
+        "dateStart": "2020-02-27T00:00:00",
+        "dateEnd": "2020-02-28T00:00:00",
+        "regionCode": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "INDDLA",
+        "name": "India Dean's List Interview Only Event",
+        "typeName": "Other",
+        "venue": "N/A",
+        "dateStart": "2020-02-15T00:00:00",
+        "dateEnd": "2020-02-15T00:00:00",
+        "regionCode": "IN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "KaInv2",
+        "name": "Kaiserslautern Invitational - Dean's List",
+        "typeName": "Other",
+        "venue": "N/A",
+        "dateStart": "2020-03-01T00:00:00",
+        "dateEnd": "2020-03-01T00:00:00",
+        "regionCode": "N/A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "NLSKY191",
+        "name": "League Meet Maerlant-Lyceum",
+        "typeName": "League Meet",
+        "venue": "League Meet Maerlant-Lyceum",
+        "dateStart": "2019-11-03T00:00:00",
+        "dateEnd": "2019-11-03T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "NLSKY192",
+        "name": "League Meet Sondervick college",
+        "typeName": "League Meet",
+        "venue": "League Meet Sondervick college",
+        "dateStart": "2019-11-09T00:00:00",
+        "dateEnd": "2019-11-09T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "NLSKY193",
+        "name": "League Meet Summa College",
+        "typeName": "League Meet",
+        "venue": "League Meet Summa College",
+        "dateStart": "2019-11-23T00:00:00",
+        "dateEnd": "2019-11-23T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "NLSKY194",
+        "name": "League Meet Stanislas college",
+        "typeName": "League Meet",
+        "venue": "League Meet Stanislas college",
+        "dateStart": "2019-12-01T00:00:00",
+        "dateEnd": "2019-12-01T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "NLSKY195",
+        "name": "League Meet Zwijsen college",
+        "typeName": "League Meet",
+        "venue": "League Meet Zwijsen college",
+        "dateStart": "2019-12-07T00:00:00",
+        "dateEnd": "2019-12-07T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "NLSKY196",
+        "name": "League Meet Hogeschool Utrecht",
+        "typeName": "League Meet",
+        "venue": "League Meet Hogeschool Utrecht",
+        "dateStart": "2020-01-25T00:00:00",
+        "dateEnd": "2020-01-25T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "NLSKY197",
+        "name": "FTC NL League Championship ",
+        "typeName": "Other",
+        "venue": "FTC NL League Championship",
+        "dateStart": "2020-02-08T00:00:00",
+        "dateEnd": "2020-02-08T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "NLSU19",
+        "name": "Start-up meeting Skystone",
+        "typeName": "Other",
+        "venue": "Gymnasium Beekvliet",
+        "dateStart": "2019-10-05T00:00:00",
+        "dateEnd": "2019-10-05T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "NTHDLA",
+        "name": "Netherlands Dean's List Interview Only Event",
+        "typeName": "Other",
+        "venue": "N/A",
+        "dateStart": "2020-02-15T00:00:00",
+        "dateEnd": "2020-02-15T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RMNDLA",
+        "name": "Romania Dean's List Interview Only Event",
+        "typeName": "Other",
+        "venue": "N/A",
+        "dateStart": "2020-02-15T00:00:00",
+        "dateEnd": "2020-02-15T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROMSKCM20-5",
+        "name": "FIRST Tech Challenge Romania National Championship  Bucuresti - CANCELLED",
+        "typeName": "Championship",
+        "venue": "Polyvalent Hall",
+        "dateStart": "2020-03-27T00:00:00",
+        "dateEnd": "2020-03-29T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROMSKQ20-1",
+        "name": "FIRST Tech Challenge Romania #1 Qualifying Tournament Cluj-Napoca",
+        "typeName": "Qualifier",
+        "venue": "Cluj Innovation Park",
+        "dateStart": "2020-02-07T00:00:00",
+        "dateEnd": "2020-02-09T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROMSKQ20-2",
+        "name": "FIRST Tech Challenge Romania #2 Qualifying Tournament Timisoara",
+        "typeName": "Qualifier",
+        "venue": "Constantin Jude Sports Hall",
+        "dateStart": "2020-02-22T00:00:00",
+        "dateEnd": "2020-02-23T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROMSKQ20-3",
+        "name": "FIRST Tech Challenge Romania #3 Qualifying Tournament Iasi - POSTPONED",
+        "typeName": "Qualifier",
+        "venue": "Polyvalent Hall",
+        "dateStart": "2020-03-13T00:00:00",
+        "dateEnd": "2020-03-15T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROMSKQ20-4",
+        "name": "FIRST Tech Challenge Romania #4 Qualifying Tournament Bucuresti - POSTPONED",
+        "typeName": "Qualifier",
+        "venue": "Sala Polivalenta",
+        "dateStart": "2020-03-20T00:00:00",
+        "dateEnd": "2020-03-22T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RU101",
+        "name": "St. Petersburg Scrimmage 1",
+        "typeName": "Scrimmage",
+        "venue": "Physics and Math Governor Lyceum",
+        "dateStart": "2019-10-20T00:00:00",
+        "dateEnd": "2019-10-20T00:00:00",
+        "regionCode": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RU102",
+        "name": "St. Petersburg Scrimmage 2",
+        "typeName": "Scrimmage",
+        "venue": "Public School 244",
+        "dateStart": "2019-11-10T00:00:00",
+        "dateEnd": "2019-11-10T00:00:00",
+        "regionCode": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RU103",
+        "name": "St. Petersburg Scrimmage 3",
+        "typeName": "Scrimmage",
+        "venue": "Physics and Math Governor Lyceum",
+        "dateStart": "2019-12-01T00:00:00",
+        "dateEnd": "2019-12-01T00:00:00",
+        "regionCode": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RU104",
+        "name": "FIRST Russia Robotics Championship",
+        "typeName": "Championship",
+        "venue": "International Exhibition Business Center, Siberia",
+        "dateStart": "2020-02-13T00:00:00",
+        "dateEnd": "2020-02-15T00:00:00",
+        "regionCode": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RU105",
+        "name": "St. Petersburg Qualifier",
+        "typeName": "Qualifier",
+        "venue": "Peter the Great St. Petersburg Polytechnic University",
+        "dateStart": "2019-12-21T00:00:00",
+        "dateEnd": "2019-12-22T00:00:00",
+        "regionCode": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RU106",
+        "name": "Volga Qualifier",
+        "typeName": "Qualifier",
+        "venue": "Korporativniy Universitet",
+        "dateStart": "2020-01-12T00:00:00",
+        "dateEnd": "2020-01-12T00:00:00",
+        "regionCode": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RU108",
+        "name": "Siberia Qualifier",
+        "typeName": "Qualifier",
+        "venue": "SibExpoForum",
+        "dateStart": "2020-01-23T00:00:00",
+        "dateEnd": "2020-01-24T00:00:00",
+        "regionCode": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RUSDLA",
+        "name": "Russia Dean's List Interview Only Event",
+        "typeName": "Other",
+        "venue": "N/A",
+        "dateStart": "2020-02-15T00:00:00",
+        "dateEnd": "2020-02-15T00:00:00",
+        "regionCode": "RU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "SKYDECMX19",
+        "name": "FIRST Tech Challenge Hannover Championship - CANCELLED",
+        "typeName": "Championship",
+        "venue": "International School of Hannover Region",
+        "dateStart": "2020-03-28T00:00:00",
+        "dateEnd": "2020-03-29T00:00:00",
+        "regionCode": "N/A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "SpainDLA",
+        "name": "Spain Dean's List Interview Only Event",
+        "typeName": "Other",
+        "venue": "N/A",
+        "dateStart": "2020-02-15T00:00:00",
+        "dateEnd": "2020-02-15T00:00:00",
+        "regionCode": "ES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "UKDLA",
+        "name": "United Kingdom & Ireland Dean's List Interview Only Event",
+        "typeName": "Other",
+        "venue": "N/A",
+        "dateStart": "2020-02-15T00:00:00",
+        "dateEnd": "2020-02-15T00:00:00",
+        "regionCode": "N/A"
+      }
+    }
+  ]
+}

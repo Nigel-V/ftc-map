@@ -1,8 +1,6 @@
 ---
 import Layout from "@/layouts/Layout.astro";
-import MapIsland from "@/components/react/map/MapIsland.tsx";
-import "leaflet/dist/leaflet.css";
-import "maplibre-gl/dist/maplibre-gl.css";
+import Map from "@/components/Map.astro";
 import { getCollection } from "astro:content";
 
 export async function getStaticPaths() {
@@ -20,10 +18,11 @@ const { year } = Astro.params;
 ---
 
 <Layout title={"FTC Map - " + year + " Season"} year={year}>
-  <MapIsland
+  <!-- <MapIsland
     client:only="react"
     teams={seasonData.teams}
     events={seasonData.events}
     year={parseInt(year)}
-  />
+  /> -->
+  <Map year={year} />
 </Layout>

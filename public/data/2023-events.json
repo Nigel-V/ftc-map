@@ -1,0 +1,1753 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "CYCMP",
+        "name": "Cyprus FTC Championship 2024",
+        "typeName": "Championship",
+        "venue": "Agios Dometios Sports Center",
+        "dateStart": "2024-03-09T00:00:00",
+        "dateEnd": "2024-03-10T00:00:00",
+        "regionCode": "CY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "FRVIOS",
+        "name": "FR Le D\u00e9fi Robotique Lyon 2024",
+        "typeName": "Scrimmage",
+        "venue": "Le Double Mixte",
+        "dateStart": "2024-04-05T00:00:00",
+        "dateEnd": "2024-04-06T00:00:00",
+        "regionCode": "FR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBALQ",
+        "name": "GB East Qualifier (Alconbury Middle High School)",
+        "typeName": "Qualifier",
+        "venue": "Alconbury Middle High School",
+        "dateStart": "2024-03-12T00:00:00",
+        "dateEnd": "2024-03-12T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBALS",
+        "name": "GB East Scrimmage (Alconbury Middle High School)",
+        "typeName": "Scrimmage",
+        "venue": "Alconbury Middle High School",
+        "dateStart": "2023-12-13T00:00:00",
+        "dateEnd": "2023-12-13T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBBEQ",
+        "name": "GB Northern Ireland Qualifier (W5 Science and Discovery Centre)",
+        "typeName": "Qualifier",
+        "venue": "W5 Science and Discovery Centre",
+        "dateStart": "2024-02-29T00:00:00",
+        "dateEnd": "2024-02-29T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBBES",
+        "name": "GB Northern Ireland Scrimmage (W5 Science and Discovery Centre)",
+        "typeName": "Scrimmage",
+        "venue": "W5 Science and Discovery Centre",
+        "dateStart": "2023-12-11T00:00:00",
+        "dateEnd": "2023-12-11T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBBIQ",
+        "name": "GB West Midlands Qualifier (Aston University Engineering Academy)",
+        "typeName": "Qualifier",
+        "venue": "Aston University Engineering Academy",
+        "dateStart": "2024-04-24T00:00:00",
+        "dateEnd": "2024-04-24T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBBIS",
+        "name": "GB West Midlands Scrimmage (Aston University Engineering Academy)",
+        "typeName": "Scrimmage",
+        "venue": "Aston University Engineering Academy",
+        "dateStart": "2023-12-06T00:00:00",
+        "dateEnd": "2023-12-06T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBBOQ1",
+        "name": "GB South West Qualifier 1 (Bournemouth School for Girls)",
+        "typeName": "Qualifier",
+        "venue": "Bournemouth School for Girls",
+        "dateStart": "2024-03-09T00:00:00",
+        "dateEnd": "2024-03-09T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBBOQ2",
+        "name": "GB South West Qualifier 2 (Bournemouth School for Girls)",
+        "typeName": "Qualifier",
+        "venue": "Bournemouth School for Girls",
+        "dateStart": "2024-03-10T00:00:00",
+        "dateEnd": "2024-03-10T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBBOS",
+        "name": "GB South West Scrimmage (Bournemouth School for Girls)",
+        "typeName": "Scrimmage",
+        "venue": "Bournemouth School for Girls",
+        "dateStart": "2023-12-14T00:00:00",
+        "dateEnd": "2023-12-14T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBCADE1",
+        "name": "GB Game Changer Conference",
+        "typeName": "Demo / Exhibition",
+        "venue": "Arm HQ",
+        "dateStart": "2024-01-25T00:00:00",
+        "dateEnd": "2024-01-25T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBCHS",
+        "name": "GB Yorkshire/ East Midlands Scrimmage (Outwood Academy Newbold)",
+        "typeName": "Scrimmage",
+        "venue": "Outwood Academy Newbold",
+        "dateStart": "2023-12-12T00:00:00",
+        "dateEnd": "2023-12-12T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBCMPOS",
+        "name": "Championship- United Kingdom",
+        "typeName": "Off-Season",
+        "venue": "University of Cambridge- Sports Centre",
+        "dateStart": "2024-06-21T00:00:00",
+        "dateEnd": "2024-06-21T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBCMPOSDIV1",
+        "name": "Championship- United Kingdom - Division 1 Division",
+        "typeName": "Off-Season",
+        "venue": "University of Cambridge- Sports Centre",
+        "dateStart": "2024-06-21T00:00:00",
+        "dateEnd": "2024-06-21T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBCMPOSDIV2",
+        "name": "Championship- United Kingdom - Division 2 Division",
+        "typeName": "Off-Season",
+        "venue": "University of Cambridge- Sports Centre",
+        "dateStart": "2024-06-21T00:00:00",
+        "dateEnd": "2024-06-21T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBEDQ",
+        "name": "GB Scotland Qualifier (Innovation Centre at Heart of Midlothian FC)",
+        "typeName": "Qualifier",
+        "venue": "Innovation Centre at Heart of Midlothian FC",
+        "dateStart": "2024-03-20T00:00:00",
+        "dateEnd": "2024-03-20T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBEDS",
+        "name": "GB Scotland Scrimmage (Innovation Centre at Heart of Midlothian FC)",
+        "typeName": "Scrimmage",
+        "venue": "Innovation Centre at Heart of Midlothian FC",
+        "dateStart": "2023-12-12T00:00:00",
+        "dateEnd": "2023-12-12T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBLIQ",
+        "name": "GB North West Qualifier (Calderstones School)",
+        "typeName": "Qualifier",
+        "venue": "Calderstones School",
+        "dateStart": "2024-03-02T00:00:00",
+        "dateEnd": "2024-03-02T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBLIS",
+        "name": "GB North West Scrimmage (Calderstones School)",
+        "typeName": "Scrimmage",
+        "venue": "Calderstones School",
+        "dateStart": "2023-12-06T00:00:00",
+        "dateEnd": "2023-12-06T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBLOQ",
+        "name": "GB South East Qualifier (American School in London)",
+        "typeName": "Qualifier",
+        "venue": "American School in London",
+        "dateStart": "2024-03-16T00:00:00",
+        "dateEnd": "2024-03-16T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBLOS",
+        "name": "GB South East Scrimmage (American School in London)",
+        "typeName": "Scrimmage",
+        "venue": "American School in London",
+        "dateStart": "2024-01-05T00:00:00",
+        "dateEnd": "2024-01-05T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBNES",
+        "name": "GB North East Scrimmage (Royal Grammar School)",
+        "typeName": "Scrimmage",
+        "venue": "Royal Grammar School",
+        "dateStart": "2023-11-28T00:00:00",
+        "dateEnd": "2023-11-28T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBSHQ",
+        "name": "GB Yorkshire and the Humber Qualifier (Sheffield Hallam University)",
+        "typeName": "Qualifier",
+        "venue": "Hallam Hall",
+        "dateStart": "2024-03-05T00:00:00",
+        "dateEnd": "2024-03-05T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBSTQ",
+        "name": "GB West Midlands Qualifier (St. Margaret Ward Catholic Academy/ St. John Fisher Catholic College)",
+        "typeName": "Qualifier",
+        "venue": "St. Margaret Ward Catholic Academy",
+        "dateStart": "2024-03-07T00:00:00",
+        "dateEnd": "2024-03-07T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBSTS",
+        "name": "GB West Midlands Scrimmage (St. Margaret Ward Catholic Academy/ St. John Fisher Catholic College)",
+        "typeName": "Scrimmage",
+        "venue": "St. Margaret Ward Catholic Academy",
+        "dateStart": "2023-12-07T00:00:00",
+        "dateEnd": "2023-12-07T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBSUQ",
+        "name": "GB South East Qualifier (Harris Academy Sutton)",
+        "typeName": "Qualifier",
+        "venue": "Harris Academy Sutton",
+        "dateStart": "2024-03-23T00:00:00",
+        "dateEnd": "2024-03-23T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GBSUS",
+        "name": "GB South East Scrimmage (Harris Academy Sutton)",
+        "typeName": "Scrimmage",
+        "venue": "Harris Academy Sutton",
+        "dateStart": "2023-12-07T00:00:00",
+        "dateEnd": "2023-12-07T00:00:00",
+        "regionCode": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "GRCMP",
+        "name": "Greece National FIRST Tech Challenge Championship 2024",
+        "typeName": "Championship",
+        "venue": "TIF HELEXPO",
+        "dateStart": "2024-03-09T00:00:00",
+        "dateEnd": "2024-03-10T00:00:00",
+        "regionCode": "GR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ITCMP",
+        "name": "Italy FIRST\u00ae Tech Challenge ITALY Championship",
+        "typeName": "Championship",
+        "venue": "Piacenza Expo",
+        "dateStart": "2024-03-09T00:00:00",
+        "dateEnd": "2024-03-10T00:00:00",
+        "regionCode": "IT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "NLBNM1",
+        "name": "NL Benelux LM Leek",
+        "typeName": "League Meet",
+        "venue": "De Lindenborg",
+        "dateStart": "2023-12-09T00:00:00",
+        "dateEnd": "2023-12-09T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "NLBNM2",
+        "name": "NL Benelux LM The Hague 2",
+        "typeName": "League Meet",
+        "venue": "Maerlant-Lyceum",
+        "dateStart": "2023-12-03T00:00:00",
+        "dateEnd": "2023-12-03T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "NLBNM3",
+        "name": "NL Benelux LM The Hague 1",
+        "typeName": "League Meet",
+        "venue": "Maerlant-Lyceum",
+        "dateStart": "2023-12-02T00:00:00",
+        "dateEnd": "2023-12-02T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "NLBNM4",
+        "name": "NL Benelux LM Eindhoven",
+        "typeName": "League Meet",
+        "venue": "Frits Philips Lyceum",
+        "dateStart": "2023-11-25T00:00:00",
+        "dateEnd": "2023-11-25T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "NLBNM5",
+        "name": "NL Benelux LM Zeist",
+        "typeName": "League Meet",
+        "venue": "KSG De Breul",
+        "dateStart": "2024-01-13T00:00:00",
+        "dateEnd": "2024-01-13T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "NLBNM6",
+        "name": "NL Benelux LM Bladel 1",
+        "typeName": "League Meet",
+        "venue": "Pius X-college",
+        "dateStart": "2024-01-20T00:00:00",
+        "dateEnd": "2024-01-20T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "NLBNM7",
+        "name": "NL Benelux LM Bladel 2",
+        "typeName": "League Meet",
+        "venue": "Pius X-college",
+        "dateStart": "2024-01-21T00:00:00",
+        "dateEnd": "2024-01-21T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "NLBNM8",
+        "name": "NL Benelux LM Hasselt",
+        "typeName": "League Meet",
+        "venue": "PXL University of Applied Sciences and Arts",
+        "dateStart": "2024-01-27T00:00:00",
+        "dateEnd": "2024-01-27T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "NLBRS",
+        "name": "NL Benelux FTC Scrimmage",
+        "typeName": "Scrimmage",
+        "venue": "Avans University of Applied Sciences",
+        "dateStart": "2024-02-24T00:00:00",
+        "dateEnd": "2024-02-24T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "NLCMP",
+        "name": "Netherlands Benelux Championship",
+        "typeName": "Championship",
+        "venue": "Avans University of Applied Sciences",
+        "dateStart": "2024-02-24T00:00:00",
+        "dateEnd": "2024-02-24T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "NLEIKO",
+        "name": "NL Kickoff CENTERSTAGE",
+        "typeName": "Kickoff",
+        "venue": "SintLucas",
+        "dateStart": "2023-09-09T00:00:00",
+        "dateEnd": "2023-09-09T00:00:00",
+        "regionCode": "NL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROBUKO",
+        "name": "RO Sezon#8 NatiePrinEducatie- FTC Romania",
+        "typeName": "Kickoff",
+        "venue": "NORD Events Center by Globalworth",
+        "dateStart": "2023-09-09T00:00:00",
+        "dateEnd": "2023-09-09T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROBUOS",
+        "name": "RO Bucharest Twin Cup",
+        "typeName": "Off-Season",
+        "venue": "ICHB Colentina",
+        "dateStart": "2024-08-16T00:00:00",
+        "dateEnd": "2024-08-18T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROCMP",
+        "name": "Romania Campionatul National FTC 070000",
+        "typeName": "Championship",
+        "venue": "Agora - Event Center",
+        "dateStart": "2024-03-22T00:00:00",
+        "dateEnd": "2024-03-24T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "ROCRS",
+        "name": "RO #12560 Soft Hoarders Demo",
+        "typeName": "Scrimmage",
+        "venue": "TBD",
+        "dateStart": "2024-03-15T00:00:00",
+        "dateEnd": "2024-03-15T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RODEOS",
+        "name": "Somes Tech Challenge",
+        "typeName": "Off-Season",
+        "venue": "Dej",
+        "dateStart": "2024-07-27T00:00:00",
+        "dateEnd": "2024-07-28T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR1LT",
+        "name": "RO #1BUCURESTI 070000",
+        "typeName": "League Tournament",
+        "venue": "TBD",
+        "dateStart": "2024-01-25T00:00:00",
+        "dateEnd": "2024-01-28T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR1M1",
+        "name": "RO BUCURESTI - 070000 - infO(1)Robotics #15993 & Ro2D2 #17962",
+        "typeName": "League Meet",
+        "venue": "Olimpia Sports Hall Ploiesti",
+        "dateStart": "2023-11-24T00:00:00",
+        "dateEnd": "2023-11-26T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR1M10",
+        "name": "RO BUCURESTI - 070000 - Eastern Foxes RO_181 & Space Otters RO_129",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2024-01-05T00:00:00",
+        "dateEnd": "2024-01-06T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR1M11",
+        "name": "RO Bucuresti 070000 - ERCAST & Phantom & Underconstruction & infO(1)Robotics",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2023-12-17T00:00:00",
+        "dateEnd": "2023-12-17T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR1M12",
+        "name": "RO Bucuresti 070000-  TehnoZ | 15972 & Renaissance Robotics | 22226",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2024-01-13T00:00:00",
+        "dateEnd": "2024-01-14T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR1M13",
+        "name": "RO BUCHAREST 070000 - NATIE",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2024-01-25T00:00:00",
+        "dateEnd": "2024-01-27T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR1M2",
+        "name": "RO BUCURESTI - 070000 - H-tech | Ro106 | 19099",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2023-12-02T00:00:00",
+        "dateEnd": "2023-12-02T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR1M3",
+        "name": "RO BUCURESTI - 070000 - Robo-Sapiens | RO_016 |19117, Clockworks | RO_108 | 19075",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2023-12-15T00:00:00",
+        "dateEnd": "2023-12-16T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR1M4",
+        "name": "RO BUCURESTI - 070000 - TehnoZ, WATT`s UP, Space Otters, TehnoZ Junior",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2023-12-08T00:00:00",
+        "dateEnd": "2023-12-09T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR1M5",
+        "name": "RO BUCURESTI - 070000 - TITANS #19055  & BraveBots #19141",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2024-01-12T00:00:00",
+        "dateEnd": "2024-01-13T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR1M6",
+        "name": "RO BUCURESTI - 070000 - HighFive Robotics, 4D-ROBOTICS, Light Bulb Robotics, Brobo\u021bi",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2024-01-12T00:00:00",
+        "dateEnd": "2024-01-13T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR1M7",
+        "name": "RO BUCURESTI - 070000 - Qube. #14277",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2024-01-20T00:00:00",
+        "dateEnd": "2024-01-20T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR1M8",
+        "name": "RO BUCURESTI - 070000 - H-tech #19099 & Andromeda # 20691",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2024-01-19T00:00:00",
+        "dateEnd": "2024-01-20T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR1M9",
+        "name": "RO BUCURESTI - 070000 - Ignite. # 17624",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2024-01-05T00:00:00",
+        "dateEnd": "2024-01-06T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR2LT",
+        "name": "RO #2 CLUJ 070000",
+        "typeName": "League Tournament",
+        "venue": "CREIC- Centrul de studii creative- Cluj Innovation Park",
+        "dateStart": "2024-02-09T00:00:00",
+        "dateEnd": "2024-02-11T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR2M10",
+        "name": "RO CLUJ 070000- RUBIX 17844",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2024-01-20T00:00:00",
+        "dateEnd": "2024-01-20T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR2M11",
+        "name": "RO CLUJ 070000- Gear Maniacs RO007 | 16000",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2024-01-27T00:00:00",
+        "dateEnd": "2024-01-27T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR2M12",
+        "name": "RO-CLUJ - 070000 - Bolts and Gears RO006 17965 InfotronX RO172",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2024-01-27T00:00:00",
+        "dateEnd": "2024-01-28T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR2M2",
+        "name": "RO CLUJ - RUBIX # 17844",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2023-12-15T00:00:00",
+        "dateEnd": "2023-12-16T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR2M4",
+        "name": "RO CLUJ - Clever Core #19342",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2024-01-12T00:00:00",
+        "dateEnd": "2024-01-13T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR2M5",
+        "name": "RO CLUJ- Xeo #14278",
+        "typeName": "League Meet",
+        "venue": "070000",
+        "dateStart": "2024-01-12T00:00:00",
+        "dateEnd": "2024-01-13T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR2M6",
+        "name": "RO CLUJ - 070000 -ESENTZA FAMILY",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2024-01-20T00:00:00",
+        "dateEnd": "2024-01-20T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR2M7",
+        "name": "RO CLUJ - 070000 - Robocorns #19086 - 5 IAN",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2024-01-05T00:00:00",
+        "dateEnd": "2024-01-05T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR2M8",
+        "name": "RO CLUJ- CyberPunk #19104",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2024-01-04T00:00:00",
+        "dateEnd": "2024-01-04T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR3LT",
+        "name": "RO #3 TIMISOARA 070000",
+        "typeName": "League Tournament",
+        "venue": "Sala Polivalenta Arad",
+        "dateStart": "2024-02-23T00:00:00",
+        "dateEnd": "2024-02-25T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR3M1",
+        "name": "RO TIMISOARA - 070000 - Soft Hoarders RO031",
+        "typeName": "League Meet",
+        "venue": "Facultatea de DREPT Craiova",
+        "dateStart": "2023-12-16T00:00:00",
+        "dateEnd": "2023-12-17T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR3M10",
+        "name": "RO Timisoara - 07000 - DecebalTech 19105 & Dark Energy 19106",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2024-02-03T00:00:00",
+        "dateEnd": "2024-02-04T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR3M11",
+        "name": "RO RO070000 Timisoara- NATIE",
+        "typeName": "League Meet",
+        "venue": "Sala Polivalenta",
+        "dateStart": "2024-02-23T00:00:00",
+        "dateEnd": "2024-02-23T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR3M2",
+        "name": "RO TIMISOARA - 070000 - Bionic Royals  19067 RO042",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2023-12-09T00:00:00",
+        "dateEnd": "2023-12-10T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR3M3",
+        "name": "RO TIMISOARA - 070000 - CSH 17861",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2024-01-11T00:00:00",
+        "dateEnd": "2024-01-12T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR3M4",
+        "name": "RO TIMISOARA - 070000 - RobotX Hunedoara  15975 RO_038",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2024-01-20T00:00:00",
+        "dateEnd": "2024-01-21T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR3M5",
+        "name": "RO TIMISOARA - 070000 - RavenTech 19047 Hunedoara RO_121",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2024-01-21T00:00:00",
+        "dateEnd": "2024-01-22T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR3M6",
+        "name": "RO TIMISOARA- 070000 - Delta Force 17713 RO119",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2024-01-25T00:00:00",
+        "dateEnd": "2024-01-26T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR3M7",
+        "name": "RO TIMISOARA- 070000 - BroBots 19088",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2024-01-05T00:00:00",
+        "dateEnd": "2024-01-05T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR3M8",
+        "name": "RO TIMISOARA- 070000 - WizzTech RO048 19094",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2024-01-20T00:00:00",
+        "dateEnd": "2024-01-20T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR3M9",
+        "name": "RO TIMISOARA- 070000 - AlphaBit- RO_137, Wafy, Lazarus (Robotics Valley League)",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2024-01-06T00:00:00",
+        "dateEnd": "2024-01-06T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR4LT",
+        "name": "RO #4 IASI 070000",
+        "typeName": "League Tournament",
+        "venue": "Agora Events Center",
+        "dateStart": "2024-03-07T00:00:00",
+        "dateEnd": "2024-03-09T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR4M1",
+        "name": "RO IASI- 070000 - EuCodez  #22017 & Blizzard Eye #19147",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2023-12-16T00:00:00",
+        "dateEnd": "2023-12-16T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR4M10",
+        "name": "RO IASI 07000 -  Quantum Robotics #14270 / North East Dynamics #19083",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2023-12-07T00:00:00",
+        "dateEnd": "2023-12-09T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR4M2",
+        "name": "RO IASI - 070000 - CyLiis #19043, Peppers #19044, RoSophia #21455",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2024-02-03T00:00:00",
+        "dateEnd": "2024-02-04T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR4M3",
+        "name": "RO IASI-HELIX #17860 & RoSophia #21455 - 13 IAN",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2024-01-13T00:00:00",
+        "dateEnd": "2024-01-13T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR4M5",
+        "name": "RO IASI- 070000 - Volta Circuis #20972, CyLiis #19043, Peppers #19044",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2024-01-20T00:00:00",
+        "dateEnd": "2024-01-20T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR4M6",
+        "name": "RO IASI - 070000 - SmartCluster #19071- ByteForce #19234",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2024-01-19T00:00:00",
+        "dateEnd": "2024-01-20T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR4M7",
+        "name": "RO IASI - 070000 - FutureTech #19100, Royal Engineers #20936, North East Dynamics, # 19083",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2024-01-27T00:00:00",
+        "dateEnd": "2024-01-27T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR4M8",
+        "name": "RO IASI- 070000 - Brickbot 15996 & AICitizens 19066 & InfinityEdge 19660",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2024-01-26T00:00:00",
+        "dateEnd": "2024-01-27T00:00:00",
+        "regionCode": "RO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.81,
+          44.81
+        ]
+      },
+      "properties": {
+        "code": "RONR4M9",
+        "name": "RO IASI- 070000 - River Wolves- HOMOSAPIENS- Boogeybots- Heart of RoBots",
+        "typeName": "League Meet",
+        "venue": "TBD",
+        "dateStart": "2024-01-04T00:00:00",
+        "dateEnd": "2024-01-05T00:00:00",
+        "regionCode": "RO"
+      }
+    }
+  ]
+}

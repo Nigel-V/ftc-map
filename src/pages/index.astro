@@ -1,8 +1,7 @@
 ---
 import { getLatestSeason, getCanonical } from "@/utils/seasons";
 import Layout from "@/layouts/Layout.astro";
-import MapIsland from "@/components/react/map/MapIsland.tsx";
-import "leaflet/dist/leaflet.css";
+import MapIsland from "@/components/react/map/MapIsland";
 
 const latest = await getLatestSeason();
 
